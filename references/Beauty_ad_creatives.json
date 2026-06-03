@@ -1,0 +1,446 @@
+{
+  "ad_creatives_analysis": [
+    {
+      "ad_id": 1,
+      "advertiser_type": "Local Permanent Makeup Service",
+      "overall_style": "Bold, high-contrast editorial beauty",
+      "design_language": {
+        "aesthetic": "Dark luxury with dramatic impact",
+        "mood": "Confident, aspirational, result-focused",
+        "composition_style": "Split layout — text-heavy top, image-dominant bottom",
+        "visual_hierarchy": "Headline first, subheadline second, product image third"
+      },
+      "color_logic": {
+        "primary_background": "Pure black (#000000)",
+        "accent_color": "Gold/yellow (#FFD700 range)",
+        "text_color_primary": "White (#FFFFFF)",
+        "text_color_secondary": "Gold/yellow",
+        "color_strategy": "Black background creates luxury and drama; gold signals premium quality; white ensures readability"
+      },
+      "typography": {
+        "headline_font_style": "Large serif or bold sans-serif, mixed weight",
+        "headline_size": "Very large, dominant",
+        "subheadline_style": "Medium sans-serif, gold colored for emphasis",
+        "body_text_style": "White, clean sans-serif",
+        "font_weight_variation": "Heavy on key location word, lighter on descriptors",
+        "text_alignment": "Center-aligned throughout"
+      },
+      "text_placement": {
+        "position": "Top 50% of the creative",
+        "alignment": "Centered horizontally",
+        "layering": "Text sits above image, not overlaid on face"
+      },
+      "image_placement": {
+        "position": "Bottom 50% of creative",
+        "crop_style": "Extreme close-up crop of eyes and brows, cut off at forehead",
+        "subject": "Close-up of woman's eyes with defined brows and lashes",
+        "framing": "Face fills full width, symmetrical"
+      },
+      "message_delivery": {
+        "strategy": "Lead with location + service, support with aspirational benefit, close with dramatic visual proof",
+        "cta_style": "Implicit — visual result speaks as CTA",
+        "emotional_hook": "Effortlessness and natural beauty"
+      }
+    },
+    {
+      "ad_id": 2,
+      "advertiser_type": "Permanent Makeup Training Academy (Beverly Hills)",
+      "overall_style": "Professional, structured, information-dense",
+      "design_language": {
+        "aesthetic": "Clean professional with trust signals",
+        "mood": "Authoritative, credible, educational",
+        "composition_style": "Mixed grid — persona on right, text left, result thumbnails bottom center",
+        "visual_hierarchy": "Brand logo top, headline, offer badge, bullet list, instructor photo, result images, CTA banner"
+      },
+      "color_logic": {
+        "primary_background": "Soft blurred neutral/grey-beige",
+        "accent_color_1": "Red (#CC0000 range) — used for urgency badges and CTA",
+        "accent_color_2": "White — card/container backgrounds",
+        "text_color_primary": "Dark navy/black",
+        "text_color_secondary": "Red for highlighted offers",
+        "color_strategy": "Neutral background keeps focus on content; red creates urgency and draws eye to key offers; white containers organize information clearly"
+      },
+      "typography": {
+        "headline_font_style": "Bold all-caps sans-serif",
+        "headline_size": "Large, dominant",
+        "badge_text_style": "Bold white text on red pill/rounded rectangle",
+        "bullet_list_style": "Regular weight sans-serif, left-aligned",
+        "cta_banner_style": "Bold white text on red background",
+        "font_weight_variation": "High contrast between headline (heavy) and body (regular)",
+        "text_alignment": "Left-aligned for lists, center for headline and CTA"
+      },
+      "text_placement": {
+        "position": "Top section headline, left-center body text, bottom banner CTA",
+        "alignment": "Left-aligned body, center-aligned headline and CTA",
+        "layering": "Text on white background panels, not overlaid on images"
+      },
+      "image_placement": {
+        "instructor_photo": "Right side, full height, professional headshot style with blazer",
+        "result_thumbnails": "Bottom center, three circular cropped close-up brow/eye images",
+        "brand_logo": "Top center",
+        "framing": "Circular masks for result photos, rectangular full bleed for instructor"
+      },
+      "message_delivery": {
+        "strategy": "Lead with authority (instructor photo), enumerate benefits, signal credibility, close with financial incentive",
+        "cta_style": "Explicit promotional CTA at bottom — financing offer",
+        "emotional_hook": "Career opportunity + financial accessibility"
+      }
+    },
+    {
+      "ad_id": 3,
+      "advertiser_type": "Permanent Makeup Training Academy (Minnesota)",
+      "overall_style": "Documentary/authentic grassroots",
+      "design_language": {
+        "aesthetic": "Real-world, authentic, community-focused",
+        "mood": "Energetic, inclusive, hands-on",
+        "composition_style": "Full bleed group photo as background, text overlaid on top and bottom left",
+        "visual_hierarchy": "Large number/day callout first, training title, CTA button style text, then bullet list"
+      },
+      "color_logic": {
+        "primary_background": "Real classroom photo (dark branded backdrop)",
+        "accent_color_1": "Gold/yellow — headline and brand elements",
+        "accent_color_2": "White — body and list text",
+        "overlay": "Semi-transparent dark overlay on bottom-left text area",
+        "color_strategy": "Gold maintains brand consistency with beauty/luxury codes; authentic photo builds social proof; dark overlay ensures text legibility over photo"
+      },
+      "typography": {
+        "headline_font_style": "Very large bold sans-serif for day number",
+        "subheadline_style": "Large bold white all-caps",
+        "cta_style": "Bold white, button-like text",
+        "list_style": "Checkbox-style bullet points, white sans-serif",
+        "contact_info_style": "Small white sans-serif with icons",
+        "text_alignment": "Left-aligned throughout"
+      },
+      "text_placement": {
+        "position": "Top-left for headline, left-center for body, bottom-left for contact info",
+        "alignment": "Left-aligned block",
+        "layering": "Text overlaid directly on group photo with partial dark overlay"
+      },
+      "image_placement": {
+        "main_image": "Full bleed background — real classroom group photo",
+        "result_thumbnails": "Top right corner — three circular cropped close-ups of brow/lip/eye results",
+        "brand_logo": "Bottom right corner",
+        "framing": "Circular masks for result images; group photo fills entire canvas"
+      },
+      "message_delivery": {
+        "strategy": "Social proof via group photo (many students = credibility), quick scannable list of techniques, urgency via direct CTA",
+        "cta_style": "Direct action text ('REGISTER TODAY')",
+        "emotional_hook": "Community, learning environment, FOMO"
+      }
+    },
+    {
+      "ad_id": 4,
+      "advertiser_type": "Permanent Makeup Training (Atlanta)",
+      "overall_style": "Soft luxury, aspirational professional",
+      "design_language": {
+        "aesthetic": "Warm neutral tones, polished and approachable",
+        "mood": "Professional yet warm, opportunity-focused",
+        "composition_style": "Instructor right, city skyline background, text left, result circles bottom-left",
+        "visual_hierarchy": "Header banner, headline, date/schedule, bullet list, result thumbnails"
+      },
+      "color_logic": {
+        "primary_background": "Blurred city skyline (muted warm grey/beige tones)",
+        "header_banner_color": "Dusty pink/mauve (#C4A5A0 range)",
+        "text_color_primary": "Dark charcoal/black",
+        "accent_color": "None strong — relies on tone contrast",
+        "color_strategy": "Warm neutral palette communicates sophistication and femininity; city background implies prestige and location; no harsh colors keeps it aspirational and approachable"
+      },
+      "typography": {
+        "headline_font_style": "Bold sans-serif, mixed weight",
+        "header_banner_text": "White bold all-caps on dusty pink strip",
+        "date_text_style": "Large bold, high emphasis",
+        "bullet_list_style": "Small regular sans-serif, left-aligned",
+        "font_weight_variation": "High contrast between feature text (bold) and supporting details (regular)",
+        "text_alignment": "Left-aligned for body, center for header banner"
+      },
+      "text_placement": {
+        "position": "Top header banner full width, left-center for all body text",
+        "alignment": "Left-aligned block with header centered",
+        "layering": "Text sits on semi-transparent white/light background panel over skyline"
+      },
+      "image_placement": {
+        "instructor_photo": "Right side, full height cutout, professional business casual attire",
+        "result_thumbnails": "Bottom-left, two overlapping circular close-up images (brow and lip)",
+        "background": "City skyline, full bleed, blurred/desaturated",
+        "framing": "Circular masks for result images; instructor photo cutout with no background"
+      },
+      "message_delivery": {
+        "strategy": "Location prestige (Atlanta skyline), instructor authority, specific dates create urgency, benefit list builds value",
+        "cta_style": "Implicit — enrollment details as CTA",
+        "emotional_hook": "Career transformation, professional credibility, specific opportunity"
+      }
+    },
+    {
+      "ad_id": 5,
+      "advertiser_type": "Local Brow & Lash Service (Orlando)",
+      "overall_style": "Dark luxury, minimalist and editorial",
+      "design_language": {
+        "aesthetic": "High-end editorial beauty brand",
+        "mood": "Glamorous, confident, seductive",
+        "composition_style": "Dark text block top, large portrait photo bottom",
+        "visual_hierarchy": "Location callout, benefit statement, dramatic portrait, brand logo"
+      },
+      "color_logic": {
+        "primary_background_top": "Pure black (#000000)",
+        "accent_color": "Gold (#C9A84C range) — headline text",
+        "text_color_secondary": "White",
+        "image_tones": "Warm skin tones, natural beauty",
+        "color_strategy": "Black and gold is a classic luxury pairing; creates premium brand feel; warm portrait photo provides contrast and draws the eye naturally"
+      },
+      "typography": {
+        "headline_font_style": "Large serif-influenced or elegant bold font, gold colored",
+        "body_text_style": "Medium white sans-serif, regular weight",
+        "bold_emphasis": "Key word 'brows' bolded within body copy",
+        "brand_logo_style": "Small elegant serif logo bottom right",
+        "text_alignment": "Center-aligned for all text"
+      },
+      "text_placement": {
+        "position": "Top ~35% of creative in black band",
+        "alignment": "Centered",
+        "layering": "Text isolated in solid black zone, not overlaid on image"
+      },
+      "image_placement": {
+        "main_image": "Bottom ~65% — large close-up portrait of woman mid-procedure (gloved hand near brow)",
+        "crop_style": "Face fills frame, slightly angled, natural lighting",
+        "brand_logo": "Bottom right corner over image",
+        "framing": "Full bleed, no borders or masks"
+      },
+      "message_delivery": {
+        "strategy": "Premium brand positioning + aspirational lifestyle benefit + real service moment shown",
+        "cta_style": "Implicit — brand logo as identifier, no hard CTA",
+        "emotional_hook": "Waking up beautiful effortlessly — daily luxury"
+      }
+    },
+    {
+      "ad_id": 6,
+      "advertiser_type": "Local Permanent Makeup Service (Mobile, AL)",
+      "overall_style": "Dark dramatic, high-impact editorial",
+      "design_language": {
+        "aesthetic": "Professional beauty editorial meets local service ad",
+        "mood": "Dramatic, aspirational, procedure-focused",
+        "composition_style": "Text top on black, procedure close-up photo bottom",
+        "visual_hierarchy": "Location headline, benefit subhead, dramatic procedure image"
+      },
+      "color_logic": {
+        "primary_background_top": "Pure black (#000000)",
+        "accent_color": "Gold/yellow — primary headline",
+        "text_color": "White — subheadline and body",
+        "image_tones": "Dark, moody with skin tones and black gloves",
+        "color_strategy": "Identical color logic to Ad 1 — black/gold/white trio signals premium; dark procedure image adds drama and professional credibility"
+      },
+      "typography": {
+        "headline_font_style": "Large bold mixed-weight sans-serif, gold/white split",
+        "subheadline_style": "Medium gold for lead-in phrase, white for main copy",
+        "font_weight_variation": "Location name bold/italic for emphasis",
+        "text_alignment": "Center-aligned"
+      },
+      "text_placement": {
+        "position": "Top ~40% in solid black zone",
+        "alignment": "Centered",
+        "layering": "Text completely separated from image in black area"
+      },
+      "image_placement": {
+        "main_image": "Bottom ~60% — close-up of microblading procedure in progress",
+        "crop_style": "Extreme close-up, technician's gloved hands visible with tool",
+        "framing": "Full bleed, no masks or borders"
+      },
+      "message_delivery": {
+        "strategy": "Mirror of Ad 1 template — location targeting + emotional benefit + procedural proof",
+        "cta_style": "Implicit — visual process shot builds trust",
+        "emotional_hook": "Waking up effortlessly beautiful, no makeup needed"
+      }
+    },
+    {
+      "ad_id": 7,
+      "advertiser_type": "Local Permanent Makeup Service (Plush Beauty)",
+      "overall_style": "Authentic before/after social proof collage",
+      "design_language": {
+        "aesthetic": "Raw, real, user-generated content (UGC) style",
+        "mood": "Genuine, relatable, results-focused",
+        "composition_style": "2x2 photo grid collage, no design framing or text",
+        "visual_hierarchy": "Results speak entirely — no text hierarchy, purely visual"
+      },
+      "color_logic": {
+        "primary_background": "None — photos fill entire canvas",
+        "image_tones": "Warm brown and terracotta skin tones, natural lighting",
+        "overlay": "Minimal — only subtle brand watermark",
+        "color_strategy": "No designed color — authenticity is the strategy; warm skin tones feel relatable and real; no borders or design elements signal genuine client photos"
+      },
+      "typography": {
+        "brand_watermark": "Small script/cursive font watermark in center",
+        "overall_typography": "Virtually none — intentionally text-free",
+        "text_alignment": "N/A"
+      },
+      "text_placement": {
+        "position": "Only a small brand watermark in center of the grid",
+        "alignment": "Centered watermark",
+        "layering": "Minimal, nearly invisible overlay"
+      },
+      "image_placement": {
+        "layout": "Equal 2x2 grid — four photos of equal size",
+        "subject": "Multiple before/after brow results on Black women models",
+        "crop_style": "Close-up face shots and extreme brow close-ups mixed",
+        "framing": "Tight grid with minimal or no gutters"
+      },
+      "message_delivery": {
+        "strategy": "Pure social proof — let results do all the talking; diverse representation builds relatability",
+        "cta_style": "None explicit — results are the CTA",
+        "emotional_hook": "Real results on real people = 'this could be me'"
+      }
+    },
+    {
+      "ad_id": 8,
+      "advertiser_type": "Local Brow & Lash Bar (iBrow iLash Bar)",
+      "overall_style": "Soft feminine, approachable beauty",
+      "design_language": {
+        "aesthetic": "Soft, girly, boutique beauty salon",
+        "mood": "Friendly, fresh, inviting",
+        "composition_style": "Three horizontal strip photos stacked, brand name and CTA below on white",
+        "visual_hierarchy": "Photo strips (results) first, brand name second, promotional CTA third"
+      },
+      "color_logic": {
+        "primary_background": "Soft pink/lavender (#F5D5E5 range)",
+        "text_color_brand": "Hot pink/magenta",
+        "text_color_cta": "Pink, italic",
+        "image_tones": "Natural neutral beauty tones, blue eyes",
+        "color_strategy": "Pink palette is universally associated with feminine beauty; soft background feels approachable vs. luxury black; pink brand name reinforces playful identity"
+      },
+      "typography": {
+        "brand_name_style": "Large script/display font, hot pink",
+        "cta_text_style": "Smaller italic pink sans-serif or script",
+        "overall_typography": "Decorative and feminine, not corporate",
+        "text_alignment": "Center-aligned"
+      },
+      "text_placement": {
+        "position": "Bottom ~25% — brand name and CTA text on pink background below photo strips",
+        "alignment": "Centered",
+        "layering": "Text on clean background, not overlaid on images"
+      },
+      "image_placement": {
+        "layout": "Three horizontal landscape-cropped strips stacked vertically",
+        "subject": "Progressive brow transformation — different stages of brow definition",
+        "crop_style": "Close-up eye/brow strips, full width",
+        "framing": "No borders — strips flow into each other"
+      },
+      "message_delivery": {
+        "strategy": "Show transformation journey through stacked progression, invite action with soft promotional language",
+        "cta_style": "Soft invitation ('Ask about our grand opening specials')",
+        "emotional_hook": "Transformation journey, feminine identity, new beginning (grand opening)"
+      }
+    },
+    {
+      "ad_id": 9,
+      "advertiser_type": "Permanent Makeup Studio (Nirvana Beauty Lounge) — Before/After",
+      "overall_style": "Clean clinical comparison, trust-driven",
+      "design_language": {
+        "aesthetic": "Professional medical-aesthetic, clean and credible",
+        "mood": "Informative, trustworthy, results-focused",
+        "composition_style": "Two equal horizontal panels stacked — before (top) and after (bottom) with label",
+        "visual_hierarchy": "Label text on image, photo comparison, brand logo bottom right"
+      },
+      "color_logic": {
+        "primary_background": "Clean white/neutral — photos fill most of frame",
+        "label_text_color": "Dark charcoal/black",
+        "brand_logo_colors": "Teal/mint and white",
+        "image_tones": "Natural skin tones, clean studio lighting",
+        "color_strategy": "Clinical white space signals professionalism and hygiene; teal brand accent is calming and spa-like; minimal color design keeps focus entirely on the result comparison"
+      },
+      "typography": {
+        "label_style": "Simple clean sans-serif, left-aligned within each panel",
+        "brand_logo_style": "Elegant serif + teal circular icon",
+        "font_weight": "Regular to medium weight — not aggressive",
+        "text_alignment": "Left-aligned labels"
+      },
+      "text_placement": {
+        "position": "Labels top-left of each photo panel, brand logo bottom-right",
+        "alignment": "Left-aligned labels, right-aligned logo",
+        "layering": "Text overlaid subtly on photos"
+      },
+      "image_placement": {
+        "layout": "50/50 horizontal split — before top, after bottom",
+        "subject": "Same model's eyes shown in two states — with makeup vs. permanent brows",
+        "crop_style": "Wide close-up of eyes and brows, same angle for both panels",
+        "framing": "Full bleed, seamless split"
+      },
+      "message_delivery": {
+        "strategy": "Direct visual comparison eliminates need for persuasion — result is self-evident; clinical cleanliness builds trust",
+        "cta_style": "None — brand logo as identifier only",
+        "emotional_hook": "Objective proof of transformation, clarity of benefit"
+      }
+    },
+    {
+      "ad_id": 10,
+      "advertiser_type": "Permanent Makeup Studio (Nirvana Beauty Lounge) — Close-up Result",
+      "overall_style": "Ultra-clean minimalist result showcase",
+      "design_language": {
+        "aesthetic": "Clinical luxury, portfolio-style",
+        "mood": "Calm, confident, high-quality",
+        "composition_style": "Single full-bleed extreme close-up photo with only brand logo",
+        "visual_hierarchy": "Image dominates entirely, brand logo is the only non-image element"
+      },
+      "color_logic": {
+        "primary_background": "None — photo fills entire frame",
+        "brand_logo_colors": "Teal/mint and white",
+        "image_tones": "Warm neutral skin tones, clean bright lighting",
+        "color_strategy": "Zero design color — photo quality and result carry all weight; teal logo provides subtle brand identification without competing"
+      },
+      "typography": {
+        "brand_logo_style": "Small elegant serif text + lotus icon in teal/white",
+        "overall_typography": "None beyond logo — intentionally minimal",
+        "text_alignment": "N/A"
+      },
+      "text_placement": {
+        "position": "Only brand logo, bottom-left corner",
+        "alignment": "Bottom-left",
+        "layering": "Logo subtly overlaid on photo"
+      },
+      "image_placement": {
+        "layout": "Full bleed single image",
+        "subject": "Extreme close-up of one eye with perfectly shaped dark brow",
+        "crop_style": "Macro beauty photography style — fills entire canvas",
+        "framing": "No borders, no masks — pure image"
+      },
+      "message_delivery": {
+        "strategy": "Let the work speak entirely — highest confidence signal; portfolio-grade image quality implies expert craftsmanship",
+        "cta_style": "None — brand recognition play",
+        "emotional_hook": "Aspirational beauty perfection, desire for the result"
+      }
+    }
+  ],
+  "cross_creative_patterns": {
+    "dominant_color_palettes": [
+      "Black + Gold + White (luxury/premium positioning)",
+      "Soft Pink + White (feminine/approachable positioning)",
+      "Neutral Beige/Grey + Red accents (professional/training positioning)",
+      "No-design UGC style (authenticity/social proof positioning)"
+    ],
+    "common_image_strategies": [
+      "Extreme close-up of eyes and brows as hero image",
+      "Circular cropped thumbnails for result showcases",
+      "Before/after split panel comparisons",
+      "Instructor/expert persona photo for training ads",
+      "Full-bleed authentic group photos for training social proof",
+      "UGC-style collage grids for service ads"
+    ],
+    "typography_patterns": [
+      "Location name prominently bolded or colored differently",
+      "Mixed font weights within single headline for emphasis",
+      "Gold/yellow used consistently for premium headline text",
+      "Red used for urgency and promotional callouts",
+      "Script fonts signal femininity and boutique identity"
+    ],
+    "layout_archetypes": [
+      "Text-top / Image-bottom split",
+      "Full bleed photo with text overlay",
+      "Grid collage (2x2 or horizontal strips)",
+      "Persona + text + thumbnail hybrid",
+      "Clean comparison panel (before/after)"
+    ],
+    "message_delivery_frameworks": [
+      "Location targeting + benefit + visual proof (service ads)",
+      "Authority figure + curriculum list + financial CTA (training ads)",
+      "Pure visual social proof with no copy (UGC/portfolio ads)",
+      "Before/after comparison with minimal copy (transformation ads)"
+    ]
+  }
+}

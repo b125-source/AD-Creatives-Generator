@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CLG Canteen — 10 Vertical 9:16 Ads</title>
+  <link rel="stylesheet" href="https://use.typekit.net/lld6qxp.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    /* CSS reset and basics */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #1a1008; font-family: "poppins", sans-serif; padding: 40px 20px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+    :root { --brown: #5c4129; --ochre: #bf935b; --cream: #fff3e5; --brown-dark: #3d2a18; --font-hero: "anton", sans-serif; --font-display: "poppins", sans-serif; --font-round: "nunito", sans-serif; --font-script: "pacifico", cursive; }
+    .header-bar { color: var(--cream); display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .header-bar h1 { font-size: 20px; font-weight: 400; letter-spacing: 2px; text-transform: uppercase; }
+    .ad-viewer { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+    .ad-wrapper { width: 540px; height: 960px; overflow: hidden; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); position: relative; }
+    .ad-track { display: flex; width: 100%; height: 100%; transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
+    .ad { width: 540px; height: 960px; position: relative; flex-shrink: 0; overflow: hidden; }
+
+    /* Universal Zones */
+    .zone1 { position: absolute; top: 0; left: 0; right: 0; padding: 50px 40px; z-index: 3; }
+    .zone2 { position: absolute; top: 250px; left: 0; right: 0; bottom: 250px; z-index: 2; display: flex; align-items: center; justify-content: center; }
+    .zone2 img { width: 480px; height: 480px; object-fit: contain; filter: drop-shadow(0 24px 40px rgba(0,0,0,0.5)); }
+    .zone3 { position: absolute; bottom: 0; left: 0; right: 0; padding: 50px 40px; z-index: 3; display: flex; flex-direction: column; justify-content: flex-end; }
+
+    /* Logo Component */
+    .brand-wordmark { font-family: var(--font-display); font-size: 22px; font-weight: 800; color: var(--cream); text-align: center; line-height: 1; z-index: 10; position: relative; letter-spacing: 2px; }
+    .brand-wordmark span { display: block; font-size: 11px; font-weight: 400; letter-spacing: 6px; color: var(--ochre); margin-top: 4px; }
+    .brand-wordmark.dark { color: var(--brown); }
+    .brand-wordmark.dark span { color: var(--brown); opacity: 0.8; }
+
+    /* Global Decorators */
+    .bg-text-vertical { position: absolute; top: 50%; left: 50%; font-family: var(--font-hero); font-size: 260px; color: transparent; -webkit-text-stroke: 4px rgba(255, 243, 229, 0.08); line-height: 0.8; white-space: nowrap; pointer-events: none; z-index: 0; letter-spacing: 5px; }
+    .bg-text-horizontal { position: absolute; font-family: var(--font-hero); font-size: 200px; color: rgba(92, 65, 41, 0.05); line-height: 0.8; white-space: nowrap; pointer-events: none; z-index: 0; }
+
+    /* AD 01 */
+    .ad01 { background: var(--brown); }
+    .ad01 .vignette { position: absolute; inset: 0; background: radial-gradient(circle at center, transparent 30%, rgba(20,10,0,0.7) 100%); z-index: 1; pointer-events: none; }
+    .ad01 .badge { display: inline-flex; align-items: center; gap: 6px; background: var(--ochre); color: var(--brown); padding: 8px 16px; border-radius: 30px; font-family: var(--font-display); font-weight: 700; font-size: 13px; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 1px; }
+    .ad01 .title { color: var(--cream); font-family: var(--font-hero); font-size: 58px; line-height: 1.05; letter-spacing: -1px; }
+    .ad01 .item-name { color: var(--cream); font-family: var(--font-display); font-size: 20px; font-weight: 400; margin-bottom: 4px; }
+    .ad01 .price { color: var(--ochre); font-family: var(--font-hero); font-size: 120px; line-height: 0.9; margin-bottom: 30px; }
+    .ad01 .strip { border-top: 1px solid rgba(191,147,91,0.5); padding-top: 20px; color: var(--cream); font-family: var(--font-display); font-size: 14px; font-weight: 600; letter-spacing: 2px; }
+    .ad01 .strip span { color: var(--ochre); margin: 0 8px; }
+
+    /* AD 02 */
+    .ad02 { background: var(--brown); }
+    .ad02 .bg-text-vertical.left { transform: translate(-50%, -50%) rotate(90deg) translateY(-210px); }
+    .ad02 .bg-text-vertical.right { transform: translate(-50%, -50%) rotate(90deg) translateY(210px); }
+    .ad02 .logo-container { position: absolute; top: 40px; width: 100%; display: flex; justify-content: center; z-index: 4; }
+    .ad02 .title { position: absolute; top: 120px; width: 100%; padding: 0 20px; text-align: center; color: var(--cream); font-family: var(--font-hero); font-size: 76px; line-height: 0.95; letter-spacing: -1px; z-index: 4; text-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 2px 5px rgba(0,0,0,1); }
+    .ad02 .zone2 { top: 240px; bottom: 180px; z-index: 5; }
+    .ad02 .zone2 img { filter: drop-shadow(0 30px 40px rgba(0,0,0,0.8)); transform: scale(1.1); }
+    .ad02 .bottom-panel { position: absolute; bottom: 0; left: 0; right: 0; height: 180px; background: var(--brown-dark); border-top: 4px solid var(--ochre); z-index: 4; display: flex; align-items: center; justify-content: space-between; padding: 0 40px; box-shadow: 0 -10px 30px rgba(0,0,0,0.3); }
+    .ad02 .left-col { display: flex; flex-direction: column; gap: 8px; margin-top: 20px; }
+    .ad02 .item-name { color: var(--cream); font-family: var(--font-display); font-size: 22px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+    .ad02 .cta-row { color: var(--ochre); font-family: var(--font-display); font-size: 13px; letter-spacing: 2px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .ad02 .price-block { color: var(--ochre); font-family: var(--font-hero); font-size: 150px; line-height: 0.8; margin-top: -80px; text-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    .ad02 .price-block span { font-size: 70px; vertical-align: top; }
+
+    /* AD 03 */
+    .ad03 { background: var(--cream); }
+    .ad03 .circle-bg { position: absolute; top: 250px; left: 50%; transform: translateX(-50%); width: 450px; height: 450px; background: var(--ochre); border-radius: 50%; opacity: 0.2; z-index: 0; }
+    .ad03 .line-pattern { position: absolute; inset: 0; opacity: 0.08; background-image: url('data:image/svg+xml;utf8,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="20" x2="20" y2="0" stroke="%235c4129" stroke-width="2"/></svg>'); background-size: 20px 20px; z-index: 0; }
+    .ad03 .zone1 { text-align: center; z-index: 4; top: 40px; }
+    .ad03 .title1 { color: var(--brown); font-family: var(--font-hero); font-size: 80px; line-height: 0.9; letter-spacing: -1px; text-transform: uppercase; text-shadow: 2px 2px 0px var(--cream); }
+    .ad03 .title2 { display: inline-block; background: var(--brown); color: var(--cream); font-family: var(--font-display); font-size: 26px; font-weight: 800; padding: 5px 20px; transform: rotate(-3deg); margin-top: -10px; box-shadow: 5px 5px 0px var(--ochre); }
+    .ad03 .zone2 { z-index: 5; top: 260px; bottom: 250px; }
+    .ad03 .zone2 img { filter: drop-shadow(0 30px 40px rgba(0,0,0,0.4)); transform: scale(1.1); }
+    .ad03 .bottom-card { position: absolute; bottom: 0; left: 0; right: 0; background: var(--brown); height: 220px; border-top-left-radius: 40px; border-top-right-radius: 40px; z-index: 4; display: flex; align-items: center; justify-content: space-between; padding: 0 40px; }
+    .ad03 .left-col { display: flex; flex-direction: column; gap: 5px; }
+    .ad03 .item-name { color: var(--cream); font-family: var(--font-display); font-weight: 800; font-size: 22px; text-transform: uppercase; width: 180px; line-height: 1.2; }
+    .ad03 .pill { display: inline-block; background: var(--ochre); color: var(--brown); font-family: var(--font-display); font-weight: 800; font-size: 14px; padding: 10px 20px; border-radius: 30px; margin-top: 10px; }
+    .ad03 .price { color: var(--ochre); font-family: var(--font-hero); font-size: 140px; line-height: 0.8; margin-top: -80px; text-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    .ad03 .price span { font-size: 60px; vertical-align: top; }
+
+    /* AD 04 */
+    .ad04 { background: var(--cream); }
+    .ad04 .bg-shape { position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: var(--brown); transform: rotate(-12deg) translateY(35%); z-index: 0; box-shadow: 0 -20px 50px rgba(0,0,0,0.2); }
+    .ad04 .bg-text-horizontal { color: rgba(255,243,229,0.06); top: 120px; left: -100px; transform: rotate(-12deg); z-index: 1; }
+    .ad04 .sticker { position: absolute; z-index: 4; background: var(--ochre); color: var(--brown); font-family: var(--font-hero); padding: 5px 25px; border: 4px solid var(--cream); box-shadow: 8px 8px 0px rgba(0,0,0,0.2); transform: rotate(-4deg); }
+    .ad04 .sticker1 { top: 100px; left: 30px; font-size: 64px; }
+    .ad04 .sticker2 { top: 200px; left: 70px; font-size: 64px; transform: rotate(3deg); background: var(--cream); color: var(--brown); border-color: var(--brown); }
+    .ad04 .zone2 { top: 280px; bottom: 250px; z-index: 5; }
+    .ad04 .zone2 img { width: 550px; height: 550px; filter: drop-shadow(15px 25px 0px rgba(0,0,0,0.4)); transform: scale(1.1); }
+    .ad04 .price-badge { position: absolute; bottom: 240px; right: 30px; width: 160px; height: 160px; background: var(--ochre); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 4px dashed var(--cream); box-shadow: 10px 10px 0px rgba(0,0,0,0.3); z-index: 6; transform: rotate(12deg); }
+    .ad04 .price-badge .val { color: var(--brown); font-family: var(--font-hero); font-size: 80px; line-height: 0.8; }
+    .ad04 .bottom-bar { position: absolute; bottom: 40px; left: 40px; right: 40px; background: var(--cream); padding: 25px; border: 4px solid var(--brown); box-shadow: 8px 8px 0px var(--brown); z-index: 4; display: flex; flex-direction: column; align-items: center; text-align: center; }
+    .ad04 .item-name { color: var(--brown); font-family: var(--font-display); font-size: 24px; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; }
+    .ad04 .cta { color: var(--ochre); font-family: var(--font-display); font-weight: 800; font-size: 16px; letter-spacing: 1px; background: var(--brown); padding: 10px 20px; border-radius: 30px; }
+
+    /* AD 05 */
+    .ad05 { background: var(--brown); overflow: hidden; }
+    .ad05 .repeat-text { position: absolute; top: -50px; left: -50px; width: 150%; display: flex; flex-direction: column; line-height: 0.75; font-family: var(--font-hero); font-size: 160px; color: rgba(191,147,91,0.1); transform: rotate(-10deg); z-index: 0; user-select: none; pointer-events: none; }
+    .ad05 .zone1 { z-index: 4; text-align: center; top: 60px; }
+    .ad05 .title1 { display: inline-block; background: var(--ochre); color: var(--brown); font-family: var(--font-hero); font-size: 70px; line-height: 0.9; padding: 5px 25px; transform: skewX(-10deg); }
+    .ad05 .title2 { color: var(--cream); font-family: var(--font-hero); font-size: 60px; line-height: 1; letter-spacing: 2px; margin-top: 10px; text-shadow: 0 5px 10px rgba(0,0,0,0.5); }
+    .ad05 .zone2 { z-index: 5; top: 250px; bottom: 200px; }
+    .ad05 .zone2 img { filter: drop-shadow(0 40px 50px rgba(0,0,0,0.8)); transform: scale(1.15); }
+    .ad05 .zone3 { z-index: 4; align-items: center; padding-bottom: 40px; }
+    .ad05 .item-name { color: var(--cream); font-family: var(--font-display); font-size: 26px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 5px; }
+    .ad05 .price { color: var(--ochre); font-family: var(--font-hero); font-size: 150px; line-height: 0.8; margin-bottom: 10px; text-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+    .ad05 .strip { background: var(--cream); color: var(--brown); font-family: var(--font-display); font-size: 16px; font-weight: 800; letter-spacing: 3px; padding: 12px 30px; border-radius: 5px; text-transform: uppercase; }
+
+    /* AD 06 */
+    .ad06 { background: var(--ochre); }
+    .ad06 .pattern { position: absolute; inset: 0; opacity: 0.15; background-image: url('data:image/svg+xml;utf8,<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="3" fill="%235c4129"/></svg>'); background-size: 30px 30px; z-index: 0; }
+    .ad06 .chat-bubble { position: absolute; background: var(--cream); color: var(--brown); font-family: var(--font-hero); padding: 15px 30px; border-radius: 40px; box-shadow: 10px 10px 0px var(--brown); z-index: 4; border: 3px solid var(--brown); }
+    .ad06 .chat-bubble::after { content: ''; position: absolute; bottom: -18px; left: 40px; border-width: 20px 20px 0; border-style: solid; border-color: var(--brown) transparent transparent transparent; z-index: 0; }
+    .ad06 .chat-bubble::before { content: ''; position: absolute; bottom: -12px; left: 43px; border-width: 16px 16px 0; border-style: solid; border-color: var(--cream) transparent transparent transparent; z-index: 1; }
+    .ad06 .bubble1 { top: 80px; left: 30px; font-size: 70px; transform: rotate(-4deg); }
+    .ad06 .bubble2 { top: 200px; right: 30px; font-size: 60px; background: var(--brown); color: var(--ochre); box-shadow: 10px 10px 0px var(--cream); transform: rotate(3deg); border-color: var(--cream); }
+    .ad06 .bubble2::after { left: auto; right: 40px; border-color: var(--cream) transparent transparent transparent; }
+    .ad06 .bubble2::before { left: auto; right: 43px; border-color: var(--brown) transparent transparent transparent; }
+    .ad06 .zone2 { top: 320px; bottom: 250px; z-index: 5; }
+    .ad06 .zone2 img { width: 520px; height: 520px; filter: drop-shadow(0 30px 40px rgba(92,65,41,0.6)); transform: scale(1.1); }
+    .ad06 .huge-price { position: absolute; bottom: 100px; left: 50%; transform: translateX(-50%); width: 120%; text-align: center; color: var(--brown); font-family: var(--font-hero); font-size: 260px; line-height: 0.75; letter-spacing: -10px; z-index: 3; text-shadow: 10px 10px 0px var(--cream); }
+    .ad06 .ticker { position: absolute; bottom: 0; left: 0; right: 0; height: 60px; background: var(--brown); display: flex; align-items: center; overflow: hidden; z-index: 6; border-top: 4px solid var(--cream); }
+    .ad06 .ticker-track { display: flex; white-space: nowrap; color: var(--cream); font-family: var(--font-display); font-size: 20px; font-weight: 800; letter-spacing: 2px; }
+
+    /* AD 07 */
+    .ad07 { background: var(--cream); }
+    .ad07 .arch { position: absolute; top: 180px; left: 30px; right: 30px; bottom: 0; background: linear-gradient(to bottom, rgba(30,20,10,0.5) 0%, var(--brown) 30%); border-top-left-radius: 250px; border-top-right-radius: 250px; z-index: 1; }
+    .ad07 .sunburst { position: absolute; top: 120px; left: 50%; transform: translateX(-50%); width: 600px; height: 600px; background: radial-gradient(circle, var(--ochre) 0%, transparent 60%); opacity: 0.4; z-index: 0; }
+    .ad07 .title-top { position: absolute; top: 50px; width: 100%; text-align: center; z-index: 4; }
+    .ad07 .title1 { color: var(--brown); font-family: var(--font-hero); font-size: 70px; line-height: 0.9; }
+    .ad07 .title2 { color: var(--ochre); font-family: var(--font-script); font-size: 50px; margin-top: -10px; transform: rotate(-5deg); }
+    .ad07 .zone2 { top: 220px; bottom: 250px; z-index: 5; }
+    .ad07 .zone2 img { filter: drop-shadow(0 20px 40px rgba(0,0,0,0.8)); transform: scale(1.1); }
+    .ad07 .info-card { position: absolute; bottom: 40px; left: 50px; right: 50px; background: var(--cream); border-radius: 20px; padding: 30px; text-align: center; z-index: 6; box-shadow: 0 20px 40px rgba(0,0,0,0.4); border: 2px solid var(--ochre); }
+    .ad07 .item-name { color: var(--brown); font-family: var(--font-display); font-size: 20px; font-weight: 800; text-transform: uppercase; margin-bottom: 5px; }
+    .ad07 .price { color: var(--ochre); font-family: var(--font-hero); font-size: 80px; line-height: 0.8; margin-bottom: 20px; text-shadow: 2px 2px 0px var(--brown); }
+    .ad07 .pill { display: inline-block; background: var(--brown); color: var(--cream); padding: 12px 24px; border-radius: 30px; font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+
+    /* AD 08 */
+    .ad08 { background: var(--brown); }
+    .ad08 .split-bg { position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background: var(--ochre); z-index: 0; }
+    .ad08 .split-bg::before { content: ''; position: absolute; top: 0; bottom: 0; left: -10px; width: 20px; background-image: url('data:image/svg+xml;utf8,<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><rect width="10" height="10" fill="%235c4129"/><line x1="-5" y1="5" x2="15" y2="-15" stroke="%23fff3e5" stroke-width="4"/><line x1="-5" y1="15" x2="15" y2="-5" stroke="%23fff3e5" stroke-width="4"/></svg>'); background-size: 10px 10px; z-index: 1; }
+    .ad08 .zone1 { text-align: center; top: 50px; z-index: 4; }
+    .ad08 .title1 { color: var(--cream); font-family: var(--font-hero); font-size: 80px; line-height: 0.9; letter-spacing: -2px; text-shadow: 0 5px 15px rgba(0,0,0,0.4); }
+    .ad08 .title2 { display: inline-block; background: var(--cream); color: var(--brown); font-family: var(--font-display); font-weight: 800; font-size: 26px; padding: 10px 30px; margin-top: 15px; border-radius: 40px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+    .ad08 .zone2 { z-index: 5; top: 280px; bottom: 250px; }
+    .ad08 .zone2 img { filter: drop-shadow(0 30px 40px rgba(0,0,0,0.7)); transform: scale(1.15); }
+    .ad08 .bottom-box { position: absolute; bottom: 40px; left: 40px; right: 40px; background: var(--brown-dark); border: 4px solid var(--cream); padding: 25px; display: flex; justify-content: space-between; align-items: center; z-index: 6; box-shadow: 10px 10px 0px var(--cream); }
+    .ad08 .left-text { display: flex; flex-direction: column; }
+    .ad08 .item-name { color: var(--cream); font-family: var(--font-display); font-size: 20px; font-weight: 800; text-transform: uppercase; width: 140px; line-height: 1.1; margin-bottom: 5px; }
+    .ad08 .strip2 { color: var(--ochre); font-family: var(--font-display); font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+    .ad08 .price { color: var(--ochre); font-family: var(--font-hero); font-size: 120px; line-height: 0.8; margin-top: -30px; }
+
+    /* AD 09 */
+    .ad09 { background: var(--brown-dark); }
+    .ad09 .neon-box { position: absolute; inset: 30px; border: 4px solid var(--ochre); border-radius: 20px; box-shadow: 0 0 20px rgba(191,147,91,0.6); z-index: 1; pointer-events: none; }
+    .ad09 .blob { position: absolute; top: 350px; left: 50%; transform: translateX(-50%); width: 200px; height: 200px; background: transparent; border-radius: 50%; box-shadow: 0 0 150px 100px var(--ochre); opacity: 0.6; z-index: 0; }
+    .ad09 .title-container { position: absolute; top: 70px; width: 100%; text-align: center; z-index: 4; }
+    .ad09 .title1 { color: var(--cream); font-family: var(--font-hero); font-size: 68px; line-height: 1; text-shadow: 0 0 15px rgba(255,243,229,0.5); }
+    .ad09 .title2 { color: var(--ochre); font-family: var(--font-hero); font-size: 68px; line-height: 1; text-shadow: 0 0 15px rgba(191,147,91,0.5); }
+    .ad09 .zone2 { z-index: 5; top: 220px; bottom: 250px; }
+    .ad09 .zone2 img { filter: drop-shadow(0 30px 50px rgba(0,0,0,0.9)); transform: scale(1.15); }
+    .ad09 .receipt { position: absolute; bottom: 100px; left: 50px; background: var(--cream); padding: 25px 35px; border-left: 8px dashed var(--brown); z-index: 6; transform: rotate(-4deg); box-shadow: 15px 15px 30px rgba(0,0,0,0.6); }
+    .ad09 .item-name { color: var(--brown); font-family: var(--font-display); font-size: 20px; font-weight: 800; text-transform: uppercase; border-bottom: 3px solid var(--brown); padding-bottom: 8px; margin-bottom: 8px; }
+    .ad09 .price { color: var(--brown); font-family: var(--font-hero); font-size: 100px; line-height: 0.8; }
+    .ad09 .footer { position: absolute; bottom: 50px; width: 100%; text-align: center; color: var(--ochre); font-family: var(--font-display); font-size: 15px; letter-spacing: 2px; font-weight: 700; z-index: 4; }
+
+    /* AD 10 */
+    .ad10 { background: var(--cream); }
+    .ad10 .blob-shape { position: absolute; top: 150px; right: -150px; width: 700px; height: 800px; background: var(--ochre); border-radius: 40%; transform: rotate(15deg); opacity: 0.25; z-index: 0; }
+    .ad10 .blob-shape2 { position: absolute; bottom: -100px; left: -100px; width: 400px; height: 400px; background: var(--brown); border-radius: 35%; transform: rotate(-15deg); opacity: 0.08; z-index: 0; }
+    .ad10 .title-box { position: absolute; top: 80px; left: 40px; z-index: 4; border-left: 10px solid var(--brown); padding-left: 25px; }
+    .ad10 .title1 { color: var(--brown); font-family: var(--font-hero); font-size: 85px; line-height: 0.9; letter-spacing: -2px; }
+    .ad10 .title2 { color: var(--ochre); font-family: var(--font-script); font-size: 75px; line-height: 0.8; margin-left: 20px; margin-top: 10px; }
+    .ad10 .zone2 { z-index: 5; top: 280px; bottom: 220px; }
+    .ad10 .zone2 img { filter: drop-shadow(0 25px 35px rgba(92,65,41,0.3)); transform: scale(1.1); }
+    .ad10 .price-circle { position: absolute; bottom: 200px; right: 40px; z-index: 6; display: flex; align-items: center; justify-content: center; width: 180px; height: 180px; }
+    .ad10 .price-circle .val { color: var(--brown); font-family: var(--font-hero); font-size: 110px; position: relative; z-index: 2; line-height: 0.8; }
+    .ad10 .price-circle svg { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 220px; height: 220px; z-index: 1; }
+    .ad10 .price-circle circle { stroke: var(--ochre); stroke-width: 6; fill: none; stroke-dasharray: 40 10; }
+    .ad10 .bottom-info { position: absolute; bottom: 60px; left: 40px; z-index: 4; }
+    .ad10 .item-name { color: var(--brown); font-family: var(--font-display); font-size: 28px; font-weight: 800; margin-bottom: 20px; width: 300px; line-height: 1.1; text-transform: uppercase; }
+    .ad10 .pill { display: inline-block; background: var(--brown); color: var(--cream); font-family: var(--font-display); font-weight: 700; padding: 16px 40px; border-radius: 40px; letter-spacing: 1px; font-size: 18px; box-shadow: 0 10px 20px rgba(92,65,41,0.3); }
+
+    .controls { display: flex; align-items: center; gap: 20px; }
+    button { background: var(--ochre); color: var(--brown); border: none; padding: 12px 24px; font-family: var(--font-display); font-weight: 700; font-size: 14px; border-radius: 4px; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; }
+    button:hover { background: var(--cream); }
+    .dots { display: flex; gap: 8px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.2); cursor: pointer; }
+    .dot.active { background: var(--ochre); }
+    #downloadLabel { color: var(--cream); font-family: monospace; font-size: 12px; opacity: 0.6; }
+  </style>
+</head>
+<body>
+  <div class="header-bar">
+    <h1>CLG Canteen — 9:16 Creatives</h1>
+    <div id="counter">Ad 1 of 10</div>
+  </div>
+
+  <div class="ad-viewer">
+    <div class="ad-wrapper">
+      <div class="ad-track" id="adTrack">
+        
+        <!-- Ad 01 -->
+        <div class="ad ad01">
+          <div class="vignette"></div>
+          <div class="zone1">
+            <div class="badge">🔥 BESTSELLER</div>
+            <div class="title">THE ONE<br>EVERYONE<br>ORDERS FIRST</div>
+          </div>
+          <div class="zone2"><img src="./images/Bengali Breakfast Combo (Transparent).png" alt="Breakfast"></div>
+          <div class="zone3">
+            <div class="item-name">BENGALI BREAKFAST COMBO</div>
+            <div class="price">₹79</div>
+            <div class="strip">ORDER NOW <span>·</span> clgcanteen.com</div>
+          </div>
+        </div>
+
+        <!-- Ad 02 -->
+        <div class="ad ad02">
+          <div class="bg-text-vertical left">CRAVING</div>
+          <div class="bg-text-vertical right">CRAVING</div>
+          <div class="logo-container">
+            <div class="brand-wordmark">CLG <span>CANTEEN</span></div>
+          </div>
+          <div class="title">YOUR 6 PM<br>CRAVING<br>JUST CALLED.</div>
+          <div class="zone2"><img src="./images/Egg Chicken Maggi (transparent).png" alt="Maggi"></div>
+          <div class="bottom-panel">
+            <div class="left-col">
+              <div class="item-name">EGG CHICKEN<br>MAGGI</div>
+              <div class="cta-row">
+                ORDER NOW 
+                <svg viewBox="0 0 30 12" fill="currentColor" width="30"><path d="M24 1L29 6M29 6L24 11M29 6H0" stroke="currentColor" stroke-width="2"/></svg>
+              </div>
+            </div>
+            <div class="price-block"><span>₹</span>89</div>
+          </div>
+        </div>
+
+        <!-- Ad 03 -->
+        <div class="ad ad03">
+          <div class="line-pattern"></div>
+          <div class="circle-bg"></div>
+          <div class="zone1">
+            <div class="title1">CAFÉ QUALITY.</div>
+            <div class="title2">DELIVERY PRICE.</div>
+          </div>
+          <div class="zone2"><img src="./images/White Sauce Pasta (transparent).png" alt="Pasta"></div>
+          <div class="bottom-card">
+            <div class="left-col">
+              <div class="item-name">WHITE SAUCE PASTA</div>
+              <div class="pill">ORDER ON OUR APP</div>
+            </div>
+            <div class="price"><span>₹</span>109</div>
+          </div>
+        </div>
+
+        <!-- Ad 04 -->
+        <div class="ad ad04">
+          <div class="bg-shape"></div>
+          <div class="bg-text-horizontal">REAL CHICKEN</div>
+          <div class="sticker sticker1">REAL CHICKEN.</div>
+          <div class="sticker sticker2">REAL DEAL.</div>
+          <div class="zone2"><img src="./images/Chicken Sandwich (transparent).png" alt="Sandwich"></div>
+          <div class="price-badge">
+            <div class="val">₹79</div>
+          </div>
+          <div class="bottom-bar">
+            <div class="item-name">CHICKEN SANDWICH</div>
+            <div class="cta">GET IT DELIVERED TODAY</div>
+          </div>
+        </div>
+
+        <!-- Ad 05 -->
+        <div class="ad ad05">
+          <div class="repeat-text">
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+            <div>NOODLES NOODLES</div>
+          </div>
+          <div class="zone1">
+            <div class="title1">THE NOODLE BOWL</div>
+            <div class="title2">MALDA RUNS ON</div>
+          </div>
+          <div class="zone2"><img src="./images/Mix Noodles (transparent).png" alt="Noodles"></div>
+          <div class="zone3">
+            <div class="item-name">MIX NOODLES</div>
+            <div class="price">₹149</div>
+            <div class="strip">ORDER NOW</div>
+          </div>
+        </div>
+
+        <!-- Ad 06 -->
+        <div class="ad ad06">
+          <div class="pattern"></div>
+          <div class="chat-bubble bubble1">WAIT.</div>
+          <div class="chat-bubble bubble2">THIS IS JUST—</div>
+          <div class="zone2"><img src="./images/Veggie Maggi (transparent).png" alt="Maggi"></div>
+          <div class="huge-price">₹39</div>
+          <div class="ticker">
+            <div class="ticker-track">
+              VEGGIE MAGGI • YES, REALLY. ORDER NOW &rarr; CLGCANTEEN.COM &nbsp;&nbsp;&nbsp; VEGGIE MAGGI • YES, REALLY. ORDER NOW &rarr; CLGCANTEEN.COM &nbsp;&nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+
+        <!-- Ad 07 -->
+        <div class="ad ad07">
+          <div class="sunburst"></div>
+          <div class="arch"></div>
+          <div class="title-top">
+            <div class="title1">YOUR MORNING.</div>
+            <div class="title2">YOUR WAY.</div>
+          </div>
+          <div class="zone2"><img src="./images/Cafe Special Dosa (transparent).png" alt="Dosa"></div>
+          <div class="info-card">
+            <div class="item-name">CAFE SPECIAL DOSA</div>
+            <div class="price">₹69</div>
+            <div class="pill">ORDER BREAKFAST DELIVERY</div>
+          </div>
+        </div>
+
+        <!-- Ad 08 -->
+        <div class="ad ad08">
+          <div class="split-bg"></div>
+          <div class="zone1">
+            <div class="title1">HUNGRY OR<br>JUST BORED?</div>
+            <div class="title2">EITHER WAY—</div>
+          </div>
+          <div class="zone2"><img src="./images/Red Sauce Pasta (transparent).png" alt="Pasta"></div>
+          <div class="bottom-box">
+            <div class="left-text">
+              <div class="item-name">RED SAUCE PASTA</div>
+              <div class="strip2">clgcanteen.com</div>
+            </div>
+            <div class="price">₹99</div>
+          </div>
+        </div>
+
+        <!-- Ad 09 -->
+        <div class="ad ad09">
+          <div class="neon-box"></div>
+          <div class="blob"></div>
+          <div class="title-container">
+            <div class="title1">SKIP THE KITCHEN.</div>
+            <div class="title2">NOT THE BREAKFAST.</div>
+          </div>
+          <div class="zone2"><img src="./images/Egg Toast Combo (transparent).png" alt="Toast"></div>
+          <div class="receipt">
+            <div class="item-name">EGG TOAST COMBO</div>
+            <div class="price">₹69</div>
+          </div>
+          <div class="footer">READY FOR TAKEAWAY IN MINUTES</div>
+        </div>
+
+        <!-- Ad 10 -->
+        <div class="ad ad10">
+          <div class="blob-shape"></div>
+          <div class="blob-shape2"></div>
+          <div class="title-box">
+            <div class="title1">EAT SMART.</div>
+            <div class="title2">PAY LESS.</div>
+          </div>
+          <div class="zone2"><img src="./images/Healthy Oats Bowl(transparent).png" alt="Oats"></div>
+          <div class="price-circle">
+            <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="45"/></svg>
+            <div class="val">₹59</div>
+          </div>
+          <div class="bottom-info">
+            <div class="item-name">HEALTHY OATS BOWL</div>
+            <div class="pill">ORDER NOW</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="btnPrev">&larr; Prev</button>
+      <div class="dots" id="adDots"></div>
+      <button id="btnNext">Next &rarr;</button>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+      <button id="downloadBtn" style="background: #22a745; color: #fff;">&darr; Download This Ad as PNG</button>
+      <div id="downloadLabel">ad_creative_9x16_01.png</div>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const totalSlides = 10;
+    const track = document.getElementById('adTrack');
+    const dotsContainer = document.getElementById('adDots');
+    const counter = document.getElementById('counter');
+    const downloadLabel = document.getElementById('downloadLabel');
+
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement('div');
+      dot.className = `dot ${i === 0 ? 'active' : ''}`;
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    }
+    const dots = document.querySelectorAll('.dot');
+
+    function goToSlide(index) {
+      if (index < 0 || index >= totalSlides) return;
+      currentSlide = index;
+      track.style.transform = `translateX(-${currentSlide * 540}px)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+      counter.textContent = `Ad ${currentSlide + 1} of 10`;
+      downloadLabel.textContent = `ad_creative_9x16_${String(currentSlide + 1).padStart(2, '0')}.png`;
+    }
+
+    document.getElementById('btnPrev').onclick = () => goToSlide(currentSlide - 1);
+    document.getElementById('btnNext').onclick = () => goToSlide(currentSlide + 1);
+
+    document.getElementById('downloadBtn').onclick = () => {
+      const btn = document.getElementById('downloadBtn');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = 'Rendering...';
+      btn.style.opacity = '0.7';
+      
+      const slideElement = document.querySelectorAll('.ad')[currentSlide];
+      
+      html2canvas(slideElement, { 
+        scale: 2,
+        useCORS: true,
+        backgroundColor: null
+      }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = downloadLabel.textContent;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        
+        btn.innerHTML = originalText;
+        btn.style.opacity = '1';
+      }).catch(err => {
+        console.error('Export failed:', err);
+        btn.innerHTML = 'Export Failed';
+        setTimeout(() => { btn.innerHTML = originalText; btn.style.opacity = '1'; }, 2000);
+      });
+    };
+  </script>
+</body>
+</html>

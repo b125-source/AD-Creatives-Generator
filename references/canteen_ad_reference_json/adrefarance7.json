@@ -1,0 +1,98 @@
+{
+  "ad_creatives_analysis": {
+    "brand_name": "toing",
+    "campaign_theme": "Value Proposition & Guarantees",
+    "total_ads_analyzed": 5,
+    "overall_design_system": {
+      "style": "Retro-Pop / Gen-Z Maximalism",
+      "design_language": {
+        "aesthetic": "High-energy, bold, and youthful. It utilizes a 'collage' aesthetic that mixes high-quality food photography with flat, 2D graphic elements like starbursts, tape stickers, and checkerboard patterns.",
+        "mood": "Exciting, affordable, accessible, and fun. It avoids the 'premium/luxury' food look in favor of a 'street food/quick bite' vibe.",
+        "visual_approach": "Framed content. Most ads use a solid dark background or a pink border to frame a central 'stage' where the food is presented against a checkerboard pattern."
+      },
+      "color_logic": {
+        "primary_background": "Deep Forest Green (#004d00 approx) - Used as the base canvas. Suggests freshness but also serves as a high-contrast backdrop for the neon accents.",
+        "pattern_background": "Dark/Light Green Checkerboard - Used inside the main content area. Adds texture, depth, and a retro gaming/90s vibe.",
+        "accent_color_1": "Hot Pink / Magenta (#ff00cc approx) - Used for borders, the logo, and header bars. Creates a vibrating contrast against the green. Signals energy and youth.",
+        "accent_color_2": "Lime Green / Neon Green (#ccff00 approx) - Used for starbursts, sticker backgrounds, and highlight text. Signals 'freshness', 'go', and draws the eye to key details.",
+        "text_color": "White (for main headlines on dark backgrounds) and Black (for text on lime green stickers).",
+        "color_psychology": "The Green/Pink/Lime triad is unusual for food (which usually uses Red/Orange/Yellow). This distinct palette makes the brand instantly recognizable and separates it from traditional competitors."
+      },
+      "typography": {
+        "logo_font": "Custom, lowercase, italicized, bold sans-serif with a futuristic/tech feel. The underline suggests speed or movement.",
+        "headline_font": "Bold, condensed sans-serif (likely Impact or similar). All caps for authority and readability. Used for the 'Guarantees' and 'Offers'.",
+        "sticker_font": "Handwritten / Marker style (e.g., Permanent Marker font). Adds a human, informal, 'street' touch. Used for taglines.",
+        "hierarchy": "Logo -> Main Promise ('Lowest Price' / 'Free Delivery') -> Food Image -> Informal Tagline (Sticker)."
+      },
+      "graphic_elements": {
+        "framing": "Thick hot pink borders or rounded rectangles surrounding the main content area.",
+        "starburst": "Lime green explosion shape with pink outline. A recurring motif used to highlight the product or add dynamic energy behind the food.",
+        "stickers": "Rectangular lime green shapes with slight rotation and drop shadows, resembling sticky notes, tape labels, or price tags.",
+        "dotted_lines": "Used in Ad 5 to circle the plate, adding a 'cutout' or 'scrapbook' feel."
+      }
+    },
+    "ads": [
+      {
+        "ad_id": 1,
+        "product": "Noodles / Momos",
+        "format": "Square / Portrait",
+        "layout_specifics": {
+          "image_placement": "Center/Bottom. A white bowl dominates the lower half. Chopsticks lifting noodles creates a vertical line drawing the eye up.",
+          "text_placement": "Top Left: Brand logo and main headline ('Lowest price guaranteed...'). Bottom Right: Sticker tagline.",
+          "graphic_placement": "Large starburst behind the left side of the bowl. Small pink geometric shards near the chopsticks."
+        },
+        "message_delivery": "Focuses on the action of eating ('Slurps up') vs. the financial benefit ('costs down'). The vertical lift of the noodles suggests abundance."
+      },
+      {
+        "ad_id": 2,
+        "product": "Pizza",
+        "format": "Landscape / Horizontal",
+        "layout_specifics": {
+          "image_placement": "Right-aligned. A whole pizza with a hand pulling a slice from the right edge. The cheese pull adds dynamic movement.",
+          "text_placement": "Left Center: Large bold text ('FREE DELIVERY...'). Bottom Right: Sticker tagline.",
+          "graphic_placement": "Starburst behind the bottom left of the pizza. Pink border frames the whole image."
+        },
+        "message_delivery": "Split composition. Left side is rational (text about fees), Right side is emotional (appetizing pizza). Balances logic and desire."
+      },
+      {
+        "ad_id": 3,
+        "product": "Burger",
+        "format": "Vertical / Story",
+        "layout_specifics": {
+          "image_placement": "Center. Two hands holding a large burger. The hands frame the product, emphasizing portion size and making it feel personal/tactile.",
+          "text_placement": "Top Center: Logo. Below Logo: Offer text ('Free Delivery...'). Left Middle: Sticker tagline.",
+          "graphic_placement": "Starburst behind the burger. Pink border frames the whole image."
+        },
+        "message_delivery": "The hands imply 'grab and go'. The text is centered for mobile readability. Connects 'Great Burgers' directly to 'Great Value'."
+      },
+      {
+        "ad_id": 4,
+        "product": "Pizza",
+        "format": "Vertical / Story",
+        "layout_specifics": {
+          "image_placement": "Center. Similar to Ad 2 but cropped for vertical. The hand pulling the slice is prominent.",
+          "text_placement": "Top Center: Logo. Below Logo: Offer text. Bottom Center: Sticker tagline.",
+          "graphic_placement": "Starburst on the left. Pink border frames the whole image."
+        },
+        "message_delivery": "Reiteration of the 'Free Delivery' offer. The vertical format optimizes the pizza image to fill the screen width."
+      },
+      {
+        "ad_id": 5,
+        "product": "Dosa",
+        "format": "Square / Landscape",
+        "layout_specifics": {
+          "image_placement": "Center. A wooden plate with Dosa and chutneys. Top-down view (flat lay).",
+          "text_placement": "Top Header: White text on a solid Pink bar ('LOWEST PRICE GUARANTEED...'). Bottom Left: Logo. Bottom Right: Sticker tagline.",
+          "graphic_placement": "Starburst top left. Dotted white line circling the plate."
+        },
+        "message_delivery": "The pink header bar acts as a 'banner' announcement. The wooden plate and banana leaf suggest authenticity/tradition, while the graphics keep it modern."
+      }
+    ],
+    "strategic_summary": {
+      "visual_hook": "The neon green and hot pink against dark green is a unique 'ownable asset'. It stands out in a feed dominated by red/orange food ads (like Swiggy/Zomato).",
+      "value_proposition": "The design screams 'Discount' without looking 'Cheap'. The retro-pop style makes the low price feel like a cool trend rather than a clearance sale.",
+      "consistency": "Highly templated. The checkerboard background, the pink borders, the starburst, and the 'tape sticker' placement are consistent across all formats, building strong brand recognition.",
+      "photography_style": "Food is shot brightly with high saturation. Often includes human elements (hands, chopsticks) to add scale and relatability."
+    }
+  }
+}

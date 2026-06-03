@@ -1,0 +1,545 @@
+{
+  "ad_creatives_analysis": {
+    "platform": "Facebook",
+    "total_ads_analyzed": 8,
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_title": "Burger Starting at ₹69 — Dark Macro Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark dramatic macro food photography with bold diagonal ribbon price banner",
+          "mood": "Intense, bold, appetite-driven, urgent",
+          "tone": "Direct, aggressive value positioning",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Extreme close-up food hero with diagonal price ribbon slicing across upper frame",
+          "visual_hierarchy": "Diagonal price ribbon upper-center → extreme macro burger dominates 80% of frame → brand name bottom",
+          "composition": "Near full-bleed food photography — burger fills almost entire frame, ribbon overlaid diagonally",
+          "depth": "Very shallow depth of field — burger foreground razor sharp, background completely black bokeh",
+          "border_element": "Diagonal red ribbon/banner with white and yellow typography — cuts across upper third at an angle"
+        },
+        "color_logic": {
+          "primary_background": "Pure black — maximum contrast, theatrical",
+          "accent_colors": [
+            "Zomato red (diagonal ribbon)",
+            "White (primary text on ribbon)",
+            "Yellow/gold (price number on ribbon)",
+            "Golden sesame bun (warm amber)",
+            "Purple/red onion rings",
+            "Bright green lettuce",
+            "Yellow cheese",
+            "Dark charred patty"
+          ],
+          "text_colors": {
+            "ribbon_category_text": "White bold",
+            "price_number": "Yellow/gold — maximum attention",
+            "supporting_text": "White below ribbon",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Black background creates gallery-level drama — red ribbon injects urgency and brand identity — yellow price number is the conversion trigger against the dark field"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif — mixed weights on ribbon",
+          "headline_size": "Price number (₹69) is largest — ribbon text large but constrained to banner width",
+          "supporting_text_style": "Bold sans-serif, smaller, below ribbon",
+          "brand_name_style": "Lowercase Zomato signature font — bottom center",
+          "font_weight_hierarchy": "Price number largest → category word large → supporting text medium → brand name base",
+          "text_case": "All caps on ribbon, lowercase brand"
+        },
+        "text_placement": {
+          "price_ribbon": "Upper third, diagonal left-to-right angle across frame",
+          "supporting_free_delivery_text": "Below ribbon, horizontal, center-aligned",
+          "brand_name": "Bottom center",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Full frame — extreme macro burger, slightly off-center right, filling 80%+ of frame",
+          "background": "Pure black bokeh — no surface visible",
+          "human_element": "None",
+          "image_treatment": "Extreme macro close-up, very shallow DoF, dramatic side lighting making textures pop"
+        },
+        "message_delivery": {
+          "primary_message": "Shockingly low entry price point for burgers",
+          "strategy": "Price shock + appetite overwhelm — the burger's scale and detail triggers hunger before the price seals the deal",
+          "cta_style": "Implicit — brand name at bottom is the action anchor",
+          "urgency_level": "Very high — specific low price with free delivery on first order stacked"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_title": "Burger ₹69 — Warm Pastel Lifestyle Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Warm pastel lifestyle food photography with clean typographic price layout",
+          "mood": "Warm, casual, approachable, everyday, inviting",
+          "tone": "Friendly, accessible, conversational",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Clean pastel background with hand-held product photo and top-aligned text block",
+          "visual_hierarchy": "Brand name top → supporting text → large price → hand-held burger center-lower",
+          "composition": "Top zone text block on clean background → lower zone hand-held food photography",
+          "depth": "Flat pastel background — product photography layered above with natural shadow",
+          "border_element": "Decorative dashes flanking supporting text line — subtle editorial touch"
+        },
+        "color_logic": {
+          "primary_background": "Warm cream/peach/beige — soft, bakery-like warmth",
+          "accent_colors": [
+            "Zomato red (price number — single accent color pop)",
+            "Black (primary text — strong contrast on light background)",
+            "Golden sesame bun (product warm tones)",
+            "Green lettuce, red tomato, yellow cheese (food natural colors)",
+            "Kraft brown paper wrapping"
+          ],
+          "text_colors": {
+            "brand_name": "Black Zomato lowercase — top center",
+            "supporting_text": "Black medium weight",
+            "price_number": "Zomato red — only color break in otherwise monochrome text block"
+          },
+          "color_emotion": "Warm cream background creates comfort and approachability — single red price number creates visual tension that draws the eye immediately to the value offer"
+        },
+        "typography": {
+          "headline_font_style": "Bold wide sans-serif — heavy weight for price, lighter for supporting",
+          "headline_size": "JUST ₹69 is very large — takes up significant upper frame space",
+          "supporting_text_style": "Medium weight sans-serif, sentence case with decorative dashes",
+          "brand_name_style": "Lowercase Zomato signature — top center, small",
+          "font_weight_hierarchy": "Price number largest → JUST large → supporting text small → brand name small",
+          "text_case": "Mixed — uppercase JUST, rupee symbol mixed, lowercase brand"
+        },
+        "text_placement": {
+          "brand_name": "Top center",
+          "supporting_text": "Below brand name, center-aligned with decorative dashes",
+          "price_callout": "Center-upper — JUST ₹69 dominates",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center to lower frame — hand holding burger wrapped in kraft paper, slightly angled",
+          "background": "Flat warm cream/peach — no texture, no gradient",
+          "human_element": "Partial hand visible holding product from below center",
+          "image_treatment": "Clean lifestyle shot — hand-held for intimacy and scale, natural warm lighting"
+        },
+        "message_delivery": {
+          "primary_message": "Accessible entry price for burgers — everyday affordability",
+          "strategy": "Warm aesthetic removes fast-food stigma — positions Zomato burgers as casual everyday choice rather than guilty indulgence",
+          "cta_style": "Implicit — brand name at top, no explicit order button",
+          "urgency_level": "Medium — price is compelling but warm aesthetic doesn't push hard urgency"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_title": "Burger ₹69 — Dark Side-Angle with Chips Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark dramatic food photography with bold white text overlay and side-angle hero shot",
+          "mood": "Bold, appetizing, dramatic, indulgent",
+          "tone": "Confident, direct, value-assertive",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Near full-bleed food photography — text overlaid top-left, product fills right-center, brand name mid-right",
+          "visual_hierarchy": "Text block top-left → burger center → chips foreground-right → Zomato brand mid-right",
+          "composition": "Diagonal composition — text occupies upper-left triangle, food occupies lower-right triangle",
+          "depth": "Strong depth — burger mid-ground sharp, chips extreme foreground creating layered depth, background dark blur",
+          "border_element": "None — completely open layout"
+        },
+        "color_logic": {
+          "primary_background": "Near black with warm dark vignette — dramatic kitchen/restaurant mood",
+          "accent_colors": [
+            "Golden sesame bun (warm amber — primary food color)",
+            "Orange/yellow melted cheese",
+            "Red tomato layers",
+            "Green lettuce",
+            "Golden potato chips (foreground)"
+          ],
+          "text_colors": {
+            "headline": "Pure white — bold, maximum contrast on black",
+            "price_number": "Pure white — same weight as headline",
+            "brand_name": "White Zomato lowercase — mid-right"
+          },
+          "color_emotion": "All-black environment makes every food color pop with maximum saturation — white text reads cleanly against dark — golden food tones create warmth and appetite within the dramatic composition"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif, all caps — very aggressive weight",
+          "headline_size": "Very large — GET BURGERS and ₹69 both compete for dominance",
+          "supporting_text_style": "Smaller legal text only",
+          "brand_name_style": "Lowercase Zomato signature — placed mid-right within food zone",
+          "font_weight_hierarchy": "Headline and price equal large → brand name small",
+          "text_case": "All caps for headline, lowercase brand"
+        },
+        "text_placement": {
+          "primary_headline": "Upper left quadrant — stacked (GET BURGERS / STARTING AT / ₹69)",
+          "brand_name": "Center-right, within the food image zone",
+          "legal_text": "Bottom right corner, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center-right dominant — burger at eye level, slightly right of center",
+          "secondary_product": "Potato chips scattered in extreme foreground, lower right — adds depth and abundance",
+          "background": "Dark near-black with warm vignette",
+          "human_element": "None",
+          "image_treatment": "Eye-level shot, dramatic side lighting, extreme foreground chips create cinematic depth layers"
+        },
+        "message_delivery": {
+          "primary_message": "Low price point for burgers — abundance and value",
+          "strategy": "Cinematic food drama creates premium perception — the price then creates a powerful contrast between quality look and low cost",
+          "cta_style": "Implicit — Zomato brand name embedded in food zone",
+          "urgency_level": "High — specific low price with dramatic visual treatment"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_title": "60% Off Wraps — Gaming Context Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark moody food photography with gaming lifestyle context props and witty copy",
+          "mood": "Cool, playful, relatable, lifestyle-embedded, indulgent",
+          "tone": "Witty, conversational, culturally relevant (gaming culture)",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Contextual lifestyle scene — food styled on gaming table with controller props, text overlaid upper and lower",
+          "visual_hierarchy": "Discount text upper-center → food hero center → witty copy lower-left → brand badge lower-left",
+          "composition": "Immersive scene photography — food and props fill frame, text floats in open dark zones",
+          "depth": "Strong depth — game controller extreme foreground blurred, slate board with food sharp mid-ground, blurred background with more gaming props",
+          "border_element": "Decorative thin horizontal lines flanking 'UP TO' text — subtle divider element"
+        },
+        "color_logic": {
+          "primary_background": "Very dark brown/black — moody gaming room ambiance",
+          "accent_colors": [
+            "Magenta/hot pink (wrap outer layer — dominant bold accent)",
+            "Bright green and orange (paneer and vegetables inside wrap)",
+            "White dipping sauce",
+            "Green chutney (background bowl)",
+            "Blue and red game controller (blurred foreground)"
+          ],
+          "text_colors": {
+            "discount_headline": "Pure white — bold and large",
+            "witty_copy": "Zomato red on white pill/badge",
+            "brand_badge": "White Zomato on red pill"
+          },
+          "color_emotion": "Dark background creates gaming-den atmosphere — the hot pink wraps are a jarring, scroll-stopping color contrast that immediately draws the eye into an otherwise dark frame"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif, all caps",
+          "headline_size": "60% OFF very large — dominates upper frame",
+          "supporting_text_style": "Bold sans-serif for +FREE DELIVERY",
+          "witty_copy_style": "Medium sans-serif, sentence case — more conversational weight",
+          "brand_name_style": "Lowercase Zomato on red pill badge",
+          "font_weight_hierarchy": "60% OFF largest → +FREE DELIVERY large → witty copy medium → brand badge small",
+          "text_case": "All caps discount, sentence case witty copy, lowercase brand"
+        },
+        "text_placement": {
+          "discount_headline": "Upper center with decorative line dividers around UP TO",
+          "supporting_delivery_text": "Directly below discount, center-aligned",
+          "witty_copy": "Lower left, above brand badge",
+          "brand_badge": "Lower left, red pill with white Zomato text",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — two pink wraps on dark slate board with white dipping sauce",
+          "prop_elements": "Game controller blurred extreme foreground (right), additional gaming items blurred background (left)",
+          "background": "Dark brown/black moody table surface with gaming props",
+          "human_element": "None",
+          "image_treatment": "Styled lifestyle scene — food presented as part of gaming session context, selective focus on food"
+        },
+        "message_delivery": {
+          "primary_message": "Discount offer targeted at gaming/work-from-home audience",
+          "strategy": "Context embedding — by placing food in a gaming scene, Zomato targets a specific lifestyle tribe and makes the food feel naturally belonging to their environment",
+          "cta_style": "Brand badge with witty copy serves as soft CTA",
+          "urgency_level": "High — 60% off + free delivery stacked, but delivery is softened by playful tone"
+        }
+      },
+      {
+        "ad_id": 5,
+        "ad_title": "₹120 Off Pizza — Horizontal Banner Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Bold horizontal banner ad with dark green gradient and full-bleed pizza photography",
+          "mood": "Bold, urgent, high-energy, direct",
+          "tone": "Loud, promotional, conversion-focused",
+          "format": "Landscape/Banner format (approximately 16:7 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark green upper zone for text, pizza bleeds from center upward, red Zomato branding strip at very bottom",
+          "visual_hierarchy": "Discount text top-center → pizza bleeds upward filling center → red Zomato strip bottom",
+          "composition": "Three-zone horizontal: dark green text header → pizza center → red brand footer strip",
+          "depth": "Pizza appears to rise from below into the text zone — creates upward energy and motion",
+          "border_element": "Solid Zomato red footer strip at bottom — full width brand anchor; red highlight box behind 'ON YOUR FIRST ORDER' text"
+        },
+        "color_logic": {
+          "primary_background": "Dark forest green gradient — upper zone (premium, Italian restaurant feel)",
+          "accent_colors": [
+            "Zomato red (bottom strip and text highlight box)",
+            "White (primary discount typography)",
+            "Red pizza sauce",
+            "Green bell peppers",
+            "Black olives",
+            "Yellow/orange melted cheese",
+            "Red tomatoes"
+          ],
+          "text_colors": {
+            "discount_headline": "White — very large, maximum contrast on green",
+            "highlight_box_text": "White on red box",
+            "brand_name": "White Zomato on red strip"
+          },
+          "color_emotion": "Dark green creates Italian/premium food brand feel — red strip at bottom grounds the Zomato brand identity — white text pops with maximum contrast"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif, all caps — very large",
+          "headline_size": "₹120 OFF is the dominant text element across upper zone",
+          "supporting_text_style": "Bold sans-serif, smaller, inside red highlight box",
+          "brand_name_style": "Lowercase Zomato in white on red footer strip",
+          "font_weight_hierarchy": "Discount amount largest → OFF large → condition text medium in box → brand name medium",
+          "text_case": "All caps throughout, lowercase brand"
+        },
+        "text_placement": {
+          "discount_headline": "Upper zone, center-aligned — ₹120 OFF dominates",
+          "condition_text": "Below discount, inside red highlight box, center-aligned",
+          "brand_name": "Bottom red strip, center-aligned",
+          "legal_text": "Right edge of red strip, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center of frame — large pizza, overhead slightly angled, bleeding upward into text zone",
+          "background": "Dark green gradient upper, pizza fills center, red strip footer",
+          "human_element": "None",
+          "image_treatment": "Overhead shot, pizza slightly angled, no visible surface — pizza appears to float upward"
+        },
+        "message_delivery": {
+          "primary_message": "Fixed rupee discount on first order — harder number than percentage",
+          "strategy": "Rupee amount (₹120) feels more tangible and real than percentage — green creates Italian food credibility, red Zomato strip reinforces brand",
+          "cta_style": "Implicit — brand strip at bottom",
+          "urgency_level": "Very high — specific rupee discount on first order"
+        }
+      },
+      {
+        "ad_id": 6,
+        "ad_title": "Meals Under ₹250 Wrap — Speech Bubble Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Warm rustic food photography with speech bubble text overlay and stamp-style badge",
+          "mood": "Warm, honest, rustic, value-conscious, approachable",
+          "tone": "Conversational, straightforward, friendly",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Warm wooden background food photography — text presented in speech bubble and stamp badge overlaid on image",
+          "visual_hierarchy": "Speech bubble text top-left → wraps center → stamp badge overlaid center-right → brand name bottom",
+          "composition": "Food centers the frame, text elements (bubble and badge) float organically over the food like physical labels",
+          "depth": "Shallow depth — wooden surface visible, wraps sharp, background dark blur",
+          "border_element": "Speech bubble shape for headline text (white with tail pointing down); square stamp/badge shape for free delivery callout (dark outline on white)"
+        },
+        "color_logic": {
+          "primary_background": "Warm dark brown wooden surface — rustic, artisanal",
+          "accent_colors": [
+            "White (speech bubble background and stamp badge)",
+            "Black (text within both graphic elements)",
+            "Green lettuce (bright fresh accent)",
+            "Red tomatoes",
+            "Orange carrots",
+            "White wrap/tortilla",
+            "Cream/beige wrap surface"
+          ],
+          "text_colors": {
+            "speech_bubble_text": "Black on white bubble — high contrast, clean",
+            "stamp_badge_text": "Black on white square badge",
+            "brand_name": "White Zomato lowercase — bottom center"
+          },
+          "color_emotion": "Warm wood background creates homemade, trustworthy, artisanal feeling — white speech bubble and stamp feel like handwritten notes or physical price tags, reinforcing authenticity and value"
+        },
+        "typography": {
+          "headline_font_style": "Bold condensed sans-serif inside speech bubble, mixed weights",
+          "headline_size": "Price (₹250) is the largest text in the bubble",
+          "supporting_text_style": "Bold sans-serif inside stamp badge",
+          "brand_name_style": "Lowercase Zomato signature — bottom center",
+          "font_weight_hierarchy": "Price number largest → headline text large → badge text medium → brand name small",
+          "text_case": "Mixed case inside bubble, all caps in badge, lowercase brand"
+        },
+        "text_placement": {
+          "speech_bubble": "Upper left, overlapping food — tail pointing toward food",
+          "stamp_badge": "Center-right, overlapping wrap — positioned on the food itself",
+          "brand_name": "Bottom center — in open dark zone below food",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — two wraps sliced and displayed on wooden board, angled slightly",
+          "background": "Dark warm brown wood surface",
+          "human_element": "None",
+          "image_treatment": "Eye-level close shot, warm natural lighting, cross-section of wrap visible showing ingredients"
+        },
+        "message_delivery": {
+          "primary_message": "Affordable meal price ceiling — reassurance for budget-conscious ordering",
+          "strategy": "Speech bubble humanizes the message — feels like a friend telling you about a deal rather than corporate advertising; stamp badge adds physical/tangible credibility",
+          "cta_style": "Implicit — brand name at bottom",
+          "urgency_level": "Medium — price ceiling offer without time pressure"
+        }
+      },
+      {
+        "ad_id": 7,
+        "ad_title": "Got Ingredients Not Time — Pizza Dark Green Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark green premium food photography with witty headline and tilted discount badge",
+          "mood": "Smart, witty, premium, lifestyle-aware, aspirational",
+          "tone": "Clever, conversational, self-aware, modern",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark green background — bold witty headline upper-left, premium pizza center, tilted badge overlay center-right, CTA bottom",
+          "visual_hierarchy": "Witty headline upper-left → tilted discount badge center-right → pizza center → CTA bottom",
+          "composition": "Left-weighted text upper zone, centered pizza, badge creates dynamic diagonal tension",
+          "depth": "Pizza on wooden board with dark surface — minimal background detail, focus entirely on product",
+          "border_element": "Tilted/rotated rectangular badge for discount — diagonal angle creates dynamic energy; small diamond shapes at top corners as decorative frame elements"
+        },
+        "color_logic": {
+          "primary_background": "Dark forest green — premium, Italian restaurant ambiance",
+          "accent_colors": [
+            "Yellow/bright (discount badge background — maximum contrast pop)",
+            "Black (badge text)",
+            "White (headline and CTA text)",
+            "Yellow/gold (CTA text accent — ORDER ON in yellow)",
+            "Red tomato sauce on pizza",
+            "Green fresh basil",
+            "Cream mozzarella",
+            "Golden-brown crust"
+          ],
+          "text_colors": {
+            "headline": "White — large, bold on dark green",
+            "badge_text": "Black on bright yellow badge",
+            "cta_text": "Mixed — ORDER ON in yellow, zomato in white",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Deep green creates sophistication and Italian food credibility — yellow badge creates jarring attention-pop against the dark green — the contrast is intentional and scroll-stopping"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif, all caps — very commanding",
+          "headline_size": "Very large — takes up entire upper-left quadrant across 3 lines",
+          "supporting_text_style": "Bold condensed sans-serif on yellow badge",
+          "cta_style_text": "Bold sans-serif, bottom — mixed yellow and white coloring",
+          "brand_name_style": "Lowercase Zomato signature",
+          "font_weight_hierarchy": "Headline largest → badge text large → CTA medium → brand name medium",
+          "text_case": "All caps headline and badge, mixed case CTA, lowercase brand"
+        },
+        "text_placement": {
+          "headline": "Upper left — large, stacked 3 lines",
+          "discount_badge": "Center right — tilted approximately 15 degrees, overlapping pizza zone",
+          "cta_text": "Bottom center — ORDER ON zomato",
+          "decorative_diamonds": "Top-left and top-right corners — small gold diamond shapes",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — Margherita-style pizza on round wooden board, centered horizontally",
+          "background": "Dark forest green — slightly textured/matte",
+          "human_element": "None",
+          "image_treatment": "Slightly elevated angle, clean studio lighting, pizza styled with fresh basil for premium look"
+        },
+        "message_delivery": {
+          "primary_message": "Convenience positioning — Zomato as the solution for time-poor home cooks",
+          "strategy": "Witty relatable copy creates emotional resonance first — identifies a real pain point (have ingredients, no time) — then positions Zomato as the logical solution before revealing the discount",
+          "cta_style": "Explicit — ORDER ON zomato at bottom",
+          "urgency_level": "High — explicit CTA with 60% off + free delivery stacked"
+        }
+      },
+      {
+        "ad_id": 8,
+        "ad_title": "Order Dinner Too — Pasta Dark Green Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark green premium food photography with witty behavioral nudge headline and tilted badge",
+          "mood": "Smart, premium, witty, aspirational, sophisticated",
+          "tone": "Clever, behavioral-nudge, conversational",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark green background — bold witty headline upper-left, floating pasta plate center, tilted badge overlaid, brand bottom",
+          "visual_hierarchy": "Witty headline upper-left → pasta plate floats center → tilted yellow badge center-right → brand name bottom",
+          "composition": "Matching layout pattern to Ad 7 — consistent design system: upper-left headline, centered food, right-tilted badge, bottom brand",
+          "depth": "Pasta on elegant white scalloped plate floating on dark green surface — clean, editorial",
+          "border_element": "Same tilted rectangular yellow badge as Ad 7 — design system consistency; same decorative gold diamond corner elements"
+        },
+        "color_logic": {
+          "primary_background": "Dark forest green — same as Ad 7 — consistent campaign visual identity",
+          "accent_colors": [
+            "Bright yellow (tilted badge — same as Ad 7)",
+            "Black (badge text)",
+            "White (headline text)",
+            "Orange/tomato red (pasta sauce — warm food accent)",
+            "Green basil garnish",
+            "White scalloped plate (elegant contrast element)"
+          ],
+          "text_colors": {
+            "headline": "White — large and bold on dark green",
+            "badge_text": "Black on yellow badge",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Identical color logic to Ad 7 — dark green premium field, yellow disruptive badge, white clean text — confirms this is a deliberate multi-ad design system/campaign"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif, all caps — same system as Ad 7",
+          "headline_size": "Very large — stacked upper-left, same treatment as Ad 7",
+          "supporting_text_style": "Same bold condensed on yellow badge",
+          "brand_name_style": "Lowercase Zomato signature — bottom center",
+          "font_weight_hierarchy": "Identical to Ad 7 — headline largest → badge large → brand name medium",
+          "text_case": "All caps headline, all caps badge, lowercase brand"
+        },
+        "text_placement": {
+          "headline": "Upper left — large, stacked 2-3 lines with color accent on one word",
+          "discount_badge": "Center right — tilted same angle as Ad 7, overlapping pasta zone",
+          "brand_name": "Bottom center",
+          "decorative_diamonds": "Top-left and top-right corners — same gold diamond shapes as Ad 7",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — pasta in tomato sauce on white scalloped decorative plate, centered",
+          "background": "Dark forest green — same as Ad 7",
+          "human_element": "None",
+          "image_treatment": "Slightly elevated angle, clean studio lighting, garnished with fresh basil — premium editorial styling"
+        },
+        "message_delivery": {
+          "primary_message": "Behavioral nudge — cross-sell dinner while already ordering groceries",
+          "strategy": "Piggybacks on an existing user behavior (grocery ordering) to trigger an additional food order — smart cross-sell framing rather than standalone discount pitch",
+          "cta_style": "Implicit — brand name at bottom, badge discount does the conversion work",
+          "urgency_level": "High — 60% off + free delivery, but delivery softened by clever behavioral copy"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "consistent_zomato_elements": [
+        "Lowercase 'zomato' logotype always present — bottom-center, top-center, or mid-frame",
+        "White as primary text color across all dark-background ads",
+        "Price or discount number always the largest typographic element",
+        "High-quality professionally styled food photography in every ad",
+        "Portrait/vertical format (7 of 8 ads) optimized for mobile Stories",
+        "Dark backgrounds dominate — black, dark maroon, dark green — to maximize food color contrast"
+      ],
+      "campaign_design_systems_identified": [
+        {
+          "system_name": "₹69 Burger Campaign — Multi-Variant",
+          "ads_in_system": [1, 2, 3],
+          "shared_elements": "Same price point (₹69), same product category (burger), three completely different visual approaches — dark macro, warm pastel lifestyle, dark cinematic side-angle — A/B/C testing different creative styles for same offer",
+          "insight": "Zomato tests multiple visual aesthetics for identical offers to identify best-performing creative style per audience segment"
+        },
+        {
+          "system_name": "Dark Green Witty Copy Campaign",
+          "ads_in_system": [7, 8],
+          "shared_elements": "Identical background color (dark forest green), identical badge style (tilted yellow rectangle), identical corner diamond decorations, identical typography system, identical layout grid — only headline copy and food product change",
+          "insight": "Modular template-based design system — same layout shell swaps food product and copy to serve different food categories efficiently"
+        }
+      ],
+      "design_language_summary": "Across these 8 ads, Zomato employs three distinct visual aesthetics: (1) Dark dramatic food macro photography (black/dark backgrounds) for maximum appetite impact; (2) Warm pastel lifestyle photography for approachable everyday positioning; (3) Dark green premium editorial style for witty campaign copy. The consistent thread is always bold oversized typography for price/discount and high-quality food as the visual hero.",
+      "color_strategy_summary": "Three background color families dominate: pure black (maximum drama/contrast), warm cream/peach (approachable/lifestyle), and dark forest green (premium/Italian/campaign). Food colors — golden bun, saffron yellow, tomato red, fresh green — are always the warm accent palette that provides appetite appeal against cool or dark backgrounds. Yellow appears as a high-contrast badge color in the green campaign system.",
+      "typography_strategy_summary": "Consistent typographic hierarchy: price/discount number always largest element, supporting text medium, brand name always small and lowercase. Two distinct copy tones observed: (1) Direct promotional (GET BURGERS STARTING AT ₹69) and (2) Witty conversational (GOT THE INGREDIENTS, NOT THE TIME?). The witty copy ads use same font system but sentence-case mixed with bold caps for more human feel.",
+      "image_strategy_summary": "Food photography ranges from extreme macro close-ups (Ad 1 — fills entire frame) to clean floating editorial shots (Ad 8 — pasta on white plate). All food is professionally styled. Lifestyle context props (gaming controller — Ad 4, kraft paper wrap — Ad 2, wooden boards) add environmental depth. No human faces — only partial hands where used.",
+      "badge_and_graphic_overlay_patterns": [
+        "Diagonal red ribbon — price across upper frame (Ad 1)",
+        "Decorative dash dividers around subheadline (Ad 2)",
+        "Speech bubble shape for headline (Ad 6)",
+        "Physical stamp/border badge for secondary offer (Ad 6)",
+        "Tilted yellow rectangle badge — repeated design system element (Ads 7 and 8)",
+        "Red highlight box around condition text (Ad 5)",
+        "Decorative gold diamond corner elements (Ads 7 and 8)"
+      ],
+      "message_delivery_strategy": "Three messaging tracks: (1) Pure price shock — specific low number drives immediate impulse (₹69, ₹120, ₹250); (2) Percentage discount — 60% OFF drives first-order acquisition; (3) Behavioral/witty copy — relatability hook first, discount second, drives brand love alongside conversion. All formats optimized for mobile scroll-stop behavior with bold visual hierarchy."
+    }
+  }
+}

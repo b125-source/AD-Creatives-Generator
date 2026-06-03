@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CLG Canteen — 10 Square Feed Ads</title>
+  <link rel="stylesheet" href="https://use.typekit.net/lld6qxp.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    /* ─── RESET & PAGE ─── */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1008;
+      font-family: "poppins", sans-serif;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+    }
+
+    /* ─── BRAND TOKENS ─── */
+    :root {
+      --brown:   #5c4129;
+      --ochre:   #bf935b;
+      --cream:   #fff3e5;
+      --brown-dark: #3d2a18;
+      --ochre-light: #d4a96e;
+
+      --font-hero:    "anton", sans-serif;
+      --font-display: "poppins", sans-serif;
+      --font-round:   "nunito", sans-serif;
+      --font-script:  "pacifico", cursive;
+    }
+
+    /* ─── PAGE LABEL ─── */
+    .page-title {
+      color: var(--cream);
+      font-family: var(--font-round);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      opacity: 0.5;
+    }
+
+    /* ─── AD WRAPPER ─── */
+    .ad-unit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .ad-label {
+      color: var(--ochre);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    /* ─── BASE AD CANVAS ─── */
+    .ad {
+      width: 600px;
+      height: 600px;
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+      border-radius: 4px;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 01 — Bengali Breakfast Combo ₹79
+       Style: Framed Bestseller · Dark Brown
+    ══════════════════════════════════════════ */
+    .ad01 {
+      background: var(--brown);
+    }
+    .ad01 .inner-frame {
+      position: absolute;
+      inset: 12px;
+      border: 2px solid var(--ochre);
+      border-radius: 2px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .ad01 .top-bar {
+      position: absolute;
+      top: 12px; left: 12px; right: 12px;
+      height: 40px;
+      background: var(--ochre);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      z-index: 3;
+    }
+    .ad01 .top-bar span {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad01 .food-img {
+      position: absolute;
+      bottom: 88px; left: 50%;
+      transform: translateX(-50%);
+      width: 420px;
+      height: 420px;
+      object-fit: contain;
+      object-position: center bottom;
+      z-index: 1;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.55));
+    }
+    .ad01 .bottom-zone {
+      position: absolute;
+      bottom: 12px; left: 12px; right: 12px;
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      z-index: 3;
+    }
+    .ad01 .bottom-info {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 18px;
+      background: rgba(92,65,41,0.85);
+      border-top: 1px solid rgba(191,147,91,0.3);
+    }
+    .ad01 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      color: var(--cream);
+      text-transform: uppercase;
+    }
+    .ad01 .price {
+      font-family: var(--font-hero);
+      font-size: 52px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+    .ad01 .cta-strip {
+      height: 30px;
+      background: var(--brown-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .ad01 .cta-strip span {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--cream);
+    }
+    .ad01 .cta-strip .dot { color: var(--ochre); font-size: 14px; }
+    .ad01 .vignette {
+      position: absolute;
+      inset: 0; z-index: 1;
+      background: radial-gradient(ellipse at center, transparent 40%, rgba(42,22,8,0.65) 100%);
+    }
+    /* flame badge */
+    .ad01 .flame-badge {
+      position: absolute;
+      top: 60px; right: 24px;
+      width: 64px; height: 64px;
+      background: var(--ochre);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 4;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+    .ad01 .flame-badge .emoji { font-size: 24px; }
+    .ad01 .flame-badge .tag {
+      font-family: var(--font-display);
+      font-size: 7px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--brown);
+      text-align: center;
+      line-height: 1.2;
+    }
+    .ad01 .brand-watermark {
+      position: absolute;
+      bottom: 46px; left: 28px;
+      z-index: 5;
+    }
+    .ad01 .brand-watermark span {
+      font-family: var(--font-script);
+      font-size: 16px;
+      color: rgba(255,243,229,0.25);
+    }
+
+    /* ══════════════════════════════════════════
+       AD 02 — Egg Noodles ₹89
+       Style: Bold Typographic Split — Left text / Right food
+    ══════════════════════════════════════════ */
+    .ad02 {
+      background: var(--brown);
+    }
+    .ad02 .left-half {
+      position: absolute;
+      top: 0; left: 0;
+      width: 48%;
+      height: 100%;
+      background: var(--brown);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 24px 70px 28px;
+      z-index: 2;
+    }
+    .ad02 .word-egg {
+      font-family: var(--font-hero);
+      font-size: 86px;
+      color: var(--cream);
+      line-height: 0.9;
+      letter-spacing: -2px;
+    }
+    .ad02 .word-noodles {
+      font-family: var(--font-hero);
+      font-size: 52px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -1px;
+      margin-top: 4px;
+    }
+    .ad02 .price-big {
+      font-family: var(--font-hero);
+      font-size: 118px;
+      color: var(--ochre);
+      line-height: 0.85;
+      letter-spacing: -4px;
+      margin-top: 8px;
+    }
+    .ad02 .divider-line {
+      width: 100%;
+      height: 2px;
+      background: var(--ochre);
+      margin: 14px 0 0;
+      opacity: 0.5;
+    }
+    .ad02 .right-half {
+      position: absolute;
+      top: 0; right: 0;
+      width: 58%;
+      height: calc(100% - 52px);
+      overflow: hidden;
+      z-index: 1;
+    }
+    .ad02 .right-half img {
+      width: 110%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      filter: drop-shadow(-12px 0 30px rgba(42,22,8,0.7));
+      margin-left: -10%;
+    }
+    .ad02 .bottom-cta {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 52px;
+      background: var(--ochre);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 3;
+    }
+    .ad02 .bottom-cta span {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad02 .bottom-cta .sep { color: var(--brown); opacity: 0.5; }
+    .ad02 .vertical-label {
+      position: absolute;
+      top: 50%; right: 12px;
+      transform: translateY(-50%) rotate(90deg);
+      font-family: var(--font-display);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      color: rgba(255,243,229,0.18);
+      text-transform: uppercase;
+      z-index: 4;
+      white-space: nowrap;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 03 — Paneer Sandwich ₹69
+       Style: Pure Veg Premium · Off White bg
+    ══════════════════════════════════════════ */
+    .ad03 {
+      background: var(--cream);
+    }
+    .ad03 .top-text {
+      position: absolute;
+      top: 28px; left: 0; right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      z-index: 3;
+    }
+    .ad03 .top-headline {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad03 .ochre-rule {
+      width: 80%;
+      height: 2px;
+      background: var(--ochre);
+      border-radius: 1px;
+    }
+    .ad03 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -47%);
+      width: 400px;
+      height: 400px;
+      object-fit: contain;
+      z-index: 1;
+      filter: drop-shadow(0 16px 40px rgba(92,65,41,0.25));
+    }
+    .ad03 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: var(--cream);
+      padding: 0 28px 0;
+      z-index: 3;
+    }
+    .ad03 .ochre-rule-bottom {
+      width: 100%;
+      height: 2px;
+      background: var(--ochre);
+      border-radius: 1px;
+      margin-bottom: 12px;
+    }
+    .ad03 .bottom-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+    .ad03 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad03 .price {
+      font-family: var(--font-hero);
+      font-size: 58px;
+      color: var(--brown);
+      line-height: 1;
+    }
+    .ad03 .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ochre);
+      color: var(--brown);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    .ad03 .veg-badge {
+      position: absolute;
+      top: 28px; right: 28px;
+      width: 28px; height: 28px;
+      border: 2px solid #22a745;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+    }
+    .ad03 .veg-badge::after {
+      content: '';
+      width: 12px; height: 12px;
+      background: #22a745;
+      border-radius: 50%;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 04 — Suji Upma with Tea ₹59
+       Style: Combo Math · Yellow Ochre bg
+    ══════════════════════════════════════════ */
+    .ad04 {
+      background: var(--ochre);
+    }
+    .ad04 .top-headline {
+      position: absolute;
+      top: 32px; left: 0; right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+    .ad04 .top-headline .equation {
+      font-family: var(--font-hero);
+      font-size: 58px;
+      color: var(--cream);
+      line-height: 1;
+      letter-spacing: -1px;
+      text-shadow: 0 3px 12px rgba(92,65,41,0.35);
+    }
+    .ad04 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -46%);
+      width: 380px;
+      height: 380px;
+      object-fit: contain;
+      z-index: 1;
+      filter: drop-shadow(0 20px 40px rgba(92,65,41,0.4));
+    }
+    .ad04 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 16px 28px 20px;
+      background: linear-gradient(to top, rgba(92,65,41,0.92) 0%, transparent 100%);
+      z-index: 3;
+    }
+    .ad04 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--cream);
+      margin-bottom: 10px;
+    }
+    .ad04 .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--brown);
+      color: var(--cream);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 9px 22px;
+      border-radius: 100px;
+      margin-bottom: 6px;
+    }
+    .ad04 .url {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 400;
+      color: rgba(255,243,229,0.7);
+      letter-spacing: 0.05em;
+    }
+    /* decorative dots */
+    .ad04 .dots {
+      position: absolute;
+      top: 24px; right: 24px;
+      display: grid;
+      grid-template-columns: repeat(4,8px);
+      grid-template-rows: repeat(4,8px);
+      gap: 6px;
+      z-index: 2;
+    }
+    .ad04 .dots span {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: rgba(92,65,41,0.25);
+      display: block;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 05 — Egg Maggi ₹49
+       Style: Late-Night · Dark Brown
+    ══════════════════════════════════════════ */
+    .ad05 {
+      background: var(--brown);
+    }
+    /* subtle noise texture via gradient */
+    .ad05::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent 0px, transparent 2px,
+        rgba(0,0,0,0.04) 2px, rgba(0,0,0,0.04) 4px
+      );
+      z-index: 1;
+    }
+    .ad05 .top-headline {
+      position: absolute;
+      top: 36px; left: 0; right: 0;
+      text-align: center;
+      z-index: 3;
+    }
+    .ad05 .top-headline .line1 {
+      font-family: var(--font-hero);
+      font-size: 58px;
+      color: var(--cream);
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+    .ad05 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -46%);
+      width: 400px;
+      height: 400px;
+      object-fit: contain;
+      z-index: 2;
+      filter: drop-shadow(0 24px 50px rgba(0,0,0,0.7));
+    }
+    .ad05 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 0 28px;
+      border-top: 3px solid var(--ochre);
+      z-index: 3;
+      background: var(--brown-dark);
+    }
+    .ad05 .price-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding-top: 8px;
+    }
+    .ad05 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--cream);
+      opacity: 0.85;
+    }
+    .ad05 .price {
+      font-family: var(--font-hero);
+      font-size: 80px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .ad05 .cta-row {
+      padding-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .ad05 .cta-row span {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,243,229,0.6);
+    }
+    .ad05 .cta-row .arrow {
+      color: var(--ochre);
+      font-size: 14px;
+    }
+    /* moon accent */
+    .ad05 .moon-accent {
+      position: absolute;
+      top: 28px; right: 28px;
+      font-size: 28px;
+      z-index: 4;
+      opacity: 0.6;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 06 — Corn Sandwich ₹59
+       Style: Budget Friendly · Off White bg
+    ══════════════════════════════════════════ */
+    .ad06 {
+      background: var(--cream);
+    }
+    .ad06 .top-text {
+      position: absolute;
+      top: 36px; left: 36px;
+      z-index: 3;
+    }
+    .ad06 .line-big-brown {
+      font-family: var(--font-hero);
+      font-size: 80px;
+      color: var(--brown);
+      line-height: 0.88;
+      letter-spacing: -2px;
+    }
+    .ad06 .line-big-ochre {
+      font-family: var(--font-hero);
+      font-size: 80px;
+      color: var(--ochre);
+      line-height: 0.88;
+      letter-spacing: -2px;
+    }
+    .ad06 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-35%, -46%);
+      width: 420px;
+      height: 420px;
+      object-fit: contain;
+      z-index: 1;
+      filter: drop-shadow(0 16px 36px rgba(92,65,41,0.22));
+    }
+    .ad06 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 12px 28px 20px;
+      background: var(--cream);
+      border-top: 2px solid var(--ochre);
+      z-index: 3;
+    }
+    .ad06 .bottom-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .ad06 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad06 .price {
+      font-family: var(--font-hero);
+      font-size: 54px;
+      color: var(--ochre);
+      line-height: 1;
+    }
+    .ad06 .cta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ochre);
+      color: var(--brown);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border-radius: 100px;
+    }
+    .ad06 .veg-badge {
+      position: absolute;
+      top: 36px; right: 36px;
+      width: 28px; height: 28px;
+      border: 2px solid #22a745;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+    }
+    .ad06 .veg-badge::after {
+      content: '';
+      width: 12px; height: 12px;
+      background: #22a745;
+      border-radius: 50%;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 07 — Veg Noodles ₹79
+       Style: Trust Badge Fresh · Dark Brown
+    ══════════════════════════════════════════ */
+    .ad07 {
+      background: var(--brown);
+    }
+    .ad07 .top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 46px;
+      background: var(--ochre);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      z-index: 3;
+    }
+    .ad07 .badge-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .ad07 .badge-item .check {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      background: var(--brown);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .ad07 .badge-item .check svg {
+      width: 10px; height: 10px;
+      stroke: var(--ochre);
+      stroke-width: 2.5;
+      fill: none;
+    }
+    .ad07 .badge-item span {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad07 .sep { color: var(--brown); opacity: 0.4; font-size: 18px; }
+    .ad07 .food-img {
+      position: absolute;
+      top: 46px; left: 50%;
+      transform: translateX(-50%);
+      width: 430px;
+      height: 430px;
+      object-fit: contain;
+      object-position: center;
+      z-index: 1;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.55));
+    }
+    .ad07 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 120px;
+      background: linear-gradient(to top, var(--brown-dark) 60%, transparent);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 28px 20px;
+    }
+    .ad07 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--cream);
+      opacity: 0.85;
+    }
+    .ad07  .price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .ad07 .price {
+      font-family: var(--font-hero);
+      font-size: 76px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .ad07 .order-cta {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,243,229,0.5);
+    }
+    /* veg circle */
+    .ad07 .veg-circle {
+      position: absolute;
+      bottom: 20px; right: 28px;
+      width: 28px; height: 28px;
+      border: 2px solid #22a745;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+    }
+    .ad07 .veg-circle::after {
+      content: '';
+      width: 12px; height: 12px;
+      background: #22a745;
+      border-radius: 50%;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 08 — Egg Chicken Noodles ₹119
+       Style: Full Meal Subversion · Dark Brown
+    ══════════════════════════════════════════ */
+    .ad08 {
+      background: var(--brown);
+    }
+    .ad08 .corner-accent {
+      position: absolute;
+      top: 0; left: 0;
+      width: 120px; height: 120px;
+      background: linear-gradient(135deg, rgba(191,147,91,0.2) 0%, transparent 60%);
+      z-index: 1;
+    }
+    .ad08 .corner-accent-br {
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 120px; height: 120px;
+      background: linear-gradient(315deg, rgba(191,147,91,0.12) 0%, transparent 60%);
+      z-index: 1;
+    }
+    .ad08 .top-text {
+      position: absolute;
+      top: 32px; left: 36px;
+      z-index: 3;
+    }
+    .ad08 .line-white {
+      font-family: var(--font-hero);
+      font-size: 62px;
+      color: var(--cream);
+      line-height: 0.9;
+      letter-spacing: -1px;
+    }
+    .ad08 .line-ochre {
+      font-family: var(--font-hero);
+      font-size: 62px;
+      color: var(--ochre);
+      line-height: 0.9;
+      letter-spacing: -1px;
+    }
+    .ad08 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-35%, -44%);
+      width: 440px;
+      height: 440px;
+      object-fit: contain;
+      z-index: 2;
+      filter: drop-shadow(0 24px 50px rgba(0,0,0,0.65));
+    }
+    .ad08 .bottom-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 14px 28px 20px;
+      background: linear-gradient(to top, rgba(42,22,8,0.95) 80%, transparent);
+      z-index: 3;
+    }
+    .ad08 .info-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .ad08 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--cream);
+      opacity: 0.85;
+    }
+    .ad08 .price {
+      font-family: var(--font-hero);
+      font-size: 72px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .ad08 .cta-text {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,243,229,0.5);
+      margin-top: 4px;
+    }
+    /* protein label */
+    .ad08 .protein-tag {
+      position: absolute;
+      top: 32px; right: 28px;
+      background: var(--ochre);
+      color: var(--brown);
+      font-family: var(--font-display);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 100px;
+      z-index: 4;
+    }
+
+    /* ══════════════════════════════════════════
+       AD 09 — Suji Upma ₹39
+       Style: Extreme Price Shock · Yellow Ochre bg
+    ══════════════════════════════════════════ */
+    .ad09 {
+      background: var(--ochre);
+    }
+    .ad09 .top-text {
+      position: absolute;
+      top: 32px; left: 32px;
+      z-index: 3;
+    }
+    .ad09 .top-line {
+      font-family: var(--font-hero);
+      font-size: 44px;
+      color: var(--brown);
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+    .ad09 .food-img {
+      position: absolute;
+      top: 46%; left: 55%;
+      transform: translate(-50%, -50%);
+      width: 340px;
+      height: 340px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 50%;
+      z-index: 2;
+      box-shadow: 0 0 0 6px rgba(92,65,41,0.25), 0 20px 50px rgba(92,65,41,0.5);
+    }
+    /* giant price number — the star */
+    .ad09 .giant-price {
+      position: absolute;
+      bottom: 20px; right: 0; left: 0;
+      text-align: right;
+      padding-right: 24px;
+      z-index: 3;
+    }
+    .ad09 .giant-price .rupee-num {
+      font-family: var(--font-hero);
+      font-size: 160px;
+      color: var(--brown);
+      line-height: 0.85;
+      letter-spacing: -6px;
+    }
+    .ad09 .item-label {
+      position: absolute;
+      bottom: 28px; left: 28px;
+      z-index: 4;
+    }
+    .ad09 .item-label .name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--brown);
+    }
+    .ad09 .item-label .cta {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(92,65,41,0.6);
+      margin-top: 4px;
+    }
+    /* Sticker */
+    .ad09 .sticker {
+      position: absolute;
+      top: 30px; right: 28px;
+      background: var(--brown);
+      color: var(--cream);
+      font-family: var(--font-script);
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      z-index: 4;
+      transform: rotate(2deg);
+      box-shadow: 3px 3px 0 rgba(0,0,0,0.25);
+    }
+
+    /* ══════════════════════════════════════════
+       AD 10 — Mix Noodles ₹149
+       Style: Premium Indulgence · Dark Brown
+    ══════════════════════════════════════════ */
+    .ad10 {
+      background: var(--brown);
+    }
+    /* subtle pattern overlay */
+    .ad10::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(circle at 20% 80%, rgba(191,147,91,0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(191,147,91,0.06) 0%, transparent 50%);
+      z-index: 1;
+    }
+    /* decorative border */
+    .ad10 .deco-border {
+      position: absolute;
+      inset: 14px;
+      border: 1px solid rgba(191,147,91,0.3);
+      z-index: 2;
+      pointer-events: none;
+    }
+    .ad10 .top-text {
+      position: absolute;
+      top: 38px; left: 36px;
+      z-index: 3;
+    }
+    .ad10 .line-white {
+      font-family: var(--font-hero);
+      font-size: 64px;
+      color: var(--cream);
+      line-height: 0.9;
+      letter-spacing: -1px;
+    }
+    .ad10 .line-ochre {
+      font-family: var(--font-hero);
+      font-size: 64px;
+      color: var(--ochre);
+      line-height: 0.9;
+      letter-spacing: -1px;
+    }
+    .ad10 .food-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-30%, -44%);
+      width: 460px;
+      height: 460px;
+      object-fit: contain;
+      z-index: 2;
+      filter: drop-shadow(0 28px 56px rgba(0,0,0,0.7));
+    }
+    .ad10 .bottom-zone {
+      position: absolute;
+      bottom: 14px; left: 14px; right: 14px;
+      padding: 14px 22px 16px;
+      background: rgba(42,22,8,0.88);
+      z-index: 3;
+    }
+    .ad10 .price-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    .ad10 .item-name {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--cream);
+      opacity: 0.85;
+    }
+    .ad10 .price {
+      font-family: var(--font-hero);
+      font-size: 72px;
+      color: var(--ochre);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .ad10 .tagline {
+      font-family: "poppins", sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255,243,229,0.5);
+      margin-top: 2px;
+    }
+    .ad10 .url {
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--ochre);
+      letter-spacing: 0.1em;
+      opacity: 0.7;
+    }
+    /* premium star accent */
+    .ad10 .star-accent {
+      position: absolute;
+      top: 38px; right: 36px;
+      z-index: 4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+    }
+    .ad10 .star-line {
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(to bottom, transparent, var(--ochre), transparent);
+    }
+    .ad10 .star-dot {
+      width: 6px; height: 6px;
+      background: var(--ochre);
+      border-radius: 50%;
+    }
+
+    /* ─── DOWNLOAD BUTTON ─── */
+    .download-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--ochre);
+      color: var(--brown);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 11px 28px;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(191,147,91,0.35);
+    }
+    .download-btn:hover {
+      background: var(--cream);
+      color: var(--brown);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(191,147,91,0.5);
+    }
+    .download-btn:active {
+      transform: translateY(0);
+    }
+    .download-btn.loading {
+      opacity: 0.6;
+      cursor: wait;
+    }
+    .download-btn svg {
+      width: 14px;
+      height: 14px;
+      stroke: currentColor;
+      stroke-width: 2;
+      fill: none;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="page-title">CLG Canteen · 10 Square Feed Ads · 1:1</p>
+
+  <!-- ══════════════════════════════════════
+       AD 01 — Bengali Breakfast Combo ₹79
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">01 · Bengali Breakfast Combo · ₹79</p>
+    <div class="ad ad01" id="ad-01" data-name="CLG_Canteen_01_Bengali_Breakfast_Combo">
+      <div class="inner-frame"></div>
+      <div class="vignette"></div>
+
+      <div class="top-bar">
+        <span>🔥 BESTSELLER AT CLG CANTEEN</span>
+      </div>
+
+      <div class="flame-badge">
+        <span class="emoji">🔥</span>
+        <span class="tag">MUST<br>TRY</span>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Bengali Breakfast Combo (Transparent).png"
+        alt="Bengali Breakfast Combo" />
+
+      <div class="brand-watermark"><span>CLG Canteen</span></div>
+
+      <div class="bottom-zone">
+        <div class="bottom-info">
+          <span class="item-name">Bengali Breakfast<br>Combo</span>
+          <span class="price">₹79</span>
+        </div>
+        <div class="cta-strip">
+          <span>ORDER NOW</span>
+          <span class="dot">·</span>
+          <span>clgcanteen.com</span>
+        </div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-01')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 01
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 02 — Egg Noodles ₹89
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">02 · Egg Noodles · ₹89</p>
+    <div class="ad ad02" id="ad-02" data-name="CLG_Canteen_02_Egg_Noodles">
+      <div class="left-half">
+        <div class="word-egg">EGG</div>
+        <div class="word-noodles">NOODLES</div>
+        <div class="price-big">₹89</div>
+        <div class="divider-line"></div>
+      </div>
+
+      <div class="right-half">
+        <img src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Egg Noodles (Transparent).png"
+             alt="Egg Noodles" />
+      </div>
+
+      <div class="vertical-label">CLG Canteen · clgcanteen.com</div>
+
+      <div class="bottom-cta">
+        <span>ORDER ON APP</span>
+        <span class="sep">·</span>
+        <span>clgcanteen.com</span>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-02')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 02
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 03 — Paneer Sandwich ₹69
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">03 · Paneer Sandwich · ₹69</p>
+    <div class="ad ad03" id="ad-03" data-name="CLG_Canteen_03_Paneer_Sandwich">
+      <div class="veg-badge"></div>
+
+      <div class="top-text">
+        <span class="top-headline">PURE VEG. PURE SATISFACTION.</span>
+        <div class="ochre-rule"></div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Paneer Sandwich (transparent).png"
+        alt="Paneer Sandwich" />
+
+      <div class="bottom-zone">
+        <div class="ochre-rule-bottom"></div>
+        <div class="bottom-row">
+          <span class="item-name">Paneer Sandwich</span>
+          <span class="price">₹69</span>
+        </div>
+        <div class="cta-pill">
+          GET IT DELIVERED · clgcanteen.com
+        </div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-03')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 03
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 04 — Suji Upma with Tea ₹59
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">04 · Suji Upma with Tea · ₹59</p>
+    <div class="ad ad04" id="ad-04" data-name="CLG_Canteen_04_Suji_Upma_with_Tea">
+      <div class="dots">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="top-headline">
+        <div class="equation">BREAKFAST + CHAI = ₹59</div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Suji Upma with Tea (transparent).png"
+        alt="Suji Upma with Tea" />
+
+      <div class="bottom-zone">
+        <div class="item-name">Suji Upma with Tea</div>
+        <div class="cta-pill">ORDER MORNING DELIVERY</div>
+        <div class="url">clgcanteen.com</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-04')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 04
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 05 — Egg Maggi ₹49
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">05 · Egg Maggi · ₹49</p>
+    <div class="ad ad05" id="ad-05" data-name="CLG_Canteen_05_Egg_Maggi">
+      <span class="moon-accent">🌙</span>
+
+      <div class="top-headline">
+        <div class="line1">10 PM. LAZY. HUNGRY.</div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Egg Maggi (transparent).png"
+        alt="Egg Maggi" />
+
+      <div class="bottom-zone">
+        <div class="price-row">
+          <span class="item-name">Egg Maggi</span>
+          <span class="price">₹49</span>
+        </div>
+        <div class="cta-row">
+          <span class="arrow">→</span>
+          <span>ORDER NOW · clgcanteen.com</span>
+        </div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-05')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 05
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 06 — Corn Sandwich ₹59
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">06 · Corn Sandwich · ₹59</p>
+    <div class="ad ad06" id="ad-06" data-name="CLG_Canteen_06_Corn_Sandwich">
+      <div class="veg-badge"></div>
+
+      <div class="top-text">
+        <div class="line-big-brown">FOOD</div>
+        <div class="line-big-brown">FOR</div>
+        <div class="line-big-ochre">ALL</div>
+        <div class="line-big-ochre">BUDGETS.</div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Corn Sandwich (transparent).png"
+        alt="Corn Sandwich" />
+
+      <div class="bottom-zone">
+        <div class="bottom-row">
+          <span class="item-name">Corn Sandwich</span>
+          <span class="price">₹59</span>
+        </div>
+        <div class="cta-pill">START YOUR ORDER · clgcanteen.com</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-06')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 06
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 07 — Veg Noodles ₹79
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">07 · Veg Noodles · ₹79</p>
+    <div class="ad ad07" id="ad-07" data-name="CLG_Canteen_07_Veg_Noodles">
+      <div class="top-bar">
+        <div class="badge-item">
+          <div class="check">
+            <svg viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2"/></svg>
+          </div>
+          <span>Pure Veg</span>
+        </div>
+        <span class="sep">|</span>
+        <div class="badge-item">
+          <div class="check">
+            <svg viewBox="0 0 10 10"><polyline points="1.5,5 4,7.5 8.5,2"/></svg>
+          </div>
+          <span>Fresh Made Daily</span>
+        </div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Veg Noodles (transparent).png"
+        alt="Veg Noodles" />
+
+      <div class="veg-circle"></div>
+
+      <div class="bottom-zone">
+        <span class="item-name">Veg Noodles</span>
+        <div class="price-row">
+          <span class="price">₹79</span>
+        </div>
+        <span class="order-cta">ORDER NOW → clgcanteen.com</span>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-07')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 07
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 08 — Egg Chicken Noodles ₹119
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">08 · Egg Chicken Noodles · ₹119</p>
+    <div class="ad ad08" id="ad-08" data-name="CLG_Canteen_08_Egg_Chicken_Noodles">
+      <div class="corner-accent"></div>
+      <div class="corner-accent-br"></div>
+
+      <div class="protein-tag">🍗 Egg + Chicken</div>
+
+      <div class="top-text">
+        <div class="line-white">NOT JUST</div>
+        <div class="line-white">NOODLES.</div>
+        <div class="line-ochre">A WHOLE</div>
+        <div class="line-ochre">MEAL.</div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Egg Chicken Noodles (transparent).png"
+        alt="Egg Chicken Noodles" />
+
+      <div class="bottom-zone">
+        <div class="info-row">
+          <span class="item-name">Egg Chicken Noodles</span>
+          <span class="price">₹119</span>
+        </div>
+        <div class="cta-text">ORDER DELIVERY · clgcanteen.com</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-08')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 08
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 09 — Suji Upma ₹39
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">09 · Suji Upma · ₹39</p>
+    <div class="ad ad09" id="ad-09" data-name="CLG_Canteen_09_Suji_Upma">
+      <div class="top-text">
+        <div class="top-line">COSTS LESS THAN</div>
+        <div class="top-line">YOUR CHAI OUTSIDE.</div>
+      </div>
+
+      <div class="sticker">Honest food. 🙏</div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Ad_Images_for_clgcanteen/Suji Upma.png"
+        alt="Suji Upma" />
+
+      <div class="item-label">
+        <div class="name">Suji Upma</div>
+        <div class="cta">ORDER NOW · clgcanteen.com</div>
+      </div>
+
+      <div class="giant-price">
+        <div class="rupee-num">₹39</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-09')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 09
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       AD 10 — Mix Noodles ₹149
+  ══════════════════════════════════════ -->
+  <div class="ad-unit">
+    <p class="ad-label">10 · Mix Noodles · ₹149</p>
+    <div class="ad ad10" id="ad-10" data-name="CLG_Canteen_10_Mix_Noodles">
+      <div class="deco-border"></div>
+
+      <div class="star-accent">
+        <div class="star-line"></div>
+        <div class="star-dot"></div>
+        <div class="star-line"></div>
+      </div>
+
+      <div class="top-text">
+        <div class="line-white">WHEN</div>
+        <div class="line-white">REGULAR</div>
+        <div class="line-ochre">ISN'T</div>
+        <div class="line-ochre">ENOUGH.</div>
+      </div>
+
+      <img class="food-img"
+        src="../../images/CLG_Canteen/Transparent_ad_images_for_clgcanteen/Mix Noodles (transparent).png"
+        alt="Mix Noodles" />
+
+      <div class="bottom-zone">
+        <div class="price-row">
+          <span class="item-name">Mix Noodles</span>
+          <span class="price">₹149</span>
+        </div>
+        <div class="tagline">The Full Bowl Experience</div>
+        <div class="url">clgcanteen.com</div>
+      </div>
+    </div>
+    <button class="download-btn" onclick="downloadAd('ad-10')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Ad 10
+    </button>
+  </div>
+
+</body>
+
+<script>
+  async function downloadAd(adId) {
+    const adEl = document.getElementById(adId);
+    const btn = adEl.closest('.ad-unit').querySelector('.download-btn');
+    const filename = (adEl.dataset.name || adId) + '.png';
+
+    // Visual feedback
+    const originalText = btn.innerHTML;
+    btn.classList.add('loading');
+    btn.innerHTML = `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-dasharray="60" stroke-dashoffset="20"/></svg> Rendering…`;
+
+    try {
+      const canvas = await html2canvas(adEl, {
+        scale: 2,                  // 1200×1200px output
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: null,     // preserve transparent areas
+        logging: false,
+        width: adEl.offsetWidth,
+        height: adEl.offsetHeight,
+        windowWidth: adEl.offsetWidth,
+        windowHeight: adEl.offsetHeight,
+        onclone: (cloned) => {
+          // Ensure cloned element has no border-radius for pixel-perfect edge
+          const clonedAd = cloned.getElementById(adId);
+          if (clonedAd) clonedAd.style.borderRadius = '0';
+        }
+      });
+
+      // Trigger download
+      const link = document.createElement('a');
+      link.download = filename;
+      link.href = canvas.toDataURL('image/png', 1.0);
+      link.click();
+
+      // Success feedback
+      btn.innerHTML = `<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Downloaded!`;
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.remove('loading');
+      }, 2000);
+
+    } catch (err) {
+      console.error('Download failed:', err);
+      btn.innerHTML = originalText;
+      btn.classList.remove('loading');
+      alert('Download failed. Please check browser console.');
+    }
+  }
+</script>
+
+</html>

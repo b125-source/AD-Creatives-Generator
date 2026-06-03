@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imperious Beauty By Dom — Ad Creatives Batch 01</title>
+  <link rel="stylesheet" href="https://use.typekit.net/lld6qxp.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    /* ═══════════════════════════════════════════════
+       BRAND TOKENS — Imperious Beauty By Dom
+    ═══════════════════════════════════════════════ */
+    :root {
+      --brand-black: #0A0A0A;
+      --brand-gold: #C9A84C;
+      --brand-gold-lt: #E2C97E;
+      --brand-white: #FFFFFF;
+      --brand-offwhite: #F5F0EB;
+      --brand-gray: rgba(255, 255, 255, 0.55);
+
+      --font-display: "poppins", sans-serif;
+      --font-body: "liberation-sans", sans-serif;
+
+      --ad-size: 1080px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      background: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 20px 80px;
+      font-family: var(--font-body);
+    }
+
+    /* ═══════════════════════════════════════════════
+       PAGE CHROME
+    ═══════════════════════════════════════════════ */
+    .page-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .page-header h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--brand-gold);
+    }
+
+    .page-header p {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.3);
+      letter-spacing: 0.12em;
+      margin-top: 6px;
+    }
+
+    /* ═══════════════════════════════════════════════
+       AD VIEWER SHELL
+    ═══════════════════════════════════════════════ */
+    .ad-viewer {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    /* counter */
+    .ad-counter {
+      font-family: var(--font-body);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      align-self: flex-end;
+    }
+
+    /* wrapper — this is what clips the slides */
+    .ad-wrapper {
+      position: relative;
+      width: min(var(--ad-size), 92vw);
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      border-radius: 2px;
+      box-shadow: 0 40px 120px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    }
+
+    /* track */
+    .ad-track {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+      will-change: transform;
+    }
+
+    /* nav row */
+    .nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .nav-btn {
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: white;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+      flex-shrink: 0;
+    }
+
+    .nav-btn:hover {
+      background: var(--brand-gold);
+      border-color: var(--brand-gold);
+    }
+
+    .nav-btn svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .ad-dots {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .dot.active {
+      background: var(--brand-gold);
+      transform: scale(1.5);
+    }
+
+    /* download row */
+    .download-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .download-btn {
+      background: var(--brand-gold);
+      border: none;
+      color: var(--brand-black);
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      border-radius: 3px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .download-btn:hover {
+      opacity: 0.88;
+      transform: translateY(-1px);
+    }
+
+    .download-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .download-label {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.25);
+      letter-spacing: 0.1em;
+    }
+
+    /* ═══════════════════════════════════════════════
+       AD SLIDE BASE
+    ═══════════════════════════════════════════════ */
+    .ad-slide {
+      min-width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* background image layer */
+    .ad-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center top;
+    }
+
+    /* ── overlay presets ── */
+    .ov-dark-bottom {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.22) 40%, rgba(0, 0, 0, 0.82) 100%);
+    }
+
+    .ov-dark-full {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.52);
+    }
+
+    .ov-split-top {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.55) 42%, rgba(0, 0, 0, 0.08) 100%);
+    }
+
+    .ov-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.68) 100%);
+    }
+
+    .ov-black-band {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 42%;
+      background: var(--brand-black);
+    }
+
+    /* ── logo in all slides ── */
+    .ad-logo {
+      position: absolute;
+      z-index: 10;
+    }
+
+    .ad-logo.top-left {
+      top: 5%;
+      left: 5%;
+    }
+
+    .ad-logo.top-right {
+      top: 5%;
+      right: 5%;
+    }
+
+    .ad-logo.bot-left {
+      bottom: 5%;
+      left: 5%;
+    }
+
+    .ad-logo.bot-right {
+      bottom: 5%;
+      right: 5%;
+    }
+
+    .ad-logo.bot-center {
+      bottom: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* Real logo sizing & treatment */
+    .brand-mark {
+      width: clamp(140px, 20vw, 240px);
+      height: auto;
+      display: block;
+      filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.65));
+    }
+
+    /* ── shared text utilities ── */
+    .eyebrow {
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: clamp(12px, 1.6vw, 18px);
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--brand-gold);
+    }
+
+    .headline {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(32px, 6.5vw, 82px);
+      line-height: 1.0;
+      text-transform: uppercase;
+      color: var(--brand-white);
+    }
+
+    .headline em {
+      color: var(--brand-gold);
+      font-style: normal;
+    }
+
+    .subtext {
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: clamp(16px, 2.2vw, 26px);
+      color: var(--brand-gray);
+      line-height: 1.5;
+    }
+
+    .cta-pill {
+      display: inline-block;
+      background: var(--brand-gold);
+      color: var(--brand-black);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(13px, 1.8vw, 20px);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: clamp(10px, 1.6vw, 18px) clamp(22px, 3.5vw, 44px);
+      border-radius: 2px;
+    }
+
+    .cta-ghost {
+      display: inline-block;
+      border: 1.5px solid var(--brand-gold);
+      color: var(--brand-gold);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(13px, 1.8vw, 20px);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: clamp(10px, 1.6vw, 18px) clamp(22px, 3.5vw, 44px);
+      border-radius: 2px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--brand-gold);
+      color: var(--brand-black);
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: clamp(8px, 1vw, 11px);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 2px;
+    }
+
+    .gold-divider {
+      width: 44px;
+      height: 2px;
+      background: var(--brand-gold);
+      border-radius: 1px;
+    }
+
+    .url-tag {
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: clamp(11px, 1.5vw, 16px);
+      letter-spacing: 0.18em;
+      color: var(--brand-gold);
+      text-transform: lowercase;
+      opacity: 0.85;
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 01 — WAKE UP LIKE THIS
+       Layout: Black-band-top + full-bleed image bottom
+       Image: confident client after result
+    ───────────────────────────────────────────── */
+    .ad-01 .ov-black-band {
+      height: 40%;
+    }
+
+    .ad-01 .ad-bg {
+      top: 38%;
+      height: 62%;
+      background-position: center top;
+    }
+
+    .ad-01 .top-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(6px, 1.2vw, 14px);
+      z-index: 5;
+      padding: 0 8%;
+      text-align: center;
+    }
+
+    .ad-01 .top-content .headline {
+      font-size: clamp(36px, 7.5vw, 96px);
+    }
+
+    .ad-01 .ad-logo.bot-right {
+      bottom: 3%;
+      right: 4%;
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 02 — NO PENCIL. NO POWDER.
+       Layout: Full-bleed close-up, text overlay bottom
+    ───────────────────────────────────────────── */
+    .ad-02 .ad-bg {
+      background-position: center 30%;
+    }
+
+    .ad-02 .bottom-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: clamp(16px, 3vw, 40px) clamp(20px, 5%, 54px) clamp(20px, 4vw, 44px);
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(6px, 1vw, 12px);
+    }
+
+    .ad-02 .bottom-content .headline {
+      font-size: clamp(28px, 5.8vw, 72px);
+      line-height: 0.95;
+    }
+
+    .ad-02 .ad-logo.top-right {
+      top: 4%;
+      right: 4%;
+    }
+
+    .ad-02 .ad-logo.top-right img {
+      width: clamp(140px, 20vw, 240px);
+      opacity: 0.9;
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 03 — REAL CLIENTS. REAL RESULTS.
+       Layout: 2-row photo collage grid + headline band bottom
+    ───────────────────────────────────────────── */
+    .ad-03 .photo-grid {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 3px;
+    }
+
+    .ad-03 .photo-cell {
+      overflow: hidden;
+      background: #111;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .ad-03 .bottom-band {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--brand-black);
+      padding: clamp(14px, 2.5vw, 30px) clamp(20px, 5%, 54px);
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .ad-03 .bottom-band .headline {
+      font-size: clamp(20px, 3.8vw, 48px);
+      text-align: left;
+    }
+
+    .ad-03 .ad-logo.bot-right {
+      bottom: clamp(14px, 2.5vw, 30px);
+      right: clamp(20px, 5%, 54px);
+    }
+
+    .ad-03 .ad-logo.bot-right img {
+      width: clamp(110px, 16vw, 190px);
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 04 — THIS IS THE WORK.
+       Layout: Full-bleed process photo, text top-left overlay with dark gradient
+    ───────────────────────────────────────────── */
+    .ad-04 .ad-bg {
+      background-position: center 40%;
+    }
+
+    .ad-04 .top-left-block {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: clamp(20px, 4vw, 50px) clamp(20px, 5%, 54px);
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(8px, 1.2vw, 16px);
+    }
+
+    .ad-04 .top-left-block .headline {
+      font-size: clamp(34px, 7vw, 88px);
+    }
+
+    .ad-04 .ad-logo.bot-right img {
+      width: clamp(140px, 20vw, 240px);
+      opacity: 0.9;
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 05 — SOFT. DEFINED. YOURS.
+       Layout: Full-bleed beauty result, minimal centered overlay
+    ───────────────────────────────────────────── */
+    .ad-05 .ad-bg {
+      background-position: center 25%;
+    }
+
+    .ad-05 .center-overlay {
+      position: absolute;
+      bottom: 6%;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: clamp(6px, 1vw, 12px);
+      text-align: center;
+      padding: 0 10%;
+    }
+
+    .ad-05 .center-overlay .headline {
+      font-size: clamp(30px, 6.5vw, 82px);
+    }
+
+    .ad-05 .price-pill {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      z-index: 10;
+      background: var(--brand-gold);
+      color: var(--brand-black);
+      font-family: var(--font-body);
+      font-weight: 700;
+      font-size: clamp(8px, 1vw, 11px);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 2px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .ad-05 .ad-logo.bot-left img {
+      width: clamp(140px, 20vw, 240px);
+      opacity: 0.85;
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 06 — SO NATURAL. NOBODY WILL KNOW.
+       Layout: Black top band + close-up photo
+    ───────────────────────────────────────────── */
+    .ad-06 .ov-black-band {
+      height: 38%;
+    }
+
+    .ad-06 .ad-bg {
+      top: 36%;
+      height: 64%;
+      background-position: center 20%;
+    }
+
+    .ad-06 .top-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 38%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(6px, 1.2vw, 14px);
+      z-index: 5;
+      padding: 0 8%;
+      text-align: center;
+    }
+
+    .ad-06 .top-content .headline {
+      font-size: clamp(30px, 6.2vw, 80px);
+    }
+
+    .ad-06 .top-content .headline span {
+      display: block;
+      font-size: 0.72em;
+      color: var(--brand-gold-lt);
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 07 — YOUR LIPS. PERFECTED.
+       Layout: Full-bleed, minimal centered text
+    ───────────────────────────────────────────── */
+    .ad-07 .ad-bg {
+      background-position: center 30%;
+    }
+
+    .ad-07 .center-content {
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0 8% clamp(24px, 5vw, 60px);
+      gap: clamp(6px, 1vw, 12px);
+      text-align: center;
+    }
+
+    .ad-07 .center-content .headline {
+      font-size: clamp(38px, 8vw, 100px);
+    }
+
+    .ad-07 .ad-logo.top-right img {
+      width: clamp(140px, 20vw, 240px);
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 08 — NEW ORLEANS WOMEN DESERVE BETTER BROWS.
+       Layout: Full-bleed lifestyle side-by-side, text overlay
+    ───────────────────────────────────────────── */
+    .ad-08 .ad-bg {
+      background-position: center;
+    }
+
+    .ad-08 .headline-block {
+      position: absolute;
+      top: 5%;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      text-align: center;
+      padding: 0 8%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: clamp(6px, 1vw, 12px);
+    }
+
+    .ad-08 .headline-block .headline {
+      font-size: clamp(28px, 5.8vw, 72px);
+    }
+
+    .ad-08 .footer-strip {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--brand-black);
+      padding: clamp(10px, 2vw, 22px) clamp(20px, 5%, 54px);
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .ad-08 .ad-logo.bot-left img {
+      width: clamp(140px, 20vw, 240px);
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 09 — BEFORE. AFTER. FOREVER.
+       Layout: Use the split-image as-is, add text overlay on top quarter
+    ───────────────────────────────────────────── */
+    .ad-09 .ad-bg {
+      background-position: center;
+    }
+
+    .ad-09 .headline-block {
+      position: absolute;
+      top: 4%;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: clamp(4px, 0.8vw, 10px);
+      text-align: center;
+      padding: 0 8%;
+    }
+
+    .ad-09 .headline-block .headline {
+      font-size: clamp(36px, 7.5vw, 96px);
+    }
+
+    .ad-09 .bottom-strip {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+      padding: clamp(18px, 3vw, 36px) clamp(20px, 5%, 54px) clamp(14px, 2.5vw, 28px);
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(4px, 0.8vw, 10px);
+    }
+
+    .ad-09 .ad-logo.top-right img {
+      width: clamp(140px, 20vw, 240px);
+    }
+
+    /* ─────────────────────────────────────────────
+       AD 10 — YOUR BROWS. CUSTOM DESIGNED.
+       Layout: Full-bleed portrait, centered minimalist text
+    ───────────────────────────────────────────── */
+    .ad-10 .ad-bg {
+      background-position: center 20%;
+    }
+
+    .ad-10 .text-block {
+      position: absolute;
+      bottom: 6%;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: clamp(6px, 1vw, 12px);
+      text-align: center;
+      padding: 0 10%;
+    }
+
+    .ad-10 .text-block .headline {
+      font-size: clamp(32px, 6.5vw, 82px);
+    }
+
+    .ad-10 .ad-logo.top-left img {
+      width: clamp(140px, 20vw, 240px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-header">
+    <h1>Imperious Beauty By Dom — Ad Creatives Batch 01</h1>
+    <p>10 Meta Feed Square (1:1) Ads · Navigate with arrows · Download each as PNG</p>
+  </div>
+
+  <div class="ad-viewer">
+
+    <div class="ad-counter" id="adCounter">Ad 1 / 10</div>
+
+    <div class="ad-wrapper">
+      <div class="ad-track" id="adTrack">
+
+        <!-- ══════════════════════════════════════
+             AD 01 — WAKE UP LIKE THIS
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-01">
+          <div class="ov-black-band"></div>
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_569940701_18535128031036476_6247661520690833592_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom" style="top:38%; height:62%;"></div>
+
+          <div class="top-content">
+            <span class="eyebrow">Metairie, LA · Permanent Makeup</span>
+            <div class="headline">Wake Up<br>Like <em>This.</em></div>
+            <div class="gold-divider" style="margin:4px auto;"></div>
+            <p class="subtext" style="max-width:78%;">Custom permanent brows in Metairie, LA.</p>
+          </div>
+
+          <div class="ad-logo bot-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+          <div class="url-tag" style="position:absolute; bottom:4%; left:50%; transform:translateX(-50%); z-index:11;">
+            Imperious Beauty By Dom</div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 02 — NO PENCIL. NO POWDER.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-02">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_573695026_18536013160036476_7320555103358255311_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom"></div>
+
+          <div class="ad-logo top-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+
+          <div class="bottom-content">
+            <span class="eyebrow">Permanent Makeup · By Dom</span>
+            <div class="headline">No Pencil.<br>No Powder.<br><em>Just Perfect Brows.</em></div>
+            <div class="gold-divider"></div>
+            <p class="subtext">Permanent makeup designed for your face shape.</p>
+            <div style="margin-top:8px;">
+              <span class="cta-pill">New Orleans Area · Book Now</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 03 — REAL CLIENTS. REAL RESULTS.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-03">
+          <div class="photo-grid">
+            <div class="photo-cell"
+              style="background-image:url('./images/SnapInsta.to_659216083_18575792716036476_5021578194196929332_n.jpg'); background-size:cover; background-position:center 30%;">
+            </div>
+            <div class="photo-cell"
+              style="background-image:url('./images/SnapInsta.to_540001476_18522590647036476_4973000513000070985_n.jpg'); background-size:cover; background-position:center 20%;">
+            </div>
+            <div class="photo-cell"
+              style="background-image:url('./images/SnapInsta.to_649830015_18568038733036476_9012664884694197138_n.jpg'); background-size:cover; background-position:center 30%;">
+            </div>
+            <div class="photo-cell"
+              style="background-image:url('./images/SnapInsta.to_626791300_18554574019036476_8971997215034016002_n.jpg'); background-size:cover; background-position:center 20%;">
+            </div>
+          </div>
+
+          <div class="bottom-band">
+            <div style="display:flex; flex-direction:column; gap:4px;">
+              <div class="headline">Real Clients.<br><em>Real Results.</em></div>
+              <p class="subtext" style="font-size:clamp(10px,1.3vw,14px);">Permanent brows custom-shaped for every face.
+              </p>
+            </div>
+            <div class="ad-logo bot-right" style="position:relative; bottom:auto; right:auto;">
+              <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 04 — THIS IS THE WORK.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-04">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_585188007_18541218052036476_7886635439322044216_n.jpg');">
+          </div>
+          <div class="ov-split-top"></div>
+
+          <div class="top-left-block">
+            <span class="eyebrow">The Artisan Process</span>
+            <div class="headline"><em>This Is</em><br>The Work.</div>
+            <div class="gold-divider"></div>
+            <p class="subtext" style="max-width:72%;">Hand-crafted permanent brows,<br>stroke by stroke.</p>
+            <span class="cta-ghost" style="margin-top:4px; align-self:flex-start;">Imperious Beauty By Dom</span>
+          </div>
+
+          <div class="ad-logo bot-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+          <div class="url-tag" style="position:absolute;bottom:4%;left:5%;z-index:11;">Metairie, LA</div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 05 — SOFT. DEFINED. YOURS.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-05">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_540001476_18522590647036476_4973000513000070985_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom"></div>
+
+          <div class="price-pill">Powder Brows<br>Starting at $400</div>
+
+          <div class="center-overlay">
+            <div class="headline">Soft.<br><em>Defined.</em> Yours.</div>
+            <div class="gold-divider" style="margin:0 auto;"></div>
+            <p class="subtext">Ombré powder brows that look naturally you.</p>
+            <span class="cta-pill">Metairie, LA · Book Now</span>
+          </div>
+
+          <div class="ad-logo bot-left">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 06 — SO NATURAL. NOBODY WILL KNOW.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-06">
+          <div class="ov-black-band"></div>
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_639569796_18565325890036476_1651876472091761497_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom" style="top:36%; height:64%;"></div>
+
+          <div class="top-content">
+            <span class="eyebrow">Microblading Precision · Metairie, LA</span>
+            <div class="headline">
+              <em>So Natural.</em>
+              <span>Nobody Will Know.</span>
+            </div>
+            <p class="subtext" style="max-width:80%;">Microblading precision tailored to your brows.</p>
+          </div>
+
+          <div class="ad-logo bot-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+          <div class="url-tag" style="position:absolute;bottom:4%;left:50%;transform:translateX(-50%);z-index:11;">
+            Imperious Beauty By Dom</div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 07 — YOUR LIPS. PERFECTED.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-07">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_626791300_18554574019036476_8971997215034016002_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom"></div>
+          <div class="ov-vignette"></div>
+
+          <div class="ad-logo top-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+
+          <div class="center-content">
+            <span class="eyebrow">Lip Blush · New Orleans Metro</span>
+            <div class="headline">Your Lips.<br><em>Perfected.</em></div>
+            <div class="gold-divider" style="margin:0 auto;"></div>
+            <p class="subtext">Permanent lip blush for fullness and color every day.</p>
+            <span class="cta-pill">New Orleans Metro · Imperious Beauty</span>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 08 — NEW ORLEANS WOMEN DESERVE BETTER BROWS.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-08">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_649830015_18568038733036476_9012664884694197138_n.jpg');">
+          </div>
+          <div class="ov-split-top"></div>
+          <div class="ov-dark-bottom" style="opacity:0.6;"></div>
+
+          <div class="headline-block">
+            <span class="eyebrow">Permanent Artistry · Metairie, LA</span>
+            <div class="headline" style="text-align:center;"><em>New Orleans Women</em><br>Deserve Better Brows.</div>
+            <div class="gold-divider" style="margin:0 auto;"></div>
+          </div>
+
+          <div class="footer-strip">
+            <div style="display:flex; flex-direction:column; gap:2px;">
+              <p class="subtext" style="font-size:clamp(9px,1.2vw,13px);">Permanent makeup. Premium artistry. Metairie,
+                LA.</p>
+              <span class="url-tag">Imperious Beauty By Dom</span>
+            </div>
+            <div class="ad-logo bot-left" style="position:relative; bottom:auto; left:auto;">
+              <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 09 — BEFORE. AFTER. FOREVER.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-09">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_572149568_18535773220036476_1963953935545088479_n.jpg');">
+          </div>
+          <div class="ov-split-top"></div>
+
+          <div class="ad-logo top-right">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+
+          <div class="headline-block">
+            <span class="eyebrow">The Transformation · Permanent Makeup</span>
+            <div class="headline">Before.<br><em>After.</em> <span style="color:#fff;">Forever.</span></div>
+            <div class="gold-divider" style="margin:0 auto;"></div>
+          </div>
+
+          <div class="bottom-strip">
+            <p class="subtext" style="font-size:clamp(11px,1.5vw,17px);">One appointment. Waking up confident every
+              morning.</p>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+              <span class="cta-pill">Metairie, LA · Permanent Makeup by Dom</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ══════════════════════════════════════
+             AD 10 — YOUR BROWS. CUSTOM DESIGNED.
+        ══════════════════════════════════════ -->
+        <div class="ad-slide ad-10">
+          <div class="ad-bg"
+            style="background-image:url('./images/SnapInsta.to_556221555_18529106698036476_918324694919157101_n.jpg');">
+          </div>
+          <div class="ov-dark-bottom"></div>
+          <div class="ov-vignette"></div>
+
+          <div class="ad-logo top-left">
+            <img src="./images/logo.png" class="brand-mark" alt="Imperious Beauty By Dom">
+          </div>
+
+          <div class="text-block">
+            <span class="eyebrow">Custom Design · Metairie, LA</span>
+            <div class="headline">Your Brows.<br><em>Custom</em> Designed.</div>
+            <div class="gold-divider" style="margin:0 auto;"></div>
+            <p class="subtext">Every set is shaped specifically for your face.</p>
+            <span class="cta-pill">Book Your Consultation · Metairie, LA</span>
+          </div>
+        </div>
+
+      </div><!-- /.ad-track -->
+    </div><!-- /.ad-wrapper -->
+
+    <!-- Navigation -->
+    <div class="nav-row">
+      <button class="nav-btn" id="btnPrev" title="Previous ad">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
+      <div class="ad-dots" id="adDots"></div>
+      <button class="nav-btn" id="btnNext" title="Next ad">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Download -->
+    <div class="download-row">
+      <button class="download-btn" id="downloadBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Download This Ad as PNG
+      </button>
+      <span class="download-label" id="downloadLabel">ad_creative_01.png</span>
+    </div>
+
+  </div><!-- /.ad-viewer -->
+
+  <script>
+    (function () {
+      const track = document.getElementById('adTrack');
+      const dotsWrap = document.getElementById('adDots');
+      const counterEl = document.getElementById('adCounter');
+      const downloadBtn = document.getElementById('downloadBtn');
+      const downloadLbl = document.getElementById('downloadLabel');
+      const btnPrev = document.getElementById('btnPrev');
+      const btnNext = document.getElementById('btnNext');
+      const slides = track.querySelectorAll('.ad-slide');
+      const total = slides.length;
+      let current = 0;
+      let exporting = false;
+
+      /* Build dots */
+      slides.forEach((_, i) => {
+        const d = document.createElement('div');
+        d.className = 'dot' + (i === 0 ? ' active' : '');
+        d.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(d);
+      });
+
+      function getDots() { return dotsWrap.querySelectorAll('.dot'); }
+
+      function update() {
+        const num = (current + 1).toString().padStart(2, '0');
+        counterEl.textContent = `Ad ${current + 1} / ${total}`;
+        downloadLbl.textContent = `ad_creative_${num}.png`;
+        getDots().forEach((d, i) => d.classList.toggle('active', i === current));
+        slides.forEach((s, i) => s.classList.toggle('active-slide', i === current));
+      }
+
+      function goTo(index) {
+        current = (index + total) % total;
+        track.style.transform = `translateX(-${current * 100}%)`;
+        update();
+      }
+
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      btnNext.addEventListener('click', next);
+      btnPrev.addEventListener('click', prev);
+
+      /* touch / swipe */
+      let touchX = 0;
+      track.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+      track.addEventListener('touchend', e => {
+        const d = touchX - e.changedTouches[0].clientX;
+        if (Math.abs(d) > 40) d > 0 ? next() : prev();
+      });
+
+      /* keyboard */
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowRight') next();
+        if (e.key === 'ArrowLeft') prev();
+      });
+
+      /* mouse drag */
+      let mouseX = 0, dragging = false;
+      track.addEventListener('mousedown', e => { mouseX = e.clientX; dragging = true; });
+      track.addEventListener('mouseup', e => {
+        if (!dragging) return; dragging = false;
+        const d = mouseX - e.clientX;
+        if (Math.abs(d) > 40) d > 0 ? next() : prev();
+      });
+      track.addEventListener('mouseleave', () => { dragging = false; });
+
+      /* PNG download */
+      downloadBtn.addEventListener('click', () => {
+        if (exporting) return;
+        exporting = true;
+        downloadBtn.textContent = 'Exporting…';
+
+        const slide = slides[current];
+        const num = (current + 1).toString().padStart(2, '0');
+
+        html2canvas(slide, {
+          scale: 2,
+          useCORS: true,
+          allowTaint: true,
+          backgroundColor: '#0A0A0A',
+          logging: false
+        }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `ad_creative_${num}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        }).catch(err => {
+          alert('Export failed: ' + err.message);
+        }).finally(() => {
+          exporting = false;
+          downloadBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Download This Ad as PNG`;
+        });
+      });
+
+      update();
+    })();
+  </script>
+
+</body>
+
+</html>

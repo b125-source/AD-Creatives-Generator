@@ -1,0 +1,335 @@
+{
+  "ad_creatives_analysis": {
+    "brand": "Swiggy",
+    "total_ads_analyzed": 5,
+    "brand_design_system": {
+      "brand_colors": {
+        "primary": "Swiggy Orange (#FC5A03 approximate)",
+        "secondary": "White (#FFFFFF)",
+        "tertiary": "Dark Charcoal / Near Black (#1A1A1A approximate)",
+        "accent": "Warm Cream / Beige (used in regional/cultural ads)"
+      },
+      "brand_logo_placement": "Consistently top-center or top-left in every ad — orange rounded square icon + wordmark + tagline",
+      "brand_tagline_treatment": "Always present below logo, small size, consistent across all 5 ads",
+      "design_system_consistency": "Very high — all 5 ads share the same logo, typeface family, color system, and layout logic"
+    },
+    "ads": [
+      {
+        "ad_id": 1,
+        "format": "Vertical Story / Portrait (9:16 ratio)",
+        "style": "Immersive Food Photography with Price Offer Overlay",
+        "design_language": {
+          "overall_aesthetic": "Warm, appetizing, premium food photography within strong brand-colored environment",
+          "mood": "Inviting, warm, value-driven, appetite-stimulating",
+          "tone": "Accessible, friendly, deal-focused",
+          "visual_approach": "Full-bleed brand-colored background with hero food photography floating on a surface — text overlaid cleanly above",
+          "composition_technique": "Top-third reserved for brand + offer text; bottom two-thirds for food photography on wooden surface"
+        },
+        "color_logic": {
+          "dominant_color": "Swiggy Orange — full background bleed",
+          "text_color": "White for headline; Orange for price (inside white circle)",
+          "food_image_tones": "Warm reds, browns, creams — harmonize naturally with orange background",
+          "background_treatment": "Solid orange gradient — darker at edges, lighter center, creates depth",
+          "color_harmony": "Monochromatic orange family — food colors act as natural complements",
+          "overall_effect": "Everything feels warm, unified, on-brand — orange background makes food look even more appetizing"
+        },
+        "typography": {
+          "primary_typeface_style": "Bold rounded sans-serif — modern, friendly",
+          "font_weights_used": ["Bold for headline", "Extra-bold/Black for price"],
+          "text_sizes": [
+            "Brand name — medium",
+            "Tagline — small",
+            "Offer headline — large bold",
+            "Price — very large, dominant"
+          ],
+          "special_typographic_treatment": "Price enclosed in a white circular ring/halo — draws eye, creates visual focal point",
+          "text_color_logic": "White text on orange background — maximum contrast"
+        },
+        "text_placement": {
+          "logo_and_tagline": "Top center",
+          "offer_headline": "Upper-center, above the circular price element",
+          "price_element": "Center frame, inside white circular graphic — bridges text zone and food zone",
+          "fine_print": "Bottom right, very small",
+          "relationship_to_image": "Text occupies upper 40% of frame; food occupies lower 60%"
+        },
+        "image_and_graphic_placement": {
+          "hero_food_image": "Bottom 60% of frame — pav bhaji on wooden tray, shot from slightly elevated angle",
+          "image_position": "Center-bottom, food extends toward edges naturally",
+          "image_treatment": "Realistic appetizing food photography, warm lighting, steam visible",
+          "graphic_elements": "White circular ring around price — only graphic element besides logo",
+          "surface_detail": "Wooden table visible — adds warmth and tactile realism",
+          "layering_order": "Orange background → food photography → text and price graphic overlaid"
+        },
+        "message_delivery": {
+          "primary_message": "Great food available at very low price",
+          "strategy": "Price anchoring — big number, low value creates instant value perception",
+          "emotional_trigger": "Affordability + appetite stimulation",
+          "cta": "Implicit — price is the call to order",
+          "sophistication_level": "Medium — clean, effective, mass-market"
+        }
+      },
+      {
+        "ad_id": 2,
+        "format": "Vertical Portrait / Story format",
+        "style": "Regional Cultural + Multi-product Spread with Illustrated Background",
+        "design_language": {
+          "overall_aesthetic": "Warm cultural celebration — regional Indian city targeting with illustrative identity marker",
+          "mood": "Festive, local, abundant, deal-excited",
+          "tone": "Hyper-local, friendly, celebratory",
+          "visual_approach": "Two-zone vertical split — top branded orange header bar; bottom large cream/beige content area with food spread and cultural illustration",
+          "composition_technique": "Hard horizontal split between brand zone (top) and content zone (bottom); multiple food items arranged in a spread/flat-lay overhead composition"
+        },
+        "color_logic": {
+          "dominant_color_zone_1": "Swiggy Orange — top header band",
+          "dominant_color_zone_2": "Warm Cream / Parchment Beige — main content area",
+          "text_color_on_cream": "Dark charcoal/near black for readability",
+          "text_color_on_orange": "White",
+          "accent_graphic_color": "Warm amber/brown — illustrated monument and cultural badge",
+          "cultural_badge_colors": "Orange and dark brown — regional identity marker bottom right",
+          "food_image_tones": "Full natural color spectrum — diverse food items each with own color signature",
+          "overall_effect": "Cream background feels traditional, festive, South Asian — connects culturally with target audience"
+        },
+        "typography": {
+          "primary_typeface_style": "Bold rounded sans-serif (consistent with brand system)",
+          "font_weights_used": ["Regular for conversational line", "Bold for offer percentage"],
+          "text_sizes": [
+            "Brand name — medium in orange bar",
+            "Conversational hook — medium on cream",
+            "Discount percentage — large bold, dominant"
+          ],
+          "special_typographic_treatment": "Discount percentage in larger bold acts as primary visual anchor in text zone",
+          "text_color_logic": "Dark text on cream — traditional, readable"
+        },
+        "text_placement": {
+          "logo_and_tagline": "Top center within orange header band",
+          "conversational_hook": "Upper content area, left-aligned",
+          "discount_offer": "Below hook, left-aligned, larger",
+          "cultural_badge": "Bottom right corner — city identifier graphic",
+          "fine_print": "Bottom left, very small",
+          "relationship_to_image": "Text in upper 25% of content zone; food spread occupies lower 75%"
+        },
+        "image_and_graphic_placement": {
+          "hero_food_spread": "Large central area — multiple dishes arranged in semi-circular overhead spread",
+          "food_items_count": "8-10 different food items representing regional variety",
+          "image_position": "Center and lower content zone",
+          "illustrated_background": "Faint line illustration of Indian monument/architecture — watermark style behind food",
+          "cultural_badge_graphic": "Bottom right — illustrated badge with regional city name and local greeting",
+          "image_treatment": "Studio food photography composited on cream background",
+          "layering_order": "Cream background → faint monument illustration → food photography → text overlays → cultural badge"
+        },
+        "message_delivery": {
+          "primary_message": "Massive discount on local city-specific food options",
+          "strategy": "Hyper-localization + emotional connection + discount offer",
+          "emotional_trigger": "Local pride, mood uplift, savings excitement",
+          "cta": "Implicit — offer drives action",
+          "sophistication_level": "Medium — culturally smart targeting"
+        }
+      },
+      {
+        "ad_id": 3,
+        "format": "Vertical Portrait / Story format",
+        "style": "Dark Minimal Photography with Bold Text Block",
+        "design_language": {
+          "overall_aesthetic": "Dark, moody, premium food photography — editorial contrast with bold white text",
+          "mood": "Bold, confident, appetizing, slightly dramatic",
+          "tone": "Direct, city-targeted, energetic",
+          "visual_approach": "White top header zone for brand; dark full-bleed food photography for body; bold white text block overlaid on dark image",
+          "composition_technique": "Hard two-zone split — clean white top, dark cinematic food image bottom; text overlaid directly on dark image for maximum contrast"
+        },
+        "color_logic": {
+          "dominant_color_zone_1": "Clean White — top header area",
+          "dominant_color_zone_2": "Dark charcoal/moody grey — food photography background",
+          "text_on_white_zone": "Orange (logo), dark charcoal (tagline)",
+          "text_on_dark_zone": "White — maximum contrast on dark background",
+          "food_image_tones": "Golden browns (samosas), green garnish, warm amber (chai) — natural food colors pop against dark bg",
+          "overall_effect": "Dark background makes food colors pop dramatically — samosas look golden and crispy"
+        },
+        "typography": {
+          "primary_typeface_style": "Bold rounded sans-serif — consistent brand font",
+          "font_weights_used": ["Bold for city-targeted headline"],
+          "text_sizes": [
+            "Brand name — medium in white zone",
+            "Headline — large, bold, 3 lines"
+          ],
+          "special_typographic_treatment": "Black filled rectangle behind white headline text — ensures readability over complex food image",
+          "text_color_logic": "White text on solid dark/black panel — clean, editorial"
+        },
+        "text_placement": {
+          "logo_and_tagline": "Top center in white zone",
+          "headline_block": "Upper portion of dark image zone — dark background panel with white text sits at top of food image",
+          "relationship_to_image": "Text occupies upper 35% of dark zone; food fills full dark zone including behind text"
+        },
+        "image_and_graphic_placement": {
+          "hero_food_image": "Full-bleed dark background food photography — samosas in basket, chai glasses, chutneys",
+          "image_position": "Fills entire bottom 75% of frame",
+          "image_treatment": "Dark moody studio photography — high contrast, dramatic lighting on food",
+          "image_style": "Restaurant-quality editorial food photography",
+          "layering_order": "White header zone → Dark food image (full bleed below) → Dark text panel overlay on image → White text on panel"
+        },
+        "message_delivery": {
+          "primary_message": "City-specific food discovery with top deals",
+          "strategy": "Local greeting + aspirational mood language + premium food visual",
+          "emotional_trigger": "Local connection, hunger trigger, curiosity",
+          "cta": "Implicit — 'top deals' language drives exploration",
+          "sophistication_level": "Medium-high — most visually elevated of the 5 ads"
+        }
+      },
+      {
+        "ad_id": 4,
+        "format": "Horizontal / Landscape (16:9 ratio) — Facebook Feed banner format",
+        "style": "Clean Brand-colored Landscape with Side-by-side Text and Product",
+        "design_language": {
+          "overall_aesthetic": "Clean, bright, brand-dominant — orange canvas with food as right-side anchor",
+          "mood": "Warm, wholesome, value-focused, comforting",
+          "tone": "Simple, direct, warm — comfort food positioning",
+          "visual_approach": "Left half — brand, text, price on orange; Right half — food photography bleeds in from right edge",
+          "composition_technique": "Left-right split composition — text on brand-colored left, food photography on right; horizontal format maximizes real estate for both"
+        },
+        "color_logic": {
+          "dominant_color": "Swiggy Orange — fills majority of frame (left two-thirds)",
+          "text_color": "White for all text on orange",
+          "price_color": "White — largest element",
+          "food_image_tones": "Warm neutrals — rice, roti, dal, curry in earthy tones harmonize with orange",
+          "cutlery_element": "White spoon graphic bottom left — adds lifestyle context",
+          "overall_effect": "Orange-dominant landscape feels energetic, brand-strong; food on right creates natural appetite pull"
+        },
+        "typography": {
+          "primary_typeface_style": "Bold rounded sans-serif — brand consistent",
+          "font_weights_used": ["Medium for logo/tagline", "Bold for headline", "Black/Extra-bold for price"],
+          "text_sizes": [
+            "Logo — small-medium top left",
+            "Headline — medium-large",
+            "Price — very large dominant",
+            "Sub-tagline — small italic below price",
+            "Fine print — very small bottom right"
+          ],
+          "special_typographic_treatment": "Price (₹99) rendered in very large scale — becomes a visual graphic element, not just text",
+          "text_color_logic": "All white on orange — single-color text system, maximum brand cohesion"
+        },
+        "text_placement": {
+          "logo_and_tagline": "Top left",
+          "offer_headline": "Left side, upper-middle",
+          "price": "Left side, center — dominant",
+          "sub_tagline": "Below price, left side",
+          "spoon_graphic": "Bottom left corner",
+          "fine_print": "Bottom right",
+          "relationship_to_image": "All text on left half; food image on right half — clean separation"
+        },
+        "image_and_graphic_placement": {
+          "hero_food_image": "Right half of frame — thali/meal spread with multiple dishes",
+          "image_position": "Right-aligned, slightly overlapping center",
+          "image_treatment": "Clean bright food photography on neutral surface — no dark moody treatment",
+          "food_items": "Complete Indian meal — rice, roti, dal, two curries on a large plate",
+          "graphic_elements": "White spoon icon bottom left — lifestyle prop graphic",
+          "layering_order": "Orange background (full bleed) → Food photography (right) → Text elements (left overlay) → Spoon graphic"
+        },
+        "message_delivery": {
+          "primary_message": "Complete wholesome meal at entry-level price point",
+          "strategy": "Comfort + value — wholesome positioning at affordable price",
+          "emotional_trigger": "Comfort, satisfaction, smart spending",
+          "cta": "Implicit — price drives click-to-order",
+          "sophistication_level": "Medium — clean, efficient, conversion-focused"
+        }
+      },
+      {
+        "ad_id": 5,
+        "format": "Vertical Portrait / Story format (9:16)",
+        "style": "Dark Cinematic Food Photography with Elegant Price Communication",
+        "design_language": {
+          "overall_aesthetic": "Dark premium food photography — burger as hero, elegant and indulgent",
+          "mood": "Premium, indulgent, confident, appetite-forward",
+          "tone": "Bold but refined — talks to quality-conscious buyer with price surprise",
+          "visual_approach": "Full-bleed dark cinematic food image; brand in white top zone; text in white over dark image; decorative gold squiggle graphic accent",
+          "composition_technique": "Nearly full-bleed food photography with minimal top white strip for brand; text overlaid in upper-middle; food dominates 70%+ of frame"
+        },
+        "color_logic": {
+          "dominant_color": "Deep dark brown/charcoal — food photography background",
+          "brand_zone_color": "White strip at very top",
+          "text_color": "White — on dark image",
+          "price_color": "Warm cream/golden white — slightly different tone from pure white, feels premium",
+          "accent_graphic": "Gold/amber thin squiggle/ribbon line — decorative element near price",
+          "food_image_tones": "Golden sesame bun, melting orange cheese, green lettuce, red tomato — full rich burger palette",
+          "overall_effect": "Dark background makes the burger's golden cheese and warm tones look extraordinarily rich and indulgent"
+        },
+        "typography": {
+          "primary_typeface_style": "Bold rounded sans-serif — brand consistent",
+          "font_weights_used": ["Medium for logo", "Regular-medium for headline lines", "Extra-bold for price"],
+          "text_sizes": [
+            "Logo — small, top center in white zone",
+            "Headline line 1 — medium",
+            "Headline line 2 — medium-large",
+            "Price — very large, dominant",
+            "Fine print — very small, bottom right"
+          ],
+          "special_typographic_treatment": "Price in warm cream tone rather than pure white — subtle premium differentiation; decorative gold squiggle accompanies price",
+          "text_color_logic": "White/cream on dark — cinema-poster style"
+        },
+        "text_placement": {
+          "logo_and_tagline": "Top center in white strip zone",
+          "headline": "Upper-center of dark image zone — two short lines, left-ish alignment",
+          "price": "Center-upper of dark zone — largest text element, below headline",
+          "decorative_squiggle": "Right of price text — small curling gold line graphic",
+          "fine_print": "Bottom right, very small",
+          "relationship_to_image": "Text in upper 40% of dark zone; burger occupies full frame including behind text"
+        },
+        "image_and_graphic_placement": {
+          "hero_food_image": "Full-bleed — burger on wooden cutting board, dark studio background",
+          "image_position": "Center-lower frame dominance — burger fills 60% of visual space",
+          "image_treatment": "Dark moody cinematic food photography — dramatic side lighting, cheese drip visible",
+          "image_style": "Premium editorial food photography — most aspirational of the 5 ads",
+          "graphic_elements": "Thin gold squiggle/ribbon — small decorative accent near price text only",
+          "layering_order": "Dark food photography (full bleed) → White header strip at top → Text overlays (upper zone) → Gold squiggle accent"
+        },
+        "message_delivery": {
+          "primary_message": "Premium indulgent burger at surprisingly affordable price",
+          "strategy": "Quality-first visual impact followed by price reveal — subverts expectation (premium look, low price)",
+          "emotional_trigger": "Desire, surprise value, indulgence permission",
+          "cta": "Implicit — desire + price drives order",
+          "sophistication_level": "High — most visually premium of the 5 Swiggy ads"
+        }
+      }
+    ],
+    "cross_ad_brand_system_analysis": {
+      "consistent_design_elements": [
+        "Orange rounded square logo mark — top position in every single ad",
+        "Brand wordmark + tagline always paired together",
+        "Same typeface family across all 5 ads",
+        "Price (₹99) used as primary offer anchor in 4 of 5 ads",
+        "White text as default on all dark/orange backgrounds",
+        "Fine print always bottom-right corner",
+        "Food photography always realistic, appetizing, high-quality"
+      ],
+      "layout_pattern_variations": {
+        "vertical_dark_photography": "Ads 3 and 5 — moody, premium, editorial",
+        "vertical_orange_background": "Ads 1 and 2 (partial) — warm, brand-dominant",
+        "horizontal_split_layout": "Ad 4 — text left, food right",
+        "regional_cultural_variant": "Ad 2 — cream background, illustrated cultural elements"
+      },
+      "typography_system": {
+        "typeface_character": "Rounded bold sans-serif — approachable, modern, brand-consistent",
+        "scale_logic": "Price always largest text element — offer is primary message",
+        "color_logic": "White on orange OR white on dark — always maximum contrast",
+        "hierarchy": "Logo → Offer headline → Price → Supporting text → Fine print"
+      },
+      "photography_style_spectrum": {
+        "premium_dark_moody": "Ads 3 and 5",
+        "warm_brand_integrated": "Ads 1 and 4",
+        "multi_product_spread": "Ad 2",
+        "consistent_quality": "All 5 ads use professional studio-quality food photography"
+      },
+      "color_strategy": {
+        "orange": "Brand identity, energy, appetite stimulation — primary brand expression",
+        "dark_backgrounds": "Premium positioning, food hero elevation",
+        "cream_beige": "Cultural warmth, regional targeting",
+        "white": "Cleanliness, contrast, brand clarity",
+        "gold_accent": "Premium touch — used sparingly (Ad 5 only)"
+      },
+      "message_delivery_pattern": {
+        "universal_formula": "Brand presence → Appetite trigger (food image) → Price value → Implicit CTA",
+        "localization_strategy": "City-name targeting used in Ads 2 and 3 — hyper-local relevance",
+        "price_anchoring": "₹99 price point repeated across 3 ads — builds platform-wide value perception",
+        "emotional_range": "Comfort (Ad 4) → Indulgence (Ad 5) → Local pride (Ad 2) → Pure value (Ad 1) → Discovery (Ad 3)"
+      }
+    }
+  }
+}

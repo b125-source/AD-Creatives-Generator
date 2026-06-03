@@ -1,0 +1,208 @@
+{
+  "ad_creatives_analysis": {
+    "brand_name": "toing",
+    "campaign_themes": [
+      "Price Comparison (Us vs. Them)",
+      "Fee Transparency",
+      "Flash Sales (BrokeHours)"
+    ],
+    "total_ads_analyzed": 6,
+    "overall_design_system": {
+      "style": "Disruptive / Comparative / Gen-Z Pop",
+      "design_language": {
+        "aesthetic": "Bold, high-contrast, and aggressive. The design moves away from 'appetite appeal' in some ads to focus purely on 'value appeal' and 'transparency'.",
+        "mood": "Confident, challenger-brand, transparent, urgent.",
+        "visual_approach": "Heavy use of split-screens to create a binary choice (Good vs. Bad). Uses UI mockups and receipt breakdowns as the primary visual hooks."
+      },
+      "color_logic": {
+        "primary_brand_color": "Deep Forest Green (#004d00 approx) - Used as the base for the 'Toing' side.",
+        "accent_color": "Neon Pink / Magenta (#ff00cc approx) - Used for buttons, logos, and key highlights.",
+        "competitor_color": "Red / Coral (#ff4d4d approx) - Used exclusively for the 'Other Apps' or 'Competitor' side to signal danger/expensive.",
+        "secondary_accent": "Lime Green - Used for 'Free' tags and positive indicators."
+      },
+      "typography": {
+        "headline_font": "Bold, condensed sans-serif (Impact style). All caps for maximum authority.",
+        "body_font": "Clean sans-serif (likely Inter or Roboto) for UI text readability.",
+        "logo_font": "Custom, lowercase, italicized, futuristic."
+      }
+    },
+    "ads": [
+      {
+        "ad_id": 1,
+        "theme": "Direct Price Comparison",
+        "style": "Split-Screen / Binary Choice",
+        "design_language": {
+          "overall_aesthetic": "Versus battle style. Divides the screen vertically into two distinct worlds.",
+          "mood": "Confrontational, proof-oriented.",
+          "visual_approach": "Left side (Green) represents the brand; Right side (Red) represents the competitor."
+        },
+        "color_logic": {
+          "background_split": "50/50 vertical split. Left is Brand Green (Checkerboard pattern); Right is Competitor Red (Solid).",
+          "ui_elements": "White cards on both sides for neutrality, but price tags are Green (Left) vs Red (Right).",
+          "color_usage": "Green signals 'Go/Good/Cheap'; Red signals 'Stop/Bad/Expensive'."
+        },
+        "typography": {
+          "headline_style": "Bold, White, Sans-Serif. Centered in respective color blocks.",
+          "hierarchy": "Headline -> Product Image -> Price -> Phone Mockup.",
+          "text_placement": "Top third for headlines; Middle for product cards; Bottom for phone UI."
+        },
+        "graphics_and_images": {
+          "hero_graphics": "Two hands holding smartphones displaying the app interface.",
+          "product_images": "Small thumbnails of 'Chicken Popcorn' inside white speech bubbles/cards.",
+          "badges": "A pink 'Lowest Price Guaranteed' stamp overlapping the split line."
+        },
+        "message_delivery": {
+          "strategy": "Visual proof. Shows the exact same item at a lower price on their app vs. a competitor.",
+          "emotional_trigger": "Fear of missing out (FOMO) on savings; feeling smart for switching."
+        }
+      },
+      {
+        "ad_id": 2,
+        "theme": "Fee Transparency (Burger)",
+        "style": "Receipt Breakdown / UI Comparison",
+        "design_language": {
+          "overall_aesthetic": "Informational graphic design. Looks like a screenshot of a bill.",
+          "mood": "Educational, revealing, honest.",
+          "visual_approach": "Side-by-side comparison of two 'receipts' or checkout screens."
+        },
+        "color_logic": {
+          "background": "Solid Deep Green with subtle checkerboard texture.",
+          "highlighting": "Green text for 'FREE' items on the left; Red text for prices on the right.",
+          "buttons": "Pink 'To Pay' button (Left) vs Red 'To Pay' button (Right).",
+          "color_usage": "Uses color to guide the eye to the 'Total' amount at the bottom."
+        },
+        "typography": {
+          "headline_style": "Large, conversational white text at the top ('Those extra fees?...').",
+          "ui_text": "Small, legible sans-serif mimicking a real app interface.",
+          "text_placement": "Headline top center; Receipts side-by-side in the lower two-thirds."
+        },
+        "graphics_and_images": {
+          "hero_graphics": "Two large white cards mimicking mobile app checkout screens.",
+          "product_image": "Small thumbnail of a 'McVeggie Burger' at the top of each card.",
+          "badges": "Pink 'Lowest Price Guaranteed' stamp at the bottom left."
+        },
+        "message_delivery": {
+          "strategy": "Itemized comparison. Shows exactly *where* the competitor charges extra (delivery, packaging, platform fee).",
+          "emotional_trigger": "Frustration with hidden fees; relief at transparency."
+        }
+      },
+      {
+        "ad_id": 3,
+        "theme": "Fee Transparency (Popcorn)",
+        "style": "Receipt Breakdown / UI Comparison",
+        "design_language": {
+          "overall_aesthetic": "Identical to Ad 2. Consistent template.",
+          "mood": "Educational, revealing.",
+          "visual_approach": "Side-by-side receipt comparison."
+        },
+        "color_logic": {
+          "background": "Solid Deep Green.",
+          "highlighting": "Green 'FREE' text vs Red price text.",
+          "buttons": "Pink button (Left) vs Red button (Right).",
+          "color_usage": "Consistent coding: Pink/Green = Good; Red = Bad."
+        },
+        "typography": {
+          "headline_style": "Large white text ('Hidden charges? Not our style!').",
+          "text_placement": "Headline top center; Receipts below."
+        },
+        "graphics_and_images": {
+          "hero_graphics": "Two checkout screen cards.",
+          "product_image": "Thumbnail of 'Chicken Popcorn'.",
+          "badges": "Pink 'Lowest Price Guaranteed' stamp."
+        },
+        "message_delivery": {
+          "strategy": "Reinforces the 'No Hidden Charges' narrative with a different product example.",
+          "emotional_trigger": "Trust building."
+        }
+      },
+      {
+        "ad_id": 4,
+        "theme": "Fee Transparency (Burger - Duplicate)",
+        "style": "Receipt Breakdown / UI Comparison",
+        "design_language": {
+          "overall_aesthetic": "Identical to Ad 2.",
+          "mood": "Educational.",
+          "visual_approach": "Side-by-side receipt comparison."
+        },
+        "color_logic": {
+          "background": "Solid Deep Green.",
+          "highlighting": "Green 'FREE' text vs Red price text.",
+          "buttons": "Pink button (Left) vs Red button (Right)."
+        },
+        "typography": {
+          "headline_style": "Large white text ('Hidden charges? Not our style!').",
+          "text_placement": "Headline top center; Receipts below."
+        },
+        "graphics_and_images": {
+          "hero_graphics": "Two checkout screen cards.",
+          "product_image": "Thumbnail of 'McVeggie Burger'.",
+          "badges": "Pink 'Lowest Price Guaranteed' stamp."
+        },
+        "message_delivery": {
+          "strategy": "Repetition of the transparency message.",
+          "emotional_trigger": "Trust building."
+        }
+      },
+      {
+        "ad_id": 5,
+        "theme": "Flash Sale (Pizza)",
+        "style": "High-Energy Promotional / Food Photography",
+        "design_language": {
+          "overall_aesthetic": "Appetite-focused but with urgent sale graphics.",
+          "mood": "Urgent, exciting, hungry.",
+          "visual_approach": "Large hero food image dominates the bottom; bold typography at the top."
+        },
+        "color_logic": {
+          "background": "Deep Green with Checkerboard pattern (top left).",
+          "text_colors": "White for main text; Pink for the price ('₹29').",
+          "accents": "Lime Green pill shape for the time constraint ('6-9 PM').",
+          "color_usage": "Pink is used to highlight the 'Deal' elements (Price, Free Delivery tag)."
+        },
+        "typography": {
+          "headline_style": "Bold, condensed sans-serif. 'PIZZA AT' is white; Price is Pink.",
+          "branding": " 'BROKEHOURS' logo at the top right in a glitch/distorted font style.",
+          "text_placement": "Top third for offer details; Bottom two-thirds for food image."
+        },
+        "graphics_and_images": {
+          "hero_image": "Large, high-saturation photo of a pizza with a cheese pull slice being lifted.",
+          "graphic_elements": "Pink arrow/tag pointing to the food saying 'FREE DELIVERY'.",
+          "background_pattern": "Subtle green checkerboard."
+        },
+        "message_delivery": {
+          "strategy": "Scarcity + Extreme Value. The price (₹29) is the hero.",
+          "emotional_trigger": "Urgency (Flash sale) + Craving."
+        }
+      },
+      {
+        "ad_id": 6,
+        "theme": "Flash Sale (Rolls)",
+        "style": "High-Energy Promotional / Food Photography",
+        "design_language": {
+          "overall_aesthetic": "Similar to Ad 5 but vertical orientation.",
+          "mood": "Urgent, exciting.",
+          "visual_approach": "Text on left, Food on right. Dynamic diagonal composition."
+        },
+        "color_logic": {
+          "background": "Deep Green with Checkerboard pattern (right side).",
+          "text_colors": "White and Pink mix. 'BEST ROLLS' is white; 'STARTING ₹29' has Pink price.",
+          "accents": "Pink box for the 'Flash sale' details.",
+          "color_usage": "Pink highlights the 'Call to Action' elements."
+        },
+        "typography": {
+          "headline_style": "Bold, stacked text on the left. 'GET THE BEST ROLLS'.",
+          "branding": " 'BROKEHOURS' logo top right.",
+          "text_placement": "Left aligned text block; Right aligned food image."
+        },
+        "graphics_and_images": {
+          "hero_image": "Large, vertical close-up of a roll/wrap. Shows texture and filling clearly.",
+          "graphic_elements": "Pink tag 'FREE DELIVERY' overlaid on the food.",
+          "info_box": "Pink square box on the left containing the time details."
+        },
+        "message_delivery": {
+          "strategy": "Vertical format optimized for mobile stories. Focuses on the 'Starting at' price point.",
+          "emotional_trigger": "Affordability + Hunger."
+        }
+      }
+    ]
+  }
+}

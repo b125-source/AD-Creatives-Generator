@@ -1,0 +1,108 @@
+{
+  "design_analysis": {
+    "brand_name": "toing",
+    "overall_style_and_language": {
+      "summary": "A vibrant, youthful, and energetic design language with a retro-modern (Y2K-inspired) aesthetic. The style is bold and high-contrast, designed to be eye-catching and stand out in a busy social media feed. It combines high-quality, appetizing food photography with playful, geometric graphic elements and bold typography to convey value and excitement.",
+      "keywords": [
+        "Vibrant",
+        "Energetic",
+        "Youthful",
+        "Bold",
+        "Retro-Modern",
+        "Y2K-inspired",
+        "High-Contrast",
+        "Playful",
+        "Geometric"
+      ]
+    },
+    "color_palette_and_logic": {
+      "primary": {
+        "name": "Vibrant Magenta",
+        "hex_approx": "#F80092",
+        "usage": "Used for the main outer frame, logo background, and outlines on graphic elements. It's the primary attention-grabbing color."
+      },
+      "secondary": {
+        "name": "Deep Racing Green",
+        "hex_approx": "#00592E",
+        "usage": "Forms the main background, often rendered as a tonal checkerboard or diamond pattern. Provides a dark, rich base for other elements to pop against."
+      },
+      "accent_1": {
+        "name": "Lime Green",
+        "hex_approx": "#ADF070",
+        "usage": "Used for secondary callout boxes ('stickers') and key graphic shapes like starbursts, creating a bright, energetic accent."
+      },
+      "accent_2": {
+        "name": "White",
+        "hex_approx": "#FFFFFF",
+        "usage": "The primary color for all headline and offer text, ensuring maximum legibility and impact against the dark green background."
+      },
+      "logic": "The color logic is built on high contrast and a non-traditional, complementary palette. The vibrant magenta and deep green create a strong visual tension that demands attention. The lime green accent adds a layer of modern, digital-native energy. This palette moves away from typical 'foodie' colors (reds, oranges) to establish a more modern, tech-forward brand identity."
+    },
+    "typography": {
+      "logo_font": {
+        "font_style": "Custom Bold Rounded Sans-Serif",
+        "characteristics": "Lowercase, chunky letterforms, soft corners, with a friendly yet confident feel. The 'g' has a unique open tail.",
+        "placement": "Consistently placed at the top-left or top-center of the creative for immediate brand recognition."
+      },
+      "headline_font": {
+        "font_style": "Condensed Bold Sans-Serif",
+        "characteristics": "All-caps, clean, modern, with tight letter-spacing. Designed for maximum impact and readability at a glance.",
+        "usage": "Used for the main offer or value proposition (e.g., 'FREE DELIVERY', 'LOWEST PRICE GUARANTEED')."
+      },
+      "callout_font": {
+        "font_style": "Standard Sans-Serif",
+        "characteristics": "Typically sentence case, clear and legible. Its casual nature contrasts with the formal headline font. Often set at a slight angle.",
+        "usage": "Used for secondary taglines or playful copy within the lime green 'sticker' elements."
+      }
+    },
+    "layout_and_placement": {
+      "principles": "The layout is hierarchical and hero-focused. It uses layering to create depth, with the central food image placed on top of background graphics to make it the undisputed focal point. Compositions are generally centered and balanced.",
+      "placement_of_text": {
+        "logo": "Top-left (in square/landscape formats) or Top-center (in vertical formats).",
+        "headline": "Located in the upper third of the ad, directly below the logo. It is large and prominent to state the primary message immediately.",
+        "callout": "Placed in the lower third, often slightly overlapping the main image. Its angled placement adds dynamism and draws the eye."
+      },
+      "placement_of_graphics_and_images": {
+        "hero_image": "This is the central focus of the entire ad. It is always a high-quality, isolated cutout of the food item, placed in the middle of the canvas.",
+        "background_pattern": "A tonal green checkerboard/diamond pattern fills the entire background, providing texture and reinforcing the brand's color scheme.",
+        "accent_graphics": "Elements like starbursts are placed behind the hero image to frame it and create a 'pop' effect, enhancing its visual importance.",
+        "frame": "A thick, rounded magenta border frames the entire composition (in square and vertical formats), creating a contained, polished, and distinctly branded look."
+      }
+    },
+    "message_delivery": {
+      "method": "The design delivers its message through a clear visual hierarchy. \n1. **Attention (Color & Frame):** The vibrant magenta frame and high-contrast colors grab the user's attention first. \n2. **Value (Headline):** The large, white, all-caps headline immediately communicates the core offer (price, delivery). \n3. **Desire (Hero Image):** The delicious, centrally-placed food photography creates appetite appeal and showcases the product. \n4. **Personality (Callout):** The quirky, angled callout box adds a layer of brand voice and a secondary benefit. \nThis combination ensures the message is delivered efficiently: value is stated, the product is desired, and the brand is perceived as modern and energetic."
+    },
+    "individual_creatives_summary": [
+      {
+        "id": "creative_1_noodles",
+        "format": "Square (1:1)",
+        "subject": "Noodles being lifted from a bowl.",
+        "notes": "Classic application of the design system. Uses two starburst graphics and the magenta frame."
+      },
+      {
+        "id": "creative_2_pizza_landscape",
+        "format": "Landscape (approx. 16:9)",
+        "subject": "Pizza with a cheese-pull slice.",
+        "notes": "A split-layout adaptation. Text and logo occupy the left half, while the hero image is on the right. This format omits the magenta frame but retains all other brand elements."
+      },
+      {
+        "id": "creative_3_burger_vertical",
+        "format": "Vertical/Story (9:16)",
+        "subject": "Hands holding a large burger.",
+        "notes": "Vertical application with elements stacked: Logo, Headline, Hero Image, Callout. Fully enclosed by the magenta frame."
+      },
+      {
+        "id": "creative_4_pizza_vertical",
+        "format": "Vertical/Story (9:16)",
+        "subject": "Pizza with a cheese-pull slice.",
+        "notes": "Vertical version of the pizza creative. The layout is stacked to fit the format, with the starburst graphic behind the pizza. Fully enclosed by the magenta frame."
+      },
+      {
+        "id": "creative_5_dosa_square",
+        "format": "Square (1:1)",
+        "subject": "Masala Dosa with side dishes.",
+        "notes": "Classic square application. Features a large, empty lime-green starburst shape behind the food, functioning as a graphic backdrop. Fully enclosed by the magenta frame."
+      }
+    ]
+  }
+}

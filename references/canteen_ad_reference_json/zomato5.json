@@ -1,0 +1,598 @@
+{
+  "ad_creatives_analysis": {
+    "platform": "Facebook",
+    "total_ads_analyzed": 8,
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_title": "Snacks Starting at ₹19 — Zomato Red Background Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Flat bold Zomato-red background with clean product photography and strong typographic price layout",
+          "mood": "Energetic, bold, accessible, direct, vibrant",
+          "tone": "Loud, value-aggressive, mass-market",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Solid brand-red background acts as canvas — text block upper zone, floating product center-lower, brand name bottom",
+          "visual_hierarchy": "Large price headline upper zone → black free delivery bar below → floating food product center → brand name bottom",
+          "composition": "Three-zone vertical: text header → floating product → brand footer — clean and structured",
+          "depth": "Completely flat red background — product appears to float with drop shadow giving only illusion of depth",
+          "border_element": "Solid black full-width bar behind free delivery text — creates strong horizontal divider and contrast band"
+        },
+        "color_logic": {
+          "primary_background": "Zomato brand red — bold, flat, full-bleed",
+          "accent_colors": [
+            "Black (delivery bar background)",
+            "White (all typography)",
+            "Golden/amber (fried samosa — warm food tones)",
+            "Green (chutney dip)",
+            "Black slate serving plate"
+          ],
+          "text_colors": {
+            "headline": "White — maximum contrast on red",
+            "price_number": "White — same weight as headline",
+            "delivery_bar_text": "White on black bar",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Flat Zomato red creates instant brand recognition and urgency — black bar adds visual weight and separates offers clearly — white text is clean and readable at any scroll speed"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif, all caps — very aggressive weight",
+          "headline_size": "Price (₹19) is the dominant element — extremely large",
+          "supporting_text_style": "Bold sans-serif on black bar — slightly smaller",
+          "brand_name_style": "Lowercase Zomato signature font — bottom center",
+          "font_weight_hierarchy": "Price number largest → category word large → delivery bar text medium → brand name small",
+          "text_case": "All caps for promotional text, lowercase brand"
+        },
+        "text_placement": {
+          "primary_headline": "Upper zone — SNACKS STARTING AT ₹19 in single line across frame",
+          "delivery_bar": "Directly below headline — full width black bar with white text",
+          "brand_name": "Bottom center — in open red zone below product",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center-lower — samosas on black slate plate with green chutney dip, floating on red background",
+          "background": "Flat Zomato red — no texture, no gradient",
+          "human_element": "None",
+          "image_treatment": "Clean floating product shot with subtle drop shadow — product isolated from any environment"
+        },
+        "message_delivery": {
+          "primary_message": "Shockingly low entry price point for snacks",
+          "strategy": "Price shock on brand red — ₹19 is an impulse-triggering micro-price that removes all purchase hesitation",
+          "cta_style": "Implicit — brand name at bottom anchors the platform",
+          "urgency_level": "Very high — specific micro-price with first order free delivery stacked"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_title": "Biryani Starting at ₹149 — Zomato Red Background Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Flat bold Zomato-red background with floating product photography — direct design system sibling of Ad 1",
+          "mood": "Bold, energetic, appetizing, direct, value-driven",
+          "tone": "Confident, mass-market, culturally resonant",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Identical design system to Ad 1 — solid red background, text block upper, floating product center-lower, brand footer",
+          "visual_hierarchy": "Price headline upper → black delivery bar → floating biryani bowl center → brand bottom",
+          "composition": "Same three-zone vertical structure as Ad 1 — confirms deliberate modular template system",
+          "depth": "Flat red background — copper bowl with biryani floats with drop shadow",
+          "border_element": "Same solid black full-width bar for delivery text — consistent design system element"
+        },
+        "color_logic": {
+          "primary_background": "Zomato brand red — identical to Ad 1",
+          "accent_colors": [
+            "Black (delivery bar)",
+            "White (typography)",
+            "Copper/bronze (biryani handi pot — warm metallic)",
+            "Saffron yellow/gold (biryani rice — dominant warm food color)",
+            "Green herb garnish",
+            "Deep red/maroon (biryani spice tones)"
+          ],
+          "text_colors": {
+            "headline": "White on red — maximum contrast",
+            "delivery_bar_text": "White on black",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Identical color logic to Ad 1 — red urgency field, saffron gold biryani creates warm cultural appetite appeal — copper pot adds authenticity and premium craft signal"
+        },
+        "typography": {
+          "headline_font_style": "Identical to Ad 1 — extra bold condensed sans-serif, all caps",
+          "headline_size": "Price (₹149) dominates upper zone — same scale treatment as Ad 1",
+          "supporting_text_style": "Bold sans-serif on black bar",
+          "brand_name_style": "Lowercase Zomato signature — bottom center",
+          "font_weight_hierarchy": "Same as Ad 1 — price largest → category large → bar text medium → brand small",
+          "text_case": "All caps promotional, lowercase brand"
+        },
+        "text_placement": {
+          "primary_headline": "Upper zone — same layout as Ad 1",
+          "delivery_bar": "Directly below headline — full width black bar",
+          "brand_name": "Bottom center",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center-lower — copper handi pot with biryani, floating on red background with drop shadow",
+          "background": "Flat Zomato red — identical to Ad 1",
+          "human_element": "None",
+          "image_treatment": "Same floating product technique as Ad 1 — isolated on flat color with subtle shadow"
+        },
+        "message_delivery": {
+          "primary_message": "Accessible price point for culturally significant food — biryani for mass market",
+          "strategy": "Same template, different food category — modular campaign system efficiently covers multiple cuisine verticals with identical conversion logic",
+          "cta_style": "Implicit — brand name at bottom",
+          "urgency_level": "Very high — specific price with first order free delivery"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_title": "Zomato Gold ₹1 for 3 Months — Dark Textured Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark premium textured background with gold accent typography and subscription offer layout",
+          "mood": "Premium, exclusive, luxurious, value-surprising, sophisticated",
+          "tone": "Prestigious, aspirational, deal-of-a-lifetime",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark premium canvas — gold brand name accent, massive price shock text, floating food center, gold horizontal bar bottom",
+          "visual_hierarchy": "GET zomato GOLD headline top → massive ₹1 price center-upper → food center → gold bar with badge bottom",
+          "composition": "Centered vertical hierarchy — text flows from top through food to bottom bar in single axis",
+          "depth": "Dark stone/slate textured background gives premium materiality — food bowl floats above with shadow",
+          "border_element": "Gold/amber full-width horizontal bar at bottom with circular badge overlay for condition text"
+        },
+        "color_logic": {
+          "primary_background": "Very dark charcoal/black with subtle stone texture — premium dark field",
+          "accent_colors": [
+            "Gold/amber (GOLD brand word — premium signal)",
+            "White (primary pricing and offer text)",
+            "Gold/amber (bottom horizontal bar)",
+            "White (circular badge on bar)",
+            "Dark teal/navy (food bowl)",
+            "Mixed warm food colors (fried rice)"
+          ],
+          "text_colors": {
+            "get_text": "White",
+            "zomato_text": "White lowercase signature",
+            "gold_text": "Gold/amber — premium accent word",
+            "price_text": "White — very large",
+            "duration_text": "White with small gold leaf/arrow decoratives",
+            "bar_text": "White on gold bar",
+            "badge_text": "Black on white circular badge"
+          },
+          "color_emotion": "Dark background with gold accents is a universal luxury signifier — positions Zomato Gold as a premium membership product rather than a discount — the ₹1 price creates extreme cognitive dissonance between perceived premium value and actual price"
+        },
+        "typography": {
+          "headline_font_style": "Mixed — Zomato lowercase signature for brand name, extra bold condensed sans-serif for offer text",
+          "headline_size": "₹1 is the single largest text element — enormous scale emphasizes price shock",
+          "supporting_text_style": "Bold sans-serif for duration text with decorative leaf/arrow dividers",
+          "brand_name_style": "Lowercase Zomato signature embedded in headline",
+          "font_weight_hierarchy": "₹1 largest → ONLY AT large → FOR 3 MONTHS medium → bar text medium → badge text small",
+          "text_case": "Mixed — sentence structure with brand lowercase, all caps for emphasis words"
+        },
+        "text_placement": {
+          "headline_block": "Upper center — GET zomato GOLD / ONLY AT ₹1 stacked",
+          "duration_text": "Below price, center — FOR 3 MONTHS with decorative dividers",
+          "food_product": "Center frame floating",
+          "gold_bar": "Bottom — full width gold horizontal bar",
+          "condition_badge": "Overlaid on right end of gold bar — circular white badge",
+          "legal_text": "Bottom left corner, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — dark teal bowl of vegetable fried rice, floating on dark background",
+          "background": "Dark textured stone/slate surface",
+          "decorative_elements": "Small gold leaf/arrow icons flanking duration text",
+          "human_element": "None",
+          "image_treatment": "Floating product on dark textured background — bowl styled simply, food feels wholesome and everyday"
+        },
+        "message_delivery": {
+          "primary_message": "Subscription product (Zomato Gold) at shocking introductory price",
+          "strategy": "Premium aesthetic + micro price creates maximum cognitive impact — the gap between gold/luxury presentation and ₹1 price is the entire message — drives subscription sign-ups",
+          "cta_style": "Implicit — offer clarity serves as CTA",
+          "urgency_level": "Extreme — ₹1 for 3 months is a time-limited acquisition offer — implicit scarcity"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_title": "Zomato Gold Flash Sale ₹1 — Dark Stone Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark premium stone background with FLASH SALE urgency header, gold accent system, floating wrap photography",
+          "mood": "Exclusive, urgent, premium, flash-deal energy, sophisticated",
+          "tone": "Urgent premium — rare combination of luxury feel and time-pressure",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Design system sibling of Ad 3 — same dark premium field, same gold accents, same bottom gold bar — but adds FLASH SALE header for urgency layering",
+          "visual_hierarchy": "FLASH SALE label top → zomato GOLD offer headline → wrap food center → gold delivery bar bottom",
+          "composition": "Same vertical centered axis as Ad 3 — top urgency label added as new element",
+          "depth": "Dark natural stone surface — same texture family as Ad 3 — wraps laid directly on surface (not floating)",
+          "border_element": "Same gold full-width bottom bar with arrow/leaf decorative icons — confirmed design system"
+        },
+        "color_logic": {
+          "primary_background": "Dark charcoal/black stone texture — same as Ad 3",
+          "accent_colors": [
+            "Gold/amber (GOLD word, bottom bar, FLASH SALE label background)",
+            "White (all primary text)",
+            "Warm beige/cream (wrap tortilla)",
+            "Red tomato, green cucumber, white paneer (food accent colors)"
+          ],
+          "text_colors": {
+            "flash_sale_label": "Black text on gold/amber background tag",
+            "zomato_text": "White lowercase signature",
+            "gold_text": "Gold/amber — premium signal, same as Ad 3",
+            "offer_text": "White",
+            "bar_text": "White on gold bar with gold leaf icons"
+          },
+          "color_emotion": "Identical premium dark-gold system as Ad 3 — FLASH SALE label in gold adds urgency without breaking the luxury aesthetic — the gold label feels like a limited edition stamp"
+        },
+        "typography": {
+          "headline_font_style": "Same mixed system as Ad 3 — Zomato lowercase + bold condensed sans-serif for offer",
+          "headline_size": "Offer text large — slightly smaller than Ad 3 as more text elements compete",
+          "supporting_text_style": "Bold sans-serif for FLASH SALE label, medium for bar text",
+          "brand_name_style": "Lowercase Zomato signature embedded in offer headline",
+          "font_weight_hierarchy": "Offer text largest → FLASH SALE label large → bar text medium",
+          "text_case": "All caps FLASH SALE, mixed case offer, lowercase brand"
+        },
+        "text_placement": {
+          "flash_sale_label": "Top center — gold tag/label element",
+          "headline_block": "Upper center below label — zomato GOLD AT JUST ₹1 FOR 3 MONTHS",
+          "food_product": "Center frame",
+          "gold_bar": "Bottom — full width with leaf/arrow icons flanking text",
+          "legal_text": "Bottom right corner, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — two wraps laid on dark stone surface, showing cross-section of fillings",
+          "background": "Dark stone surface — same texture family as Ad 3",
+          "decorative_elements": "Gold leaf/arrow icons on bottom bar — same as Ad 3",
+          "human_element": "None",
+          "image_treatment": "Product laid directly on dark surface (not floating) — more naturalistic than Ad 3"
+        },
+        "message_delivery": {
+          "primary_message": "Limited-time flash sale on premium subscription — double urgency (flash + ₹1)",
+          "strategy": "FLASH SALE label adds time-pressure layer on top of the ₹1 shock — same premium aesthetic as Ad 3 but with higher urgency multiplier",
+          "cta_style": "Implicit — offer is self-evident CTA",
+          "urgency_level": "Extreme — flash sale + ₹1 price + free delivery condition stacked"
+        }
+      },
+      {
+        "ad_id": 5,
+        "ad_title": "Pizza Starting at ₹99 — Dark Macro with Diagonal Ribbon",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark moody food photography with diagonal red price ribbon — direct sibling of Ad 1 (burger) from previous set",
+          "mood": "Bold, dramatic, appetizing, urgent, indulgent",
+          "tone": "Direct, value-aggressive, premium-casual",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark food photography full-bleed — diagonal red ribbon across upper zone, food dominates center-lower, brand name bottom in dark zone",
+          "visual_hierarchy": "Diagonal ribbon with price upper → pizza fills center → dark zone at bottom → brand name",
+          "composition": "Food photography fills majority of frame — ribbon overlaid diagonally, dark lower zone provides breathing room for brand",
+          "depth": "Strong depth — pizza very sharp foreground against dark blurred wooden table background",
+          "border_element": "Diagonal Zomato red ribbon/banner — same design element as burger ad in previous set — confirmed cross-category template"
+        },
+        "color_logic": {
+          "primary_background": "Very dark brown/black — moody restaurant wood surface",
+          "accent_colors": [
+            "Zomato red (diagonal ribbon)",
+            "White (ribbon text)",
+            "Red pizza tomato sauce",
+            "Purple/red onion",
+            "Green basil leaves",
+            "Golden/amber crust",
+            "Pinkish-red meat toppings"
+          ],
+          "text_colors": {
+            "ribbon_category_text": "White bold on red ribbon",
+            "price_number": "White — largest element on ribbon",
+            "delivery_text": "White below ribbon",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Dark background creates cinematic drama — red ribbon injects brand color and urgency without dominating the food — food's natural warm colors provide appetite appeal against dark field"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif on ribbon — same system as burger ad",
+          "headline_size": "PIZZA large, ₹99 very large on ribbon",
+          "supporting_text_style": "Bold sans-serif below ribbon for delivery text",
+          "brand_name_style": "Lowercase Zomato signature — bottom center in dark zone",
+          "font_weight_hierarchy": "Price number largest → category word large → delivery text medium → brand small",
+          "text_case": "All caps on ribbon, lowercase brand"
+        },
+        "text_placement": {
+          "price_ribbon": "Upper third — diagonal left-to-right, same angle as burger ad",
+          "delivery_text": "Below ribbon, horizontal center",
+          "brand_name": "Bottom center in dark zone",
+          "legal_text": "Right vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center to lower — large pizza filling most of frame, overhead slightly angled",
+          "background": "Dark moody wooden restaurant surface",
+          "human_element": "None",
+          "image_treatment": "Close overhead shot, dramatic moody lighting, pizza styled with fresh toppings for maximum appetite appeal"
+        },
+        "message_delivery": {
+          "primary_message": "Low entry price for pizza — mass category appeal",
+          "strategy": "Same diagonal ribbon template applied to pizza category — confirms efficient cross-category modular campaign system",
+          "cta_style": "Implicit — brand name at bottom",
+          "urgency_level": "Very high — specific price with first order free delivery"
+        }
+      },
+      {
+        "ad_id": 6,
+        "ad_title": "60% Off Salad — Horizontal Lifestyle Context Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark lifestyle horizontal banner with person holding food bowl, witty copy overlay",
+          "mood": "Cool, relatable, witty, health-conscious, modern, lifestyle-aware",
+          "tone": "Clever, conversational, empathetic, self-aware",
+          "format": "Landscape/Banner format (approximately 16:9 ratio)"
+        },
+        "design_language": {
+          "approach": "Full-bleed lifestyle photography — person holding salad bowl, text overlaid left and right zones",
+          "visual_hierarchy": "Large discount text left → salad bowl center held by person → witty copy right → brand badge below discount",
+          "composition": "Left-right split — discount and brand text on left third, human with food on right two-thirds, secondary copy floats upper-right",
+          "depth": "Dark warm background, person wearing dark clothing blends partially, bright green salad bowl creates sharp focal point",
+          "border_element": "Red pill/badge shape behind Zomato brand name — same element seen in celebrity ads from previous sets"
+        },
+        "color_logic": {
+          "primary_background": "Very dark brown/black — moody, minimal",
+          "accent_colors": [
+            "Bright green (salad bowl rim — dominant color accent)",
+            "Mixed salad vegetables (green, red, white, purple)",
+            "Gold fork (utensil — premium touch)",
+            "Warm brown (person's clothing)",
+            "Zomato red (brand pill badge)"
+          ],
+          "text_colors": {
+            "discount_headline": "Warm cream/off-white — large and bold",
+            "delivery_text": "Warm cream/off-white",
+            "witty_copy": "Zomato red — right side secondary text",
+            "brand_badge": "White Zomato on red pill"
+          },
+          "color_emotion": "Dark field with bright green bowl creates immediate visual contrast — the green signals health and freshness — warm cream text is premium and soft against the dark background"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif — large and dominant",
+          "headline_size": "60% OFF very large on left side",
+          "supporting_text_style": "Bold sans-serif for +FREE DELIVERY",
+          "witty_copy_style": "Smaller sans-serif, sentence case — conversational weight — right side",
+          "brand_name_style": "Lowercase Zomato on red pill badge",
+          "font_weight_hierarchy": "60% OFF largest → +FREE DELIVERY large → witty copy small → brand badge small",
+          "text_case": "All caps discount, sentence case witty copy, lowercase brand"
+        },
+        "text_placement": {
+          "discount_headline": "Left third — vertically centered, large stacked",
+          "delivery_text": "Below discount, left side",
+          "brand_badge": "Below delivery text, left side — red pill with Zomato",
+          "witty_copy": "Upper right — floating over dark background zone",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center-right — bright green bowl of salad held in both hands",
+          "human_element": "Person (torso and hands visible) holding bowl — wearing dark clothing, face not visible",
+          "gold_fork": "Person holding gold fork, inserting into salad — action shot element",
+          "background": "Very dark brown/black — minimal environment",
+          "image_treatment": "Lifestyle action shot — person mid-action with food, creates relatable real-life eating scenario"
+        },
+        "message_delivery": {
+          "primary_message": "Discount on health food — targeting health-conscious audience",
+          "strategy": "Witty copy creates emotional resonance with the 'heavy day' feeling — positions salad ordering as self-care, then discount removes the cost hesitation",
+          "cta_style": "Brand badge with witty copy serves as soft CTA",
+          "urgency_level": "High — 60% off + free delivery, but casual tone softens hard urgency"
+        }
+      },
+      {
+        "ad_id": 7,
+        "ad_title": "Order Pizza Like 11 Lakh People — Social Proof Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark textured background with bold social proof headline, red accent elements, and floating pizza",
+          "mood": "Bold, communal, FOMO-driven, high-energy, confidence-building",
+          "tone": "Assertive, crowd-validation, peer-pressure positive",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark halftone/dotted texture background — red accent strips top and bottom, bold white social proof numbers center, floating pizza mid-frame",
+          "visual_hierarchy": "Red category label top → massive social proof number center → pizza floats below number → red brand badge bottom",
+          "composition": "Framed composition — red strips at top and bottom create a bordered feel, content stacks vertically center",
+          "depth": "Dark textured background with halftone dot pattern — pizza floats with shadow above center",
+          "border_element": "Red full-width strips at top and bottom edges — frame the entire composition; red brushstroke/paint badge behind Zomato at bottom"
+        },
+        "color_logic": {
+          "primary_background": "Very dark charcoal/black with subtle halftone dot texture",
+          "accent_colors": [
+            "Zomato red (top strip, bottom strip, brand badge)",
+            "White (all primary text)",
+            "Red tomatoes on pizza",
+            "Green bell peppers",
+            "Black olives",
+            "Golden/amber crust",
+            "White mozzarella"
+          ],
+          "text_colors": {
+            "top_label": "White on red strip",
+            "social_proof_number": "White — enormous scale",
+            "supporting_text": "White and red mixed",
+            "brand_badge": "White Zomato on red brushstroke badge"
+          },
+          "color_emotion": "Dark background with red borders creates a sports-broadcast or news-ticker energy — the framing makes the content feel like a factual announcement rather than an ad — white numbers on black are maximally authoritative"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide display sans-serif — massive scale for social proof number",
+          "headline_size": "11 LAKH / LIKE is the dominant text — fills majority of upper frame",
+          "supporting_text_style": "Bold sans-serif, slightly smaller for PEOPLE DO EVERY WEEK",
+          "top_label_style": "Bold condensed sans-serif on red strip",
+          "brand_name_style": "Lowercase Zomato on red brushstroke badge",
+          "font_weight_hierarchy": "Social proof number largest → supporting phrase large → top label medium → brand badge small",
+          "text_case": "All caps throughout, lowercase brand"
+        },
+        "text_placement": {
+          "top_label": "Top red strip — full width, center-aligned",
+          "social_proof_headline": "Upper center — LIKE 11 LAKH / PEOPLE DO EVERY WEEK stacked",
+          "pizza": "Center frame floating",
+          "brand_badge": "Bottom center — red brushstroke paint badge with Zomato",
+          "legal_text": "None visible"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — large pizza with colorful toppings, floating with shadow",
+          "background": "Dark charcoal with halftone dot texture — subtle grain",
+          "decorative_elements": "Red full-width strips top and bottom acting as frame borders",
+          "brand_badge": "Red brushstroke/paint stroke shape behind Zomato text at bottom",
+          "human_element": "None",
+          "image_treatment": "Floating product on dark textured background — clean isolated shot"
+        },
+        "message_delivery": {
+          "primary_message": "Social proof as primary conversion mechanism — crowd behavior validation",
+          "strategy": "Instead of discount, uses crowd size data to trigger FOMO and social conformity — 'everyone is doing it' psychology removes decision hesitation",
+          "cta_style": "Implicit — brand badge at bottom is the only CTA",
+          "urgency_level": "Medium — no time limit but FOMO creates psychological urgency"
+        }
+      },
+      {
+        "ad_id": 8,
+        "ad_title": "18 Lakh Biryani Orders Every Week — Social Proof Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark textured background with massive social proof statistic, red accent system, floating biryani — design system sibling of Ad 7",
+          "mood": "Bold, authoritative, culturally proud, communal, FOMO-driven",
+          "tone": "Factual, assertive, crowd-validation — same as Ad 7",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Identical design system to Ad 7 — dark halftone background, red strips top and bottom, social proof number dominant, floating food, brand badge bottom",
+          "visual_hierarchy": "Red label top → category headline → enormous number → EVERY WEEK → biryani center → TRY IT OUT badge right → brand badge bottom",
+          "composition": "Same framed vertical composition as Ad 7 — confirms deliberate multi-category social proof campaign template",
+          "depth": "Same dark halftone textured background — copper biryani pot floats with shadow",
+          "border_element": "Same red full-width strips top and bottom; same red brushstroke badge bottom; additional TRY IT OUT red badge overlaid on food zone"
+        },
+        "color_logic": {
+          "primary_background": "Same dark charcoal with halftone dot texture as Ad 7",
+          "accent_colors": [
+            "Zomato red (all accent elements — same as Ad 7)",
+            "White (all primary text)",
+            "Copper/bronze (biryani handi pot)",
+            "Saffron yellow/gold (biryani rice — dominant warm food color)",
+            "Green herb garnish",
+            "Red/orange spice tones"
+          ],
+          "text_colors": {
+            "top_label": "White on red strip",
+            "social_proof_number": "White — enormous",
+            "supporting_text": "White",
+            "try_it_badge": "White on red badge",
+            "brand_badge": "White Zomato on red brushstroke"
+          },
+          "color_emotion": "Identical color system to Ad 7 — dark authority field with red accents — the warm saffron biryani is a culturally powerful color in India, triggering immediate food recognition and desire"
+        },
+        "typography": {
+          "headline_font_style": "Same extra bold wide display sans-serif as Ad 7",
+          "headline_size": "18 LAKH is the dominant element — same enormous scale treatment",
+          "supporting_text_style": "Bold sans-serif for ORDERS and EVERY WEEK",
+          "top_label_style": "Bold condensed on red strip — category identifier",
+          "try_it_badge_style": "Bold condensed on red oval badge — secondary CTA",
+          "brand_name_style": "Lowercase Zomato on red brushstroke badge",
+          "font_weight_hierarchy": "Social proof number largest → supporting text large → top label medium → badges medium → brand small",
+          "text_case": "All caps throughout, lowercase brand"
+        },
+        "text_placement": {
+          "top_label": "Top red strip — #1 CUISINE: BIRYANI label",
+          "social_proof_headline": "Upper center — 18 LAKH ORDERS / EVERY WEEK stacked",
+          "try_it_badge": "Center right — overlaid on biryani image zone",
+          "biryani_product": "Center frame floating",
+          "brand_badge": "Bottom center — red brushstroke with Zomato",
+          "legal_text": "None visible"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — copper handi pot overflowing with saffron biryani, floating with shadow",
+          "background": "Dark charcoal with halftone dot texture — same as Ad 7",
+          "decorative_elements": "Red full-width strips top and bottom, brushstroke badge bottom — same as Ad 7",
+          "additional_badge": "Red oval TRY IT OUT badge overlaid on right side of food zone — secondary action prompt",
+          "human_element": "None",
+          "image_treatment": "Floating product on dark textured background — same treatment as Ad 7 but copper pot adds warmth"
+        },
+        "message_delivery": {
+          "primary_message": "Biryani as #1 food category on Zomato — social proof + category authority",
+          "strategy": "Combines social proof (18 lakh orders) with category ranking (#1 cuisine) for double authority signal — 'TRY IT OUT' badge adds a direct nudge that Ad 7 lacks",
+          "cta_style": "Semi-explicit — TRY IT OUT badge is more direct than Ad 7's implicit approach",
+          "urgency_level": "Medium — same FOMO psychology as Ad 7 but TRY IT OUT badge increases direct action pressure"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "consistent_zomato_elements": [
+        "Lowercase 'zomato' logotype always present — bottom-center in most ads",
+        "White as universal text color across all dark and red backgrounds",
+        "Price or social proof number always the single largest typographic element",
+        "High-quality professionally styled food photography — always floating or styled hero",
+        "Portrait/vertical format (7 of 8 ads) optimized for mobile Stories",
+        "Red as the dominant brand accent color across all 8 ads"
+      ],
+      "design_system_families_identified": [
+        {
+          "system_name": "Zomato Red Flat Background — Category Price Template",
+          "ads_in_system": [1, 2],
+          "shared_elements": "Identical layout: solid Zomato red background, bold white price headline, full-width black delivery bar, floating food with drop shadow, white brand name bottom — only food category and price change",
+          "insight": "Highly efficient modular template covering multiple food categories (snacks, biryani) with zero layout change — pure content swap system"
+        },
+        {
+          "system_name": "Dark Diagonal Red Ribbon — Category Price Template",
+          "ads_in_system": [5],
+          "shared_elements": "Same diagonal ribbon design as burger ad in previous ad set — confirms this is a multi-category campaign template covering burger, pizza with identical ribbon element",
+          "insight": "Cross-set template — same diagonal ribbon element used across burger and pizza categories"
+        },
+        {
+          "system_name": "Zomato Gold — Dark Premium Gold System",
+          "ads_in_system": [3, 4],
+          "shared_elements": "Dark stone/slate background, gold accent typography for GOLD word, same bottom gold horizontal bar with leaf/arrow icons, same ₹1 for 3 months offer — Ad 4 adds FLASH SALE label for urgency escalation",
+          "insight": "Two-variant premium subscription campaign — base version (Ad 3) and urgency-amplified version (Ad 4) — same design system, different urgency level"
+        },
+        {
+          "system_name": "Social Proof — Dark Halftone Frame Template",
+          "ads_in_system": [7, 8],
+          "shared_elements": "Identical: dark halftone textured background, red full-width strips top and bottom as frame, enormous white social proof number, floating food product, red brushstroke brand badge bottom — only food category and numbers change",
+          "insight": "Multi-category social proof campaign — same authoritative design system applied to pizza and biryani — effectively builds platform credibility through volume data rather than discounts"
+        }
+      ],
+      "messaging_strategy_tracks": [
+        {
+          "track": "Price Shock",
+          "ads": [1, 2, 5],
+          "approach": "Specific low rupee price (₹19, ₹149, ₹99) as headline — flat or dark background, food as validator — targets impulse decision-making"
+        },
+        {
+          "track": "Subscription Acquisition",
+          "ads": [3, 4],
+          "approach": "Premium product (Zomato Gold) at shocking introductory price (₹1) — dark luxury aesthetic creates perceived value gap — targets habitual users for upsell"
+        },
+        {
+          "track": "Lifestyle Context",
+          "ads": [6],
+          "approach": "Witty relatable copy embedded in lifestyle scene — discount secondary to emotional resonance — targets specific audience segment (health-conscious)"
+        },
+        {
+          "track": "Social Proof / FOMO",
+          "ads": [7, 8],
+          "approach": "Volume data (11 lakh, 18 lakh weekly orders) as primary persuasion — no discount needed — peer conformity psychology drives action — targets hesitant or new users"
+        }
+      ],
+      "design_language_summary": "These 8 ads reveal Zomato's highly systematic, template-driven ad production approach. Multiple confirmed design systems are in operation simultaneously — flat red template, dark diagonal ribbon, dark gold premium, dark halftone social proof. Each system is reusable across food categories, requiring only content swaps. This enables high-volume ad production with brand consistency.",
+      "color_strategy_summary": "Red is the dominant brand color appearing in all 8 ads — as full background (Ads 1,2), as ribbon accent (Ad 5), as frame strips (Ads 7,8), as badge element (Ads 6,7,8). Dark backgrounds (black, charcoal, dark stone) appear in 6 of 8 ads — maximizing food color contrast. Gold is used exclusively for the premium Gold membership product line. White is the universal text color.",
+      "typography_strategy_summary": "Consistent rule: the most important number (price, discount, social proof) is always the largest text element — engineered for thumb-scroll legibility at 0.3 second exposure. Brand name is always small and lowercase. Social proof ads use display-scale numbers that function almost as graphic elements rather than pure text.",
+      "food_photography_strategy": "All food photography follows floating product technique (isolated on flat/dark background with drop shadow) or contextual lifestyle technique (in hands, on surfaces). Floating technique dominates in template-system ads for maximum production efficiency. Dark moody lighting consistent across all product shots for appetite-enhancing drama.",
+      "badge_and_graphic_element_inventory": [
+        "Full-width black bar (Ads 1, 2) — delivery condition separator",
+        "Diagonal red ribbon/banner (Ad 5) — price callout across food photo",
+        "Full-width gold horizontal bar (Ads 3, 4) — premium bottom anchor",
+        "Circular white condition badge on gold bar (Ad 3)",
+        "Gold FLASH SALE label tag (Ad 4)",
+        "Red pill badge for brand name (Ad 6)",
+        "Red full-width top and bottom frame strips (Ads 7, 8)",
+        "Red brushstroke/paint badge for brand name (Ads 7, 8)",
+        "Red oval TRY IT OUT action badge (Ad 8)",
+        "Gold leaf/arrow decorative dividers (Ads 3, 4)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crown Diamond — Ad Creatives Batch 01</title>
+  <link rel="stylesheet" href="https://use.typekit.net/lld6qxp.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    :root {
+      /* Brand palette */
+      --brand-black:   #0A0A0A;
+      --brand-accent:  #D32F2F; /* Crown Red */
+      --brand-accent-lt: #EF5350;
+      --brand-white:   #FFFFFF;
+      --brand-gray:    rgba(255,255,255,0.85);
+
+      /* Typography */
+      --font-display:  "poppins", sans-serif;
+      --font-body:     "liberation-sans", sans-serif;
+
+      /* Ad dimensions */
+      --ad-size: 1080px;
+    }
+
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+    html, body {
+      background: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 56px 20px 80px;
+      font-family: var(--font-body);
+    }
+
+    .page-header { text-align: center; margin-bottom: 32px; }
+    .page-header h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--brand-accent);
+    }
+    .page-header p {
+      font-size: 11px;
+      color: rgba(255,255,255,0.3);
+      letter-spacing: 0.12em;
+      margin-top: 6px;
+    }
+
+    .ad-viewer { position:relative; display:flex; flex-direction:column; align-items:center; gap:24px; }
+    .ad-counter { font-family:var(--font-body); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(255,255,255,0.35); align-self:flex-end; }
+
+    .ad-wrapper {
+      position: relative;
+      width: min(var(--ad-size), 92vw);
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 40px 120px rgba(0,0,0,0.9), 0 0 0 1px rgba(255,255,255,0.06);
+    }
+
+    .ad-track {
+      display: flex;
+      width: 100%; height: 100%;
+      transition: transform 0.5s cubic-bezier(0.77,0,0.175,1);
+      will-change: transform;
+    }
+
+    .ad-slide {
+      min-width: 100%; height: 100%;
+      position: relative; overflow: hidden;
+      display: flex; flex-direction: column;
+      background: var(--brand-black);
+    }
+
+    .ad-bg {
+      position: absolute; inset: 0;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    /* Simple Dark Gradients */
+    .grad-bottom {
+      position: absolute; bottom: 0; left: 0; right: 0; height: 75%;
+      background: linear-gradient(to top, rgba(10,10,10,0.98) 0%, rgba(10,10,10,0.6) 40%, transparent 100%);
+      pointer-events: none; z-index: 2;
+    }
+    .grad-top {
+      position: absolute; top: 0; left: 0; right: 0; height: 75%;
+      background: linear-gradient(to bottom, rgba(10,10,10,0.98) 0%, rgba(10,10,10,0.6) 40%, transparent 100%);
+      pointer-events: none; z-index: 2;
+    }
+
+    /* Text Blocks */
+    .text-block {
+      position: absolute;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(10px, 1.5vw, 16px);
+      width: 80%;
+      max-width: 850px;
+    }
+    .text-bl { bottom: 6%; left: 6%; align-items: flex-start; text-align: left; }
+    .text-tl { top: 6%; left: 6%; align-items: flex-start; text-align: left; }
+
+    /* Logo Positioning */
+    .brand-mark {
+      height: clamp(120px, 18vw, 220px); /* Significantly increased logo size */
+      width: auto;
+      filter: drop-shadow(0 4px 16px rgba(0,0,0,0.7));
+    }
+    .logo-tr { position: absolute; top: 5%; right: 5%; z-index: 10; }
+    .logo-br { position: absolute; bottom: 5%; right: 5%; z-index: 10; }
+
+    /* Typography */
+    .headline {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: clamp(32px, 6vw, 68px);
+      line-height: 1.1;
+      text-transform: uppercase;
+      color: var(--brand-white);
+      text-shadow: 0 4px 16px rgba(0,0,0,0.9);
+      letter-spacing: -0.01em;
+    }
+    .headline em { color: var(--brand-accent); font-style: normal; }
+
+    .subtext {
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: clamp(16px, 2.2vw, 26px);
+      color: var(--brand-gray);
+      line-height: 1.4;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+      max-width: 90%;
+    }
+
+    /* CTAs & WhatsApp */
+    .cta-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 8px;
+    }
+
+    .cta-pill {
+      display: inline-block;
+      background: var(--brand-accent);
+      color: var(--brand-white);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(14px, 2vw, 24px);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: clamp(14px,2vw,22px) clamp(28px,4vw,48px);
+      border-radius: 50px;
+      box-shadow: 0 8px 24px rgba(211, 47, 47, 0.5);
+    }
+
+    .cta-ghost {
+      display: inline-block;
+      border: 3px solid var(--brand-accent);
+      background: rgba(10,10,10,0.4);
+      color: var(--brand-white);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(14px, 2vw, 24px);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: clamp(14px,2vw,22px) clamp(28px,4vw,48px);
+      border-radius: 50px;
+    }
+
+    .whatsapp-number {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(16px, 2.2vw, 28px);
+      color: var(--brand-white);
+      letter-spacing: 0.1em;
+      margin-top: 12px;
+      margin-left: 12px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.9);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .whatsapp-icon {
+      width: clamp(20px, 3vw, 32px);
+      height: clamp(20px, 3vw, 32px);
+      fill: #25D366;
+    }
+
+    .red-divider { width: 80px; height: 5px; background: var(--brand-accent); border-radius:3px; }
+
+    /* UI Navigation */
+    .nav-row { display:flex; align-items:center; justify-content:center; gap:20px; width:100%; }
+    .nav-btn {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: white; width:42px; height:42px; border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      cursor:pointer; transition: background 0.2s, border-color 0.2s; flex-shrink:0;
+    }
+    .nav-btn:hover { background: var(--brand-accent); border-color: var(--brand-accent); }
+    .nav-btn svg { width:18px; height:18px; }
+
+    .ad-dots { display:flex; gap:8px; align-items:center; }
+    .dot {
+      width:7px; height:7px; border-radius:50%;
+      background: rgba(255,255,255,0.2); cursor:pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .dot.active { background: var(--brand-accent); transform: scale(1.5); }
+
+    .download-row { display:flex; align-items:center; gap:12px; }
+    .download-btn {
+      background: var(--brand-accent); border:none; color:var(--brand-white);
+      font-family: var(--font-display); font-size:11px; font-weight:700;
+      letter-spacing:0.14em; text-transform:uppercase;
+      padding: 12px 28px; border-radius:3px; cursor:pointer;
+      display:flex; align-items:center; gap:8px;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .download-btn:hover { opacity:0.88; transform:translateY(-1px); }
+    .download-label { font-size:11px; color:rgba(255,255,255,0.25); letter-spacing:0.1em; }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <h1>Crown Diamond Marble — Ad Creatives Batch 01</h1>
+    <p>10 Meta Feed Square (1:1) Ads · Download each as PNG</p>
+  </div>
+
+  <div class="ad-viewer">
+    <div class="ad-counter" id="adCounter">Ad 1 / 10</div>
+    <div class="ad-wrapper">
+      <div class="ad-track" id="adTrack">
+
+        <!-- AD 01: The Signature Villa -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301739.jpeg');"></div>
+          <div class="grad-bottom"></div>
+          <div class="logo-tr"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-bl">
+            <div class="headline">YOUR VILLA DESERVES A <em>SIGNATURE.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">Dubai’s direct importer of extraordinary natural stone.</p>
+            <div class="cta-container">
+              <span class="cta-pill">DUBAI · WHATSAPP US</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 02: Direct Importer Pricing -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301739 (1).jpeg');"></div>
+          <div class="grad-bottom"></div>
+          <div class="logo-tr"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-bl">
+            <div class="headline">WE IMPORT <em>DIRECTLY.</em> YOU SAVE.</div>
+            <div class="red-divider"></div>
+            <p class="subtext">200+ premium stones from Italy, Turkey, India & Brazil.</p>
+            <div class="cta-container">
+              <span class="cta-pill">GET IMPORTER PRICING</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 03: Before & After Transformation -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301740 (1).jpeg');"></div>
+          <div class="grad-top"></div>
+          <div class="logo-br"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-tl">
+            <div class="headline">THIS FLOOR CHANGED <em>EVERYTHING.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">One decision. Total transformation. Direct from source.</p>
+            <div class="cta-container">
+              <span class="cta-pill">WHATSAPP FOR ESTIMATE</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 04: The Contractor & Trade Ad -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301740.jpeg');"></div>
+          <div class="grad-top"></div>
+          <div class="logo-br"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-tl">
+            <div class="headline">BULK MARBLE.<br><em>DIRECT PRICING.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">No distributor margins. 200+ Stones. Site Delivery.</p>
+            <div class="cta-container">
+              <span class="cta-ghost">WHATSAPP PROJECT SPECS</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 05: The Free Sample Offer -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301745.jpeg');"></div>
+          <div class="grad-bottom"></div>
+          <div class="logo-tr"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-bl">
+            <div class="headline">SEE IT. TOUCH IT. <em>DECIDE.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">We'll deliver a free marble sample right to your door.</p>
+            <div class="cta-container">
+              <span class="cta-pill">REQUEST FREE SAMPLE</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 06: Onyx Premium Positioning (Image Swapped to 1745) -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301740 (2).jpeg');"></div>
+          <div class="grad-bottom"></div>
+          <div class="logo-tr"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-bl">
+            <div class="headline">NATURE'S OWN <em>MASTERPIECE.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">The only natural stone that glows. Rare onyx, imported directly.</p>
+            <div class="cta-container">
+              <span class="cta-pill">WHATSAPP FOR AVAILABILITY</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 07: The Hinglish Connection -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301741.jpeg');"></div>
+          <div class="grad-top"></div>
+          <div class="logo-br"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-tl">
+            <div class="headline">YEH SIRF PATTHAR <em>NAHI...</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">Yeh aapka ghar hai. 100% genuine marble, seedha Italy se.</p>
+            <div class="cta-container">
+              <span class="cta-pill">WHATSAPP KARO ABHI</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 08: Interior Designer Invitation -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301742.jpeg');"></div>
+          <div class="grad-top"></div>
+          <div class="logo-br"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-tl">
+            <div class="headline">200+ STONES.<br><em>ONE SHOWROOM.</em></div>
+            <div class="red-divider"></div>
+            <p class="subtext">Dubai's destination for project specifiers and architects.</p>
+            <div class="cta-container">
+              <span class="cta-ghost">BOOK A TRADE VIEWING</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 09: Geo-Targeted Luxury -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301743.jpeg');"></div>
+          <div class="grad-bottom"></div>
+          <div class="logo-tr"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-bl">
+            <div class="headline">THE STONE THAT <em>DEFINES</em> YOUR HOME.</div>
+            <div class="red-divider"></div>
+            <p class="subtext">Dubai’s finest villas demand the world's finest marble.</p>
+            <div class="cta-container">
+              <span class="cta-pill">EXPLORE THE COLLECTION</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AD 10: Social Proof & Testimonial -->
+        <div class="ad-slide">
+          <div class="ad-bg" style="background-image:url('./images/Remove_all_the_texts_and_202604301744.jpeg');"></div>
+          <div class="grad-top"></div>
+          <div class="logo-br"><img src="./images/logo.png" class="brand-mark" alt="Crown Diamond"></div>
+          <div class="text-block text-tl">
+            <div class="headline">"EXCEEDED <em>EVERY</em> EXPECTATION."</div>
+            <div class="red-divider"></div>
+            <p class="subtext">Another stunning Crown Diamond installation in Palm Jumeirah.</p>
+            <div class="cta-container">
+              <span class="cta-pill">WHATSAPP TO START YOURS</span>
+              <div class="whatsapp-number"><svg class="whatsapp-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> +971 55 227 9398</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="nav-row">
+      <button class="nav-btn" id="btnPrev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+      <div class="ad-dots" id="adDots"></div>
+      <button class="nav-btn" id="btnNext"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+    </div>
+    <div class="download-row">
+      <button class="download-btn" id="downloadBtn">⬇ Download This Ad as PNG</button>
+      <span class="download-label" id="downloadLabel">ad_creative_01.png</span>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const track       = document.getElementById('adTrack');
+      const dotsWrap    = document.getElementById('adDots');
+      const counterEl   = document.getElementById('adCounter');
+      const downloadBtn = document.getElementById('downloadBtn');
+      const downloadLbl = document.getElementById('downloadLabel');
+      const btnPrev     = document.getElementById('btnPrev');
+      const btnNext     = document.getElementById('btnNext');
+      const slides      = track.querySelectorAll('.ad-slide');
+      const total       = slides.length;
+      let   current     = 0;
+      let   exporting   = false;
+
+      slides.forEach((_, i) => {
+        const d = document.createElement('div');
+        d.className = 'dot' + (i === 0 ? ' active' : '');
+        d.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(d);
+      });
+
+      function getDots() { return dotsWrap.querySelectorAll('.dot'); }
+
+      function update() {
+        const num = (current + 1).toString().padStart(2, '0');
+        counterEl.textContent = `Ad ${current + 1} / ${total}`;
+        downloadLbl.textContent = `ad_creative_${num}.png`;
+        getDots().forEach((d, i) => d.classList.toggle('active', i === current));
+      }
+
+      function goTo(index) {
+        current = (index + total) % total;
+        track.style.transform = `translateX(-${current * 100}%)`;
+        update();
+      }
+
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+
+      btnNext.addEventListener('click', next);
+      btnPrev.addEventListener('click', prev);
+
+      let touchX = 0;
+      track.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+      track.addEventListener('touchend', e => {
+        const d = touchX - e.changedTouches[0].clientX;
+        if (Math.abs(d) > 40) d > 0 ? next() : prev();
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowRight') next();
+        if (e.key === 'ArrowLeft')  prev();
+      });
+
+      const svgIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
+      downloadBtn.innerHTML = svgIcon + ' Download This Ad as PNG';
+
+      downloadBtn.addEventListener('click', () => {
+        if (exporting) return;
+        exporting = true;
+        downloadBtn.textContent = 'Exporting…';
+
+        const slide = slides[current];
+        const num   = (current + 1).toString().padStart(2, '0');
+
+        html2canvas(slide, {
+          scale:           2,
+          useCORS:         true,
+          allowTaint:      true,
+          backgroundColor: '#0A0A0A',
+          logging:         false
+        }).then(canvas => {
+          const link    = document.createElement('a');
+          link.download = `ad_creative_${num}.png`;
+          link.href     = canvas.toDataURL('image/png');
+          link.click();
+        }).catch(err => {
+          alert('Export failed: ' + err.message);
+        }).finally(() => {
+          exporting = false;
+          downloadBtn.innerHTML = svgIcon + ' Download This Ad as PNG';
+        });
+      });
+
+      update();
+    })();
+  </script>
+</body>
+</html>

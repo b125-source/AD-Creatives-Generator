@@ -1,0 +1,366 @@
+{
+  "ad_creatives_analysis": [
+    {
+      "ad_id": 1,
+      "brand": "Macka",
+      "style": "Editorial / Typographic-forward food branding",
+      "design_language": {
+        "overall_aesthetic": "Modern Scandinavian editorial with organic warmth",
+        "mood": "Premium artisan, clean yet textured",
+        "tone": "Sophisticated, trustworthy, craft-focused",
+        "visual_approach": "Layered typographic background with product photography on top — text acts as both branding and texture",
+        "composition_technique": "Typography used as a wallpaper/pattern behind the hero product image, creating depth and brand immersion"
+      },
+      "color_logic": {
+        "primary_color": "Forest Green (#2E7D32 approximate)",
+        "secondary_color": "Cream / Off-white (#F5F0E8 approximate)",
+        "accent_color": "None — intentionally minimal",
+        "color_palette_type": "Two-color duotone palette",
+        "color_usage": {
+          "background": "Textured cream/off-white — evokes natural, organic, paper-like feel",
+          "typography": "Forest green — used for all text elements including brand name at multiple scales",
+          "product_image": "Full natural color — acts as the only 'color break' in the composition",
+          "overall_effect": "Green on cream creates a natural, earthy, premium artisan vibe — avoids loud or fast-food associations"
+        }
+      },
+      "typography": {
+        "primary_typeface_style": "Bold rounded sans-serif — geometric with soft terminals",
+        "font_weight": "Ultra-bold / Black weight",
+        "font_character": "Modern, friendly, confident — similar to Recoleta or custom rounded grotesque",
+        "text_sizes_used": [
+          "Hero size (massive — spanning full width, top of frame)",
+          "Medium repeating brand name (outline/stroke style mid-frame)",
+          "Large partially cropped text (lower section)",
+          "Small body copy (bottom strip)"
+        ],
+        "text_styles": {
+          "filled_text": "Solid green fill — top brand name",
+          "outline_text": "Stroke-only outline version — mid-frame, creates layering effect",
+          "body_copy": "Small caps monospaced or tracking-heavy sans-serif — justified alignment"
+        },
+        "text_hierarchy": "Brand name dominates (4+ repetitions at varying scales), body copy is smallest and lowest"
+      },
+      "text_placement": {
+        "headline": "Top of frame, full-width, above the product image",
+        "secondary_text": "Mid-frame behind the product — outline style creates background texture",
+        "tertiary_text": "Lower third, partially hidden behind the hand/product",
+        "body_copy": "Bottom strip, small, left-aligned with justified spacing",
+        "relationship_to_image": "Text is behind and around the product — product floats ON TOP of text"
+      },
+      "image_and_graphic_placement": {
+        "hero_image": "Hand holding a sandwich — centered horizontally, occupies roughly 60% of total frame height",
+        "image_position": "Center-frame, slightly left of center, hand entering from bottom",
+        "image_treatment": "Clean cutout / extracted from background — placed over text layers",
+        "graphic_elements": "Registered trademark symbol (®) top right corner near brand name",
+        "layering_order": "Background texture → Green text layers → Product photo on top"
+      },
+      "message_delivery": {
+        "primary_message": "Strong brand identity establishment",
+        "strategy": "Brand name repetition creates subconscious memorability — the product sells itself visually",
+        "emotional_trigger": "Craftsmanship, freshness, premium quality",
+        "cta": "None explicit — awareness/brand-building ad",
+        "sophistication_level": "High — designed for food-literate, design-aware audience"
+      }
+    },
+    {
+      "ad_id": 2,
+      "brand": "Panini Town",
+      "style": "Bold Retro-Pop / Youth Culture food advertising",
+      "design_language": {
+        "overall_aesthetic": "High-energy retro-modern with street culture influence",
+        "mood": "Loud, confident, craveable, edgy",
+        "tone": "Gen-Z facing, playful, bold",
+        "visual_approach": "Massive background typography + full-bleed vibrant color + product as hero element",
+        "composition_technique": "Product physically overlaps the background text — creating a 3D layered poster feel"
+      },
+      "color_logic": {
+        "primary_color": "Vivid Red (#CC1A1A approximate)",
+        "secondary_color": "Warm Cream / Butter Yellow (#F5E6C3 approximate)",
+        "accent_color": "Dark Forest Green (nail polish on hand — intentional styling prop)",
+        "color_palette_type": "High contrast two-tone with accent",
+        "color_usage": {
+          "background": "Bold solid red — dominates 70%+ of frame, creates urgency and appetite",
+          "typography": "Cream/butter yellow — maximum contrast against red background",
+          "product_image": "Natural golden-brown food tones — warm, harmonious with cream palette",
+          "accent_detail": "Green nails on hand — adds style, youth energy, visual interest",
+          "price_tag": "Cream background with dark text — floats as a callout element",
+          "overall_effect": "Red + cream is a classic appetite-stimulating combo; feels bold and modern simultaneously"
+        }
+      },
+      "typography": {
+        "primary_typeface_style": "Ultra-bold rounded retro display font — bubbly, thick strokes",
+        "font_weight": "Black / Extra-bold",
+        "font_character": "Retro 1970s-inspired rounded grotesque — playful yet powerful",
+        "text_sizes_used": [
+          "Mega hero text (top, spanning nearly full width)",
+          "Large secondary headline (left-aligned, mid-frame)",
+          "Small price callout label (right mid-frame)",
+          "Small brand logo text (bottom center)",
+          "Micro scrolling ticker text (bottom strip)"
+        ],
+        "text_styles": {
+          "hero_text": "Cream fill, no outline — maximum weight",
+          "secondary_headline": "Same cream fill, slightly smaller",
+          "brand_name": "Custom illustrated/handwritten style logo",
+          "ticker": "Small all-caps repeating text strip at very bottom"
+        },
+        "text_hierarchy": "Hero word at top → Sub-headline mid-left → Price label → Brand name bottom"
+      },
+      "text_placement": {
+        "headline": "Top of frame — large, behind/around product",
+        "secondary_text": "Left side, mid-frame — readable over background, not obscured by product",
+        "price_callout": "Right-center, attached with a thin line/pointer to the drip on the sandwich",
+        "brand_name": "Bottom center — below the hand, above the ticker",
+        "ticker_strip": "Very bottom edge — horizontal scrolling-style repeating text",
+        "relationship_to_image": "Text wraps around and recedes behind the product photograph"
+      },
+      "image_and_graphic_placement": {
+        "hero_image": "Hand gripping panini held upright — centered, dominates the frame",
+        "image_position": "Center frame, hand rising from bottom, product reaching upper center",
+        "image_treatment": "Clean cutout on solid red background",
+        "special_detail": "Cheese/sauce drip rendered or captured mid-drip — adds dynamism and appetite appeal",
+        "pointer_graphic": "Thin curved line from drip to price label — editorial annotation style",
+        "layering_order": "Solid red background → Background typography → Product cutout → Price label overlay"
+      },
+      "message_delivery": {
+        "primary_message": "This is the boldest, most indulgent sandwich — and it's affordable",
+        "strategy": "Visual bravado + price accessibility — desire creation followed by barrier removal",
+        "emotional_trigger": "FOMO, indulgence, cool factor, hunger",
+        "cta": "Implicit — price shown acts as soft CTA",
+        "sophistication_level": "Medium-high — youth-targeted, trend-aware design"
+      }
+    },
+    {
+      "ad_id": 3,
+      "brand": "Dannon Light + Fit",
+      "style": "Clean Health & Wellness / Direct Response",
+      "design_language": {
+        "overall_aesthetic": "Bright, friendly, health-forward with playful softness",
+        "mood": "Optimistic, energetic, health-conscious, approachable",
+        "tone": "Informative yet fun — not clinical, not intimidating",
+        "visual_approach": "Strong typographic claims at top, product in center, key stats at bottom, CTA button at base",
+        "composition_technique": "Classic vertical ad layout — headline → product → proof points → action"
+      },
+      "color_logic": {
+        "primary_color": "Soft Lavender / Periwinkle Purple (#B39DDB approximate)",
+        "secondary_color": "Light Purple / Lilac (slightly darker shade for bottom section)",
+        "accent_color": "White (text), Bright Lime Green (product lid), Pink (product lid), Dark Purple (brand badge)",
+        "color_palette_type": "Analogous purple palette with high-contrast white text",
+        "color_usage": {
+          "background_top": "Lighter lavender — airy, fresh, feminine",
+          "background_bottom": "Slightly deeper purple — subtle gradient/split creates visual section break",
+          "typography": "White — high contrast, clean readability",
+          "product_colors": "Lime green and pink lids provide vibrant color pops that contrast the purple",
+          "cta_button": "White rounded rectangle with dark text — stands out clearly",
+          "brand_badge": "Dark purple circle — distinguishes brand mark",
+          "overall_effect": "Purple palette signals health, lightness, femininity; avoids the cold clinical feel of pure white ads"
+        }
+      },
+      "typography": {
+        "primary_typeface_style": "Bold rounded hand-drawn/casual sans-serif for headline; clean geometric sans for stats and body",
+        "font_weight": "Ultra-bold for headline; Bold for stats; Regular for supporting text",
+        "font_character": "Friendly, approachable, energetic — not corporate",
+        "text_sizes_used": [
+          "Very large headline (top section, 2 lines)",
+          "Medium sub-headline (below main headline)",
+          "Large numeric stats (bottom third)",
+          "Small descriptor labels under stats",
+          "CTA button text (medium bold)",
+          "Fine print (very small, bottom)"
+        ],
+        "text_styles": {
+          "headline": "White, bold, slightly irregular/organic letterforms",
+          "sub_headline": "White, smaller bold sans-serif",
+          "stats": "White, very large numbers with smaller descriptor text",
+          "dividers": "Thin vertical lines separating stats",
+          "cta": "Dark text on white rounded pill button"
+        },
+        "text_hierarchy": "Headline claim → Sub-claim → Product visual → Nutritional stats → CTA → Fine print"
+      },
+      "text_placement": {
+        "headline": "Top section, left-aligned with slight offset — large, attention-grabbing",
+        "sub_headline": "Below main headline, same left alignment",
+        "brand_badge": "Top right corner — brand identifier",
+        "stats_row": "Bottom third — three stats separated by dividers, horizontally centered",
+        "cta_button": "Bottom center — rounded white button",
+        "fine_print": "Very bottom, centered, small",
+        "relationship_to_image": "Text frames the product above and below — product sits in the middle third"
+      },
+      "image_and_graphic_placement": {
+        "hero_image": "Two yogurt cups displayed prominently — centered horizontally in middle third",
+        "image_position": "Center frame, slight overlap between two products, one slightly elevated/angled",
+        "image_treatment": "Clean product shot on flat color background — no shadows, studio-clean",
+        "decorative_elements": "Small illustrated dashes/marks around headline — adds hand-crafted, energetic feel",
+        "layering_order": "Flat color background → Product photography → Text overlays → CTA button"
+      },
+      "message_delivery": {
+        "primary_message": "High nutrition, great taste, specific health numbers",
+        "strategy": "Claim-first → Proof → Action (classic direct response funnel in a single frame)",
+        "emotional_trigger": "Health confidence, guilt-free indulgence, smart choice",
+        "cta": "Explicit Shop Now button — strong direct response",
+        "sophistication_level": "Medium — optimized for conversion, health-aware consumer"
+      }
+    },
+    {
+      "ad_id": 4,
+      "brand": "Food Restaurant (Bangladeshi/South Asian brand with chef mascot)",
+      "style": "Promotional / Offer-led festive advertising",
+      "design_language": {
+        "overall_aesthetic": "Bold promotional with 3D prop-based design — festive and celebratory",
+        "mood": "Exciting, urgent, celebratory, deal-focused",
+        "tone": "Loud, direct, high-energy — pure promotional communication",
+        "visual_approach": "3D calendar/notebook prop as the offer container — product photography below, decorative props around",
+        "composition_technique": "Central prop (calendar) carries all offer text; food product below anchors appetite appeal; balloons add festive framing"
+      },
+      "color_logic": {
+        "primary_color": "Deep Red (#B71C1C approximate)",
+        "secondary_color": "White",
+        "accent_color": "Black (balloon), Gold/Yellow (ring binding on calendar)",
+        "color_palette_type": "High-impact red and white — maximum urgency and contrast",
+        "color_usage": {
+          "background": "Deep solid red — full bleed, creates urgency and energy",
+          "calendar_prop": "Red (cover) with white text — maintains palette cohesion",
+          "discount_number": "White on red — ultra-high contrast for instant readability",
+          "food_product": "Natural warm tones — biryani/curry colors contrast well against red",
+          "balloons": "Red, black, white — matches brand palette exactly",
+          "logo_badge": "Top right — red circular badge with white chef illustration",
+          "overall_effect": "Red-dominant palette is urgency-coded; white creates breathing room for key info"
+        }
+      },
+      "typography": {
+        "primary_typeface_style": "Bold condensed sans-serif for discount numbers; mixed script and sans for supporting text",
+        "font_weight": "Ultra-bold for percentage; Bold for supporting offer details",
+        "font_character": "Utilitarian promotional — designed purely for information hierarchy",
+        "text_sizes_used": [
+          "Enormous percentage number (40%) — dominates the calendar prop",
+          "Large word DISCOUNT below percentage",
+          "Medium date text",
+          "Smaller Bengali script text (location/event)",
+          "Small fine print at very bottom"
+        ],
+        "text_styles": {
+          "percentage": "Red text on white background inside calendar — reversed contrast",
+          "discount_word": "White text on red",
+          "supporting_text": "White on red throughout",
+          "fine_print": "Small white italic at bottom"
+        },
+        "text_hierarchy": "Percentage discount → DISCOUNT label → Date → Location/occasion → Fine print"
+      },
+      "text_placement": {
+        "headline_offer": "Inside the 3D calendar prop — center of frame",
+        "percentage": "Dominant center of calendar, largest single element",
+        "supporting_details": "Above and below percentage within calendar",
+        "logo": "Top right corner",
+        "fine_print": "Bottom center, outside calendar",
+        "relationship_to_image": "Text lives inside prop, food image is below the prop, creating a shelf/stage effect"
+      },
+      "image_and_graphic_placement": {
+        "hero_prop": "3D desk calendar/flip book — center-upper frame, physically contains all offer messaging",
+        "food_image": "Biryani/curry on black plate — bottom center, partially overlapping below the calendar",
+        "decorative_balloons": "Bottom right — cluster of red, black, and white balloons",
+        "logo_badge": "Top right corner",
+        "layering_order": "Red background → Food photo (base) → Calendar prop (center, above food) → Balloons (right side) → Logo overlay (top right)"
+      },
+      "message_delivery": {
+        "primary_message": "Grand opening celebration with major discount — time-limited",
+        "strategy": "Offer-first hard promotional — discount percentage is the entire message",
+        "emotional_trigger": "Urgency, FOMO, savings excitement, celebration",
+        "cta": "Implicit — visit the restaurant during stated dates",
+        "sophistication_level": "Low-medium — maximally direct, mass-market appeal"
+      }
+    },
+    {
+      "ad_id": 5,
+      "brand": "Pasta/Noodle brand (South Asian, product packaging visible)",
+      "style": "Lifestyle / Relatable Moment Advertising",
+      "design_language": {
+        "overall_aesthetic": "Cinematic lifestyle photography with bold text overlay",
+        "mood": "Relatable, warm, slightly playful, late-night comfort vibe",
+        "tone": "Conversational, human, winking — speaks directly to audience behavior",
+        "visual_approach": "Real-life scenario photo as full background; text overlay as the voice/caption of the scene",
+        "composition_technique": "Human subject (model) creates emotional connection; the scene tells a story before text is read"
+      },
+      "color_logic": {
+        "primary_color": "Cool Blue/Teal (refrigerator light — ambient)",
+        "secondary_color": "Deep Dark background (kitchen at night)",
+        "accent_color": "Red (text highlight bar, product packaging)",
+        "color_palette_type": "Dark cinematic base with red accent for text",
+        "color_usage": {
+          "background": "Dark kitchen environment lit by refrigerator interior — cinematic, intimate, moody",
+          "model_lighting": "Refrigerator light creates cool blue rim light on face — cinematic realism",
+          "food_product": "Warm orange/red pasta on white plate — appetite contrast against cool scene",
+          "text_background": "Red filled rectangle behind key text line — urgency and brand color coding",
+          "product_packaging": "Visible on refrigerator shelf — natural product integration",
+          "overall_effect": "Cool dark scene + warm food + red text accent creates visual tension that draws the eye"
+        }
+      },
+      "typography": {
+        "primary_typeface_style": "Bold condensed sans-serif — impactful, modern",
+        "font_weight": "Bold to Extra-bold",
+        "font_character": "Strong, direct, editorial — designed to be read in a split second",
+        "text_sizes_used": [
+          "Small intro line (first line, lighter weight)",
+          "Medium bold second line (on red background bar)",
+          "Large bold third line (largest, white, dominant)"
+        ],
+        "text_styles": {
+          "first_line": "White text, no background — lighter weight",
+          "second_line": "White text on solid red bar — high contrast callout",
+          "third_line": "Large white bold text — no background, largest size"
+        },
+        "text_hierarchy": "Setup line → Highlighted action line → Emphasized conclusion (largest text)"
+      },
+      "text_placement": {
+        "text_block": "Bottom-right quadrant — overlaid on image",
+        "first_line": "Top of text block, smaller",
+        "second_line": "Middle of text block, red bar highlight",
+        "third_line": "Bottom of text block, largest",
+        "relationship_to_image": "Text placed over the darker right/lower portion of image — avoids face, allows model and food to remain unobscured",
+        "overall_position": "Lower third to center-right of frame"
+      },
+      "image_and_graphic_placement": {
+        "hero_image": "Full-bleed lifestyle photo — woman at open refrigerator at night holding pasta plate",
+        "model_position": "Center-left frame — facing slightly toward viewer with expressive look",
+        "product_placement": "On refrigerator shelf in background (natural), and on plate in foreground (hero)",
+        "food_plate": "Lower-left area — model holds plate toward camera",
+        "image_treatment": "Cinematic color grade — slightly desaturated except food warmth, cool ambient refrigerator light",
+        "layering_order": "Full-bleed lifestyle photography → Text overlay block (lower right) → Red highlight bar on text"
+      },
+      "message_delivery": {
+        "primary_message": "This product is your instinctive go-to when hunger hits",
+        "strategy": "Behavioral identification — viewer sees themselves in the scene before the text even registers",
+        "emotional_trigger": "Relatability, comfort, late-night craving satisfaction",
+        "cta": "None explicit — pure brand/product affinity building",
+        "sophistication_level": "Medium — storytelling through photography, accessible and widely relatable"
+      }
+    }
+  ],
+  "cross_ad_design_patterns": {
+    "common_techniques_observed": [
+      "Hand-holding-product as hero shot (Ads 1, 2) — tactile, human connection to food",
+      "Typography used at massive scale as background element (Ads 1, 2) — brand name as texture",
+      "Strong 2-3 color palette discipline across all ads",
+      "Product photography always treated as the visual anchor",
+      "Red used as urgency/appetite color in 3 of 5 ads (Ads 2, 4, 5)",
+      "Text hierarchy always moves from large emotional hook to smaller rational detail",
+      "CTAs either explicit button (Ad 3) or entirely implicit/behavioral (Ads 1, 5)"
+    ],
+    "dominant_layout_patterns": [
+      "Top headline → Center product → Bottom details/CTA (Ads 3, 4)",
+      "Full-bleed background text → Floating product over text (Ads 1, 2)",
+      "Full-bleed lifestyle photo → Text overlay (Ad 5)"
+    ],
+    "typography_trends": [
+      "Ultra-bold display fonts dominate across all 5",
+      "Rounded/bubbly fonts for friendly brands",
+      "Condensed sans-serifs for urgency and promotions",
+      "Scale contrast (very large vs very small) used in every ad"
+    ],
+    "color_strategy_summary": [
+      "Red = urgency, appetite, energy (used in 3/5)",
+      "Green = natural, premium, artisan (used in 1/5)",
+      "Purple/Lavender = health, light, feminine (used in 1/5)",
+      "Cream/Off-white = warmth, craft, organic feel (used in 2/5)"
+    ]
+  }
+}

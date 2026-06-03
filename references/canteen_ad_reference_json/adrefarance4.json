@@ -1,0 +1,216 @@
+{
+  "ad_creatives_analysis": {
+    "brand": "Swiggy",
+    "campaign_theme": "Swiggy Sixes (Cricket) & Navratri Festival",
+    "total_ads_analyzed": 7,
+    "ads": [
+      {
+        "ad_id": 1,
+        "format": "Landscape / Horizontal Banner",
+        "theme": "Cricket / Sports",
+        "style": "Thematic Product Placement",
+        "design_language": {
+          "overall_aesthetic": "Sports broadcast graphic style mixed with food photography",
+          "mood": "Energetic, competitive, team-spirit",
+          "visual_approach": "Deep blue background resembling a stadium or team jersey, with food and sports equipment arranged on a 'field' surface"
+        },
+        "color_logic": {
+          "primary_background": "Deep Royal Blue (#003366 approx) - creates a strong contrast to the usual brand orange, signaling a 'team' or 'night match' vibe",
+          "accent_color": "Swiggy Orange (Logo only) and Natural Food Tones",
+          "text_color": "White - maximum readability against dark blue",
+          "color_usage": "Blue dominates to set the sports context; food colors (golden bun, red chili) pop against the cool background"
+        },
+        "typography": {
+          "font_style": "Bold, condensed sans-serif",
+          "weight": "Heavy/Black for the offer percentage",
+          "placement": "Top left aligned, hierarchy leads with the discount"
+        },
+        "graphics_and_images": {
+          "hero_images": "Burger on a black plate (left), Biryani in a clay pot (right)",
+          "props": "Cricket bat, red ball, helmet, gloves scattered in the foreground",
+          "background_graphic": "Faint outline of a stadium crowd/stands in the upper background",
+          "logo_placement": "Top left corner (White/Orange variant)"
+        },
+        "message_delivery": "Connects the excitement of cricket (Sixes) directly to food rewards. The scattered equipment implies 'game time'."
+      },
+      {
+        "ad_id": 2,
+        "format": "Square (1:1)",
+        "theme": "Cricket / Swiggy Sixes",
+        "style": "Surreal / Floating Product",
+        "design_language": {
+          "overall_aesthetic": "High-energy brand marketing with surreal 3D elements",
+          "mood": "Exciting, fast-paced, rewarding",
+          "visual_approach": "Solid brand-color background with a central floating hero product and a miniature 3D prop"
+        },
+        "color_logic": {
+          "primary_background": "Swiggy Orange (#FF5A03 approx) - full brand immersion",
+          "text_color": "White - clean and bold",
+          "color_usage": "Monochromatic orange background forces focus entirely on the food and the white text"
+        },
+        "typography": {
+          "font_style": "Rounded bold sans-serif (Brand font)",
+          "weight": "Bold for headlines, Heavy for numbers",
+          "placement": "Left aligned within a dashed border box"
+        },
+        "graphics_and_images": {
+          "hero_image": "Large, juicy burger floating in mid-air with cheese dripping",
+          "graphic_element": "Miniature cricket stadium graphic at the bottom center, glowing with floodlights",
+          "framing": "Dashed white line border creating a 'ticket' or 'coupon' feel",
+          "logo_placement": "Top center"
+        },
+        "message_delivery": "Visual metaphor: The burger is 'hitting a six' (floating above the stadium). High impact visual for social media scrolling."
+      },
+      {
+        "ad_id": 3,
+        "format": "Vertical Story (9:16)",
+        "theme": "Cricket / Swiggy Sixes",
+        "style": "Surreal / Floating Product (Vertical Variant)",
+        "design_language": {
+          "overall_aesthetic": "Mobile-first vertical storytelling",
+          "mood": "Urgent, snackable content",
+          "visual_approach": "Identical to Ad 2 but cropped/adjusted for vertical mobile screens"
+        },
+        "color_logic": {
+          "primary_background": "Swiggy Orange",
+          "text_color": "White",
+          "color_usage": "Consistent brand identity"
+        },
+        "typography": {
+          "font_style": "Rounded bold sans-serif",
+          "placement": "Upper third of the screen for immediate readability on mobile"
+        },
+        "graphics_and_images": {
+          "hero_image": "Floating burger (same as Ad 2)",
+          "graphic_element": "Miniature stadium (same as Ad 2)",
+          "framing": "Dashed white line border",
+          "logo_placement": "Top center"
+        },
+        "message_delivery": "Optimized for Instagram Stories/Reels. Quick consumption of the offer details."
+      },
+      {
+        "ad_id": 4,
+        "format": "Square (1:1)",
+        "theme": "Cricket / Swiggy Sixes",
+        "style": "Surreal / Floating Product (Variant)",
+        "design_language": {
+          "overall_aesthetic": "Identical to Ad 2",
+          "mood": "Consistent campaign branding",
+          "visual_approach": "Repetition of the successful visual motif"
+        },
+        "color_logic": {
+          "primary_background": "Swiggy Orange",
+          "text_color": "White"
+        },
+        "typography": {
+          "font_style": "Rounded bold sans-serif",
+          "placement": "Left aligned"
+        },
+        "graphics_and_images": {
+          "hero_image": "Floating burger",
+          "graphic_element": "Miniature stadium",
+          "framing": "Dashed white line border",
+          "logo_placement": "Top center"
+        },
+        "message_delivery": "Reinforces the campaign message through repetition."
+      },
+      {
+        "ad_id": 5,
+        "format": "Vertical Story (9:16)",
+        "theme": "Cricket / Swiggy Sixes",
+        "style": "Surreal / Floating Product (Variant)",
+        "design_language": {
+          "overall_aesthetic": "Identical to Ad 3",
+          "mood": "Consistent campaign branding",
+          "visual_approach": "Repetition for vertical formats"
+        },
+        "color_logic": {
+          "primary_background": "Swiggy Orange",
+          "text_color": "White"
+        },
+        "typography": {
+          "font_style": "Rounded bold sans-serif",
+          "placement": "Upper third"
+        },
+        "graphics_and_images": {
+          "hero_image": "Floating burger",
+          "graphic_element": "Miniature stadium",
+          "framing": "Dashed white line border",
+          "logo_placement": "Top center"
+        },
+        "message_delivery": "Consistent vertical campaign asset."
+      },
+      {
+        "ad_id": 6,
+        "format": "Vertical Story (9:16)",
+        "theme": "Cricket / Swiggy Sixes",
+        "style": "Surreal / Floating Product (Variant with Cashback)",
+        "design_language": {
+          "overall_aesthetic": "Identical to Ad 3/5",
+          "mood": "Value-driven",
+          "visual_approach": "Same visual, slight text variation highlighting cashback"
+        },
+        "color_logic": {
+          "primary_background": "Swiggy Orange",
+          "text_color": "White"
+        },
+        "typography": {
+          "font_style": "Rounded bold sans-serif",
+          "placement": "Upper third"
+        },
+        "graphics_and_images": {
+          "hero_image": "Floating burger",
+          "graphic_element": "Miniature stadium",
+          "framing": "Dashed white line border",
+          "logo_placement": "Top center"
+        },
+        "message_delivery": "Highlights the monetary benefit (Cashback) specifically."
+      },
+      {
+        "ad_id": 7,
+        "format": "Vertical Portrait",
+        "theme": "Navratri Festival",
+        "style": "Festive / Cultural Celebration",
+        "design_language": {
+          "overall_aesthetic": "Traditional Indian festive design with modern layout",
+          "mood": "Warm, celebratory, cultural, inviting",
+          "visual_approach": "Gradient background, traditional props, line-art architecture, spread of traditional food"
+        },
+        "color_logic": {
+          "primary_background": "Gradient from Swiggy Orange (top) to Deep Magenta/Pink (bottom) - signifies festivity and warmth",
+          "text_color": "Dark Maroon/Brown - softer than black, fits the traditional theme",
+          "accent_colors": "Gold/Yellow (garlands, diyas), Green (chutney)",
+          "color_usage": "Warm palette evokes home, celebration, and traditional Indian values"
+        },
+        "typography": {
+          "font_style": "Serif for headlines (more traditional feel), Sans-serif for body",
+          "weight": "Bold for the offer amount",
+          "placement": "Centered alignment for a formal, invitation-like feel"
+        },
+        "graphics_and_images": {
+          "hero_images": "Spread of Indian festival food (Thali, Puri, Sabudana Khichdi, etc.)",
+          "background_graphic": "Line art of Indian monuments (Taj Mahal, Gateway of India, etc.) - signifies pan-India presence",
+          "props": "Marigold flower garlands (top corners), Diyas/Oil lamps (bottom corners)",
+          "logo_placement": "Top center in a solid orange header bar"
+        },
+        "message_delivery": "Connects the brand to cultural moments. Positions Swiggy as a partner in celebration, not just a delivery service."
+      }
+    ],
+    "overall_design_system_analysis": {
+      "brand_consistency": {
+        "logo_usage": "Consistent placement (Top Center or Top Left) across all ads",
+        "tagline": "'Food you love, on time' is present in almost all creatives",
+        "color_palette": "Swiggy Orange is the primary anchor color, used either as the full background or the header bar"
+      },
+      "visual_motifs": {
+        "cricket_campaign": "Uses a specific visual language of 'floating food' and 'miniature stadiums' to gamify the offer",
+        "festive_campaign": "Uses traditional iconography (diyas, monuments, garlands) to blend modern tech with tradition"
+      },
+      "typography_strategy": "Bold, rounded sans-serifs are used for 90% of the ads for maximum legibility on mobile screens. Serif fonts are reserved only for the festive ad to add a touch of tradition.",
+      "layout_logic": {
+        "hierarchy": "Logo -> Headline/Offer -> Hero Image -> CTA/Fine Print",
+        "spacing": "Generous use of negative space (especially in the orange ads) to prevent clutter and focus attention on the food"
+      }
+    }
+  }
+}

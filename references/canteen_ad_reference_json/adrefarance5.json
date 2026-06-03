@@ -1,0 +1,92 @@
+{
+  "ad_creatives_analysis": {
+    "brand_name": "toing",
+    "campaign_theme": "Lowest Price Guaranteed / Value Proposition",
+    "total_ads_analyzed": 5,
+    "overall_design_system": {
+      "style": "Retro-Pop / Gen-Z Maximalism",
+      "design_language": {
+        "aesthetic": "High-energy, bold, and youthful. Combines 90s retro patterns (checkerboard) with modern pop-art elements (starbursts, neon colors).",
+        "mood": "Exciting, affordable, accessible, fun.",
+        "visual_approach": "Framed content. A solid dark background frames a central 'stage' (pink border) where the action happens."
+      },
+      "color_logic": {
+        "primary_background": "Deep Forest Green (#004d00 approx) - Used as the outer canvas to make inner colors pop.",
+        "secondary_background": "Dark/Light Green Checkerboard - Used inside the frame to add texture and retro vibe.",
+        "accent_color_1": "Hot Pink / Magenta (#ff00cc approx) - Used for borders, logo, and bottom banners. Creates high contrast against green.",
+        "accent_color_2": "Lime Green / Neon Green (#ccff00 approx) - Used for starbursts, sticker backgrounds, and highlight text. Signals 'freshness' and 'energy'.",
+        "text_color": "White (for main headlines) and Black (for sticker text).",
+        "color_psychology": "Green suggests freshness/food, Pink suggests fun/youth, High Contrast suggests boldness/clarity."
+      },
+      "typography": {
+        "logo_font": "Custom, lowercase, italicized, bold sans-serif with a futuristic/tech feel.",
+        "headline_font": "Bold, condensed sans-serif (likely Impact or similar). All caps for authority.",
+        "sticker_font": "Handwritten / Marker style. Adds a human, informal, 'street' touch.",
+        "hierarchy": "Logo -> Main Promise ('Lowest Price') -> Food Image -> Informal Tagline (Sticker)."
+      },
+      "graphic_elements": {
+        "framing": "Thick hot pink border surrounding the main content area.",
+        "starburst": "Lime green explosion shape with pink outline. Used to highlight the product or add dynamic energy behind the food.",
+        "stickers": "Rectangular lime green shapes with slight rotation, resembling sticky notes or tape labels.",
+        "pattern": "Subtle checkerboard pattern in the background of the content area."
+      }
+    },
+    "ads": [
+      {
+        "ad_id": 1,
+        "product": "Biryani",
+        "layout_specifics": {
+          "image_placement": "Centered. A pair of hands holding a large white bowl of Biryani. The hands ground the image, making it feel personal and portion-sized.",
+          "text_placement": "Top: Brand logo and main headline ('Lowest price guaranteed...'). Bottom Right: Sticker tagline.",
+          "graphic_placement": "Large starburst behind the left side of the bowl."
+        },
+        "message_delivery": "Focuses on portion size ('Big bowl') vs. Cost ('small price'). The hands emphasize the 'heaviness' or value of the bowl."
+      },
+      {
+        "ad_id": 2,
+        "product": "Pasta",
+        "layout_specifics": {
+          "image_placement": "Centered. A pink bowl of creamy pasta. A fork is lifting noodles from the top right, adding action/movement to the static image.",
+          "text_placement": "Top Left: Brand logo and headline. Bottom Right: Sticker tagline.",
+          "graphic_placement": "Starburst behind the left side of the bowl."
+        },
+        "message_delivery": "Uses rhyming slang ('chhotu toll') to make the low price memorable and fun. The lifting fork triggers appetite appeal."
+      },
+      {
+        "ad_id": 3,
+        "product": "Rolls / Wraps",
+        "layout_specifics": {
+          "image_placement": "Right-aligned / Diagonal. A large roll enters from the top right corner, taking up significant space. Close-up macro shot showing texture.",
+          "text_placement": "Top Left: Logo. Middle Right (on food): Sticker tagline. Bottom: Full-width pink banner with white text.",
+          "graphic_placement": "Starburst on the left side to balance the heavy image on the right."
+        },
+        "message_delivery": "Punchy, aggressive copy ('Roll hard'). The bottom banner reinforces the 'Guarantee' strongly."
+      },
+      {
+        "ad_id": 4,
+        "product": "Rolls / Wraps (Duplicate/Variation)",
+        "layout_specifics": {
+          "image_placement": "Identical to Ad 3. Diagonal entry from top right.",
+          "text_placement": "Identical to Ad 3.",
+          "graphic_placement": "Identical to Ad 3."
+        },
+        "message_delivery": "Repetition of the successful creative format for the Rolls category."
+      },
+      {
+        "ad_id": 5,
+        "product": "Sandwich",
+        "layout_specifics": {
+          "image_placement": "Center/Right. A hand holding a toasted sandwich. The angle is slightly tilted, matching the casual vibe.",
+          "text_placement": "Top: Logo and Headline. Left (overlapping food): Sticker tagline.",
+          "graphic_placement": "Starburst at the bottom right corner."
+        },
+        "message_delivery": "Uses 'Hinglish' (Hindi + English) - 'Taste ka swag sasta price tag'. Connects 'style/coolness' (swag) with affordability."
+      }
+    ],
+    "strategic_summary": {
+      "visual_hook": "The neon green and hot pink against dark green is a unique ownable asset. It stands out in a feed dominated by red/orange food ads.",
+      "value_proposition": "The design screams 'Discount' without looking 'Cheap'. The retro-pop style makes the low price feel like a cool trend rather than a clearance sale.",
+      "consistency": "Highly templated. The frame, the checkerboard, the starburst, and the sticker placement are consistent, building strong brand recognition."
+    }
+  }
+}

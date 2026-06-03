@@ -1,0 +1,44 @@
+{
+  "ad_creatives_analysis": {
+    "meta": {
+      "total_ads": 5,
+      "primary_advertiser": "Swiggy (food delivery platform)",
+      "guest_brand_ad_1": "Call Me Chunky (ice cream brand)",
+      "analysis_focus": "Style, design language, color logic, typography, layout, graphic placement, message delivery"
+    },
+    "ads": [
+      {
+        "ad_id": "AD_001",
+        "advertiser": "Swiggy x Call Me Chunky",
+        "format": "Square (1:1)",
+        "overall_design_language": {
+          "style": "Co-branded partnership ad with a split-layout structure. Clean, product-forward, lifestyle-adjacent design. Playful and youthful energy driven by the guest brand's identity.",
+          "mood": "Fun, indulgent, discovery-oriented",
+          "visual_hierarchy": "Top text → Product image (hero) → Partner logo (bottom-left of image zone) → Swiggy branding strip (bottom)"
+        },
+        "color_logic": {
+          "primary_background_top_section": "Sky blue / light cyan (#87CEEB range) — used as photo backdrop inside the image zone",
+          "primary_background_bottom_section": "Pure white — used for the Swiggy CTA strip",
+          "accent_colors_on_product": ["Warm orange", "Soft pink/lavender", "Muted yellow"],
+          "text_color_headline": "Near-black (#1A1A1A)",
+          "brand_accent_swiggy": "Vibrant orange (#FC8019)",
+          "color_purpose": "Blue backdrop evokes freshness and coolness (ice cream context). White strip creates a clean break and signals platform/brand credibility. Orange Swiggy color anchors the delivery platform identity."
+        },
+        "typography": {
+          "headline_font_style": "Bold, heavy sans-serif — large point size, left-aligned",
+          "sub_headline_font_style": "Regular weight sans-serif, smaller — inline with headline block",
+          "brand_tagline_font": "Medium weight sans-serif, orange colored",
+          "font_hierarchy": "Headline dominates top-left, sub-text sits below in lighter weight",
+          "text_tone": "Conversational, playful"
+        },
+        "text_placement": {
+          "headline": "Top-left of the ad, occupying roughly top 20% of the image zone",
+          "sub_text": "Directly below headline, same left-aligned column",
+          "swiggy_tagline": "Inside bottom white strip, right of logo",
+          "legal_text": "Bottom-left corner in very small type"
+        },
+        "graphic_and_image_placement": {
+          "hero_image": "Center-to-right of the image zone — multiple stacked ice cream tubs arranged in a pyramid/cluster formation, photographed on a misty white surface",
+          "guest_brand_logo": "Lower-left corner of the image zone, overlaid on the product photo",
+          "swiggy_logo": "Center of the bottom white strip",
+          "image_treatment": "High-quality 

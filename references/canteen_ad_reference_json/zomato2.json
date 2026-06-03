@@ -1,0 +1,331 @@
+{
+  "ad_creatives_analysis": {
+    "brand": "Zomato",
+    "total_ads_analyzed": 5,
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_title": "60% Off Pizza Combo Ad",
+        "style": {
+          "overall_style": "Dark premium food photography with bold typographic discount overlay",
+          "mood": "Rich, indulgent, premium, appetizing",
+          "tone": "Generous, value-driven, premium",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Top-down split — branding and text in upper dark zone, full food spread in lower zone",
+          "visual_hierarchy": "Brand name top → discount text center-upper → food spread fills lower 60%",
+          "composition": "Two-zone layout: solid black upper block for text, realistic table-scene food photography below",
+          "depth": "Strong depth — wooden table surface recedes into background, food items layered at different distances",
+          "border_element": "None — clean open layout"
+        },
+        "color_logic": {
+          "primary_background": "Solid black (upper zone) transitioning into deep mahogany/brown wooden table",
+          "accent_colors": [
+            "Warm cream/off-white (typography)",
+            "Red and green (pizza toppings)",
+            "Golden brown (garlic bread)",
+            "Deep brown (cola drink)",
+            "Red and white striped straw (playful accent)"
+          ],
+          "text_colors": {
+            "brand_name": "Warm cream/off-white",
+            "headline": "Warm cream/off-white — large and dominant",
+            "supporting_text": "Warm cream/off-white — smaller"
+          },
+          "color_emotion": "Dark, rich, restaurant-quality feel — black background elevates the food to premium status while warm tones of food create appetite appeal"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold, wide condensed sans-serif, all caps",
+          "headline_size": "Extremely large — percentage and OFF text dominate upper frame",
+          "supporting_text_style": "Medium weight sans-serif, smaller, all caps",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature font)",
+          "font_weight_hierarchy": "Percentage number largest → OFF large → supporting text medium → brand name small at top",
+          "text_case": "All caps for promotional text, lowercase for brand name"
+        },
+        "text_placement": {
+          "brand_name": "Top center, above the discount text",
+          "primary_headline": "Upper center — stacked (UP TO / 60% OFF)",
+          "supporting_offer_text": "Below main discount, center-aligned",
+          "legal_text": "Vertical left edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Lower 55-60% of frame — full pizza on wooden board, centered",
+          "secondary_products": "Garlic bread on plate (upper-left background), cola drink in glass (upper-right background)",
+          "background": "Dark black upper zone, warm dark mahogany wooden table surface lower zone",
+          "human_element": "None — pure styled food spread",
+          "image_treatment": "Overhead slightly angled shot — hero pizza centered, supporting items flanking"
+        },
+        "message_delivery": {
+          "primary_message": "Maximum discount plus free delivery for new users",
+          "strategy": "Premium food spread signals quality, large discount number signals value — both together create irresistible offer",
+          "cta_style": "Implicit — brand name at top acts as identity anchor, no direct action text",
+          "urgency_level": "High — first order exclusivity creates acquisition urgency"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_title": "Dessert at ₹89 Ice Cream Ad",
+        "style": {
+          "overall_style": "Soft pastel lifestyle photography with bold price-point overlay",
+          "mood": "Sweet, cheerful, light, indulgent, feminine",
+          "tone": "Playful, accessible, feel-good",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Monochromatic pastel background with product floating in center, text above and below",
+          "visual_hierarchy": "Price text dominates upper half, product anchors center, CTA at bottom",
+          "composition": "Three-zone vertical: text top → product center → CTA bottom",
+          "depth": "Minimal depth — flat pastel background, product sits on matching surface creating seamless look",
+          "border_element": "None — completely open and airy"
+        },
+        "color_logic": {
+          "primary_background": "Soft blush pink (monochromatic — background and surface same tone)",
+          "accent_colors": [
+            "Chocolate brown (ice cream scoop and drizzle)",
+            "Vanilla white (ice cream scoop)",
+            "Strawberry pink (ice cream scoop)",
+            "Bright red (cherry on top)",
+            "Clear glass (dessert bowl)"
+          ],
+          "text_colors": {
+            "headline": "Pure white — bold and high contrast against pink",
+            "price": "Pure white — largest element",
+            "cta_text": "Pure white",
+            "brand_name": "White with Zomato's lowercase signature"
+          },
+          "color_emotion": "Pastel pink creates a soft, dessert-appropriate warmth — white text pops cleanly, cherry red creates a focal point accent"
+        },
+        "typography": {
+          "headline_font_style": "Bold condensed sans-serif, all caps",
+          "headline_size": "Price (₹89) is enormous — fills nearly 30% of frame height",
+          "supporting_text_style": "Medium sans-serif for CTA text",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature)",
+          "font_weight_hierarchy": "Price largest → headline text medium → CTA and brand name small",
+          "text_case": "All caps for promotional text, lowercase for brand"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center, above price",
+          "price_callout": "Upper center, immediately below headline — dominant element",
+          "cta_text": "Bottom center",
+          "brand_name": "Bottom center, inline with CTA text",
+          "legal_text": "Very small, near price asterisk"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — ice cream sundae glass centered horizontally, slightly below midpoint vertically",
+          "background": "Flat blush pink — no texture, no gradient",
+          "human_element": "None — pure product focus",
+          "image_treatment": "Eye-level shot, clean studio-style, product occupies center stage with generous breathing room"
+        },
+        "message_delivery": {
+          "primary_message": "Extremely low accessible price point for dessert",
+          "strategy": "Price shock on pastel softness — the juxtaposition of sweet visuals with an unbeatable number drives impulse ordering",
+          "cta_style": "Explicit — direct order call to action at bottom",
+          "urgency_level": "Very high — specific low price with asterisk creates scroll-stopping impulse"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_title": "Biryani at ₹149 Dark Background Ad",
+        "style": {
+          "overall_style": "Dark dramatic food photography with bold white price-point text",
+          "mood": "Intense, authentic, rich, traditional, appetizing",
+          "tone": "Bold, value-driven, culturally resonant",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark monochromatic background with product as glowing hero, text above and below",
+          "visual_hierarchy": "Price text upper zone → product dominates center → CTA bottom",
+          "composition": "Three-zone vertical: text block top → hero food center → CTA strip bottom",
+          "depth": "Strong contrast — dark matte background makes food appear to glow and pop forward",
+          "border_element": "None — open layout"
+        },
+        "color_logic": {
+          "primary_background": "Near-black with warm dark brown fabric/cloth texture visible",
+          "accent_colors": [
+            "Saffron yellow/gold (biryani rice — dominant warm tone)",
+            "Deep brown (clay handi pot)",
+            "Fresh green (mint garnish)",
+            "Brown cloth draped surface"
+          ],
+          "text_colors": {
+            "headline": "Pure white",
+            "price": "Pure white — maximum contrast against black",
+            "cta_text": "Pure white",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Dark background creates a theatrical, restaurant-grade presentation — the golden biryani appears to glow, creating intense appetite appeal"
+        },
+        "typography": {
+          "headline_font_style": "Bold condensed sans-serif, all caps",
+          "headline_size": "Price (₹149) is massive — fills approximately 25% of frame height",
+          "supporting_text_style": "Medium sans-serif for CTA",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature)",
+          "font_weight_hierarchy": "Price largest → headline text medium → CTA and brand name equal weight at bottom",
+          "text_case": "All caps promotional text, lowercase brand name"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center, above price",
+          "price_callout": "Upper center, immediately below headline",
+          "cta_text": "Bottom center",
+          "brand_name": "Bottom center inline with CTA",
+          "legal_text": "Vertical right edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — clay handi pot with biryani, centered horizontally, takes up middle 50% of frame",
+          "background": "Dark near-black with warm brown draped fabric texture",
+          "human_element": "None — pure product focus",
+          "image_treatment": "Slightly elevated angle, close-up macro on biryani texture, steam and freshness implied through styling"
+        },
+        "message_delivery": {
+          "primary_message": "Affordable price point for a premium perceived dish",
+          "strategy": "Cultural resonance — biryani is an aspirational dish in India; pricing it at ₹149 creates perceived value shock",
+          "cta_style": "Explicit — direct order CTA at bottom",
+          "urgency_level": "Very high — specific price with asterisk drives immediate action"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_title": "Celebrity Brand Campaign Ad (Shah Rukh Khan — Eating Salad)",
+        "style": {
+          "overall_style": "Cinematic celebrity lifestyle campaign, horizontal banner format",
+          "mood": "Warm, witty, aspirational, relatable, energetic",
+          "tone": "Conversational, humorous, brand-aware",
+          "format": "Landscape/Banner format (16:9 or similar horizontal ratio)"
+        },
+        "design_language": {
+          "approach": "Full-bleed celebrity portrait on brand red, with left-side text overlay",
+          "visual_hierarchy": "Headline text left → celebrity face and action right → brand badge below text",
+          "composition": "Left-right split — text occupies left third, celebrity occupies right two-thirds",
+          "depth": "Flat solid red background — no depth or texture, keeps all focus on person",
+          "border_element": "Red pill/badge behind brand name text"
+        },
+        "color_logic": {
+          "primary_background": "Zomato brand red — solid, flat, full bleed",
+          "accent_colors": [
+            "Red leather jacket (blends with background — creates immersive monochrome effect)",
+            "White and green salad/food on plate (contrast anchor)",
+            "Silver jewelry (subtle warm accent)"
+          ],
+          "text_colors": {
+            "headline": "Pure white — bold and high contrast",
+            "italic_emphasis_word": "White italic — typographic variation for emotional emphasis",
+            "brand_name": "White on red pill badge"
+          },
+          "color_emotion": "Monochromatic red creates powerful brand recall — celebrity in matching red jacket blurs line between person and brand identity"
+        },
+        "typography": {
+          "headline_font_style": "Bold sans-serif for main text, italic serif/script for emphasis word — mixed typeface approach",
+          "headline_size": "Large, takes up significant left-column space",
+          "supporting_text_style": "N/A",
+          "brand_name_style": "Lowercase clean sans-serif inside red rounded pill badge",
+          "font_weight_hierarchy": "Headline bold text dominant → italic emphasis word stylistically distinct → brand name small in badge",
+          "text_case": "Mixed case — sentence case feels conversational and natural"
+        },
+        "text_placement": {
+          "primary_headline": "Left third of frame, vertically centered",
+          "italic_emphasis": "Last word of headline in italic for typographic drama",
+          "brand_name": "Below headline, left side, inside red rounded pill/badge",
+          "legal_text": "None visible"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Plate of food held by celebrity at lower-right, partially visible",
+          "celebrity_image": "Right two-thirds of frame — upper body, looking down at food with expressive face",
+          "background": "Solid Zomato red — no texture",
+          "human_element": "Fully dominant — celebrity is the entire visual story",
+          "image_treatment": "Natural candid-style portrait, celebrity appears mid-action (smelling/eating food)"
+        },
+        "message_delivery": {
+          "primary_message": "Brand lifestyle affinity — positioning Zomato as part of daily aspirational life",
+          "strategy": "Humor layered with aspiration — witty copy + beloved celebrity creates emotional brand connection",
+          "cta_style": "Brand awareness only — no price or discount CTA",
+          "urgency_level": "None — pure top-of-funnel brand building"
+        }
+      },
+      {
+        "ad_id": 5,
+        "ad_title": "30% Off Biryani Overhead Shot Ad",
+        "style": {
+          "overall_style": "Dark moody overhead food photography with bold discount text overlay and human hands",
+          "mood": "Warm, authentic, generous, intimate, traditional",
+          "tone": "Urgent, value-focused, culturally grounded",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Overhead POV food shot with hands holding dish, text overlaid in upper zone",
+          "visual_hierarchy": "Discount text block upper center → food and hands dominate center → brand name lower center",
+          "composition": "Immersive overhead shot — viewer looks down at food being presented by hands, text floats above",
+          "depth": "Dark wooden table background with Persian/ornate rug partially visible at edge — layered texture",
+          "border_element": "White rectangular bordered box enclosing the main discount percentage — strong emphasis frame"
+        },
+        "color_logic": {
+          "primary_background": "Dark brown/mahogany wooden surface with warm undertones",
+          "accent_colors": [
+            "Saffron yellow/gold (biryani rice — dominant warm focal color)",
+            "Terracotta orange (clay bowl)",
+            "Warm skin tone (human hands)",
+            "Green (herb garnish)",
+            "Muted ornate rug pattern at edge (cultural texture element)"
+          ],
+          "text_colors": {
+            "headline": "Pure white",
+            "discount_text": "Pure white inside bordered box",
+            "supporting_text": "Pure white",
+            "brand_name": "Pure white"
+          },
+          "color_emotion": "Dark warm browns evoke tradition and authenticity — golden biryani pops as the emotional and visual center, creating instant hunger response"
+        },
+        "typography": {
+          "headline_font_style": "Bold condensed sans-serif, all caps",
+          "headline_size": "30% OFF is large and dominant, enclosed in bordered box",
+          "supporting_text_style": "Medium sans-serif, all caps for condition text",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature font)",
+          "font_weight_hierarchy": "Percentage largest → OFF large → supporting condition text medium → brand name base",
+          "text_case": "All caps throughout promotional text, lowercase brand"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center — 'GRAB THIS OFFER' above the bordered box",
+          "discount_callout": "Upper center inside white bordered rectangle — '30% OFF'",
+          "condition_text": "Inside or below bordered box — order condition",
+          "brand_name": "Lower center, above bottom edge",
+          "legal_text": "Vertical right edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center of frame — clay bowl of biryani, viewed from directly overhead, fills center 50%",
+          "human_hands": "Both hands visible from bottom-left and bottom-right, holding/presenting the bowl — creates intimacy and scale",
+          "background": "Dark wooden table with ornate rug edge visible at top-left corner",
+          "human_element": "Partial — both hands holding the dish, framing the food from below",
+          "image_treatment": "Directly overhead (birds-eye) shot, warm moody lighting, hands add human warmth and authenticity"
+        },
+        "message_delivery": {
+          "primary_message": "Conditional discount offer on orders above threshold",
+          "strategy": "Overhead hands shot creates a 'being served' sensation — combines cultural food authenticity with strong discount to drive order conversion",
+          "cta_style": "Implicit — brand name at bottom, no explicit order button text",
+          "urgency_level": "High — conditional offer with minimum order creates deliberate urgency"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "consistent_brand_elements": [
+        "Zomato lowercase logotype in clean sans-serif — always placed at or near bottom",
+        "White as universal text color across all 5 ads for maximum contrast",
+        "High-quality, professionally styled food photography as primary visual anchor",
+        "Portrait/vertical format (4 of 5 ads) optimized for mobile Stories and Feed",
+        "Price or discount number always the largest typographic element in promotional ads",
+        "Dark backgrounds (black or brand red) used to make food colors pop dramatically"
+      ],
+      "design_language_summary": "Zomato's ads across this set follow two distinct tracks: (1) Dark-background food-hero ads using deep blacks and warm browns to create premium, theatrical food presentation paired with large white price/discount typography; (2) Solid brand-red celebrity lifestyle ads that prioritize emotional connection and brand recall over direct conversion. Both tracks are optimized for mobile-first vertical scroll behavior.",
+      "color_strategy_summary": "Three dominant background approaches: solid black (premium/dramatic), solid Zomato red (brand/celebrity), and pastel pink (dessert/soft). Food colors — saffron yellow, tomato red, chocolate brown — are consistently warm and appetite-stimulating. White is the universal text color. Cream/off-white is used for a more premium typographic feel in select ads.",
+      "typography_strategy_summary": "All promotional ads feature oversized, bold, condensed sans-serif typography where the price or discount number is always the single largest visual element — designed for instant comprehension at thumb-scroll speed. Brand name is consistently small, lowercase, and placed at the bottom. Celebrity ads use mixed typefaces (bold + italic) for conversational, human tone.",
+      "image_strategy_summary": "Food is always styled to maximum appetite appeal — macro close-ups, overhead shots, and eye-level spreads. Human elements (hands holding dishes, celebrity eating) add intimacy and scale. Backgrounds are either completely clean/flat (pastel, black, red) or richly textured (wooden tables, fabric drapes) to evoke authentic dining environments.",
+      "message_delivery_strategy": "Clear separation between two campaign objectives: (1) Conversion ads — price or discount dominates, food is secondary validator, CTA is explicit or implicit brand badge; (2) Brand awareness ads — celebrity emotion dominates, product is prop, no price or CTA. Both approaches are designed for maximum thumb-stop impact on mobile social feeds.",
+      "recurring_layout_patterns": [
+        "Three-zone vertical layout: text top → product center → CTA/brand bottom",
+        "Bordered box as emphasis frame around discount percentage",
+        "Human hands as food presentation device in overhead shots",
+        "Monochromatic red environment for celebrity campaigns",
+        "Food always occupies minimum 50% of total frame area"
+      ]
+    }
+  }
+}

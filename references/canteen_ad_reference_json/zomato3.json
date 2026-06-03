@@ -1,0 +1,541 @@
+{
+  "ad_creatives_analysis": {
+    "platform": "Facebook",
+    "total_ads_analyzed": 8,
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_title": "Polar Bear Ice Cream Sundae — Zomato Collab Ad",
+        "advertiser": "Polar Bear x Zomato",
+        "style": {
+          "overall_style": "Bright, playful, co-branded horizontal banner with illustrated background texture",
+          "mood": "Fun, cheerful, summery, youthful, energetic",
+          "tone": "Casual, celebratory, feel-good",
+          "format": "Landscape/Banner format (16:9 ratio)"
+        },
+        "design_language": {
+          "approach": "Co-branded partnership ad — both brand logos present, text-dominant left, product-dominant right",
+          "visual_hierarchy": "Large headline text left → hand-held product center-right → discount badge overlaid on product",
+          "composition": "Left-right split — bold typographic headline on left, product photo on right with badge overlay",
+          "depth": "Flat illustrated background with slightly raised product photography layer",
+          "border_element": "Circular badge/sticker overlay on product for discount callout"
+        },
+        "color_logic": {
+          "primary_background": "Sky blue — bright, light, cheerful (matches Polar Bear brand identity)",
+          "accent_colors": [
+            "Yellow/gold (headline typography)",
+            "White (secondary text and Zomato logo)",
+            "Dark navy/black (repeated brand name watermark pattern in background)",
+            "Warm cream and chocolate brown (ice cream product colors)",
+            "Yellow and green (branded cup illustration)"
+          ],
+          "text_colors": {
+            "main_headline": "Yellow/gold — large and warm against blue",
+            "secondary_headline": "White",
+            "brand_name_zomato": "White lowercase",
+            "badge_text": "Dark on yellow circular badge"
+          },
+          "color_emotion": "Sky blue and yellow create a sunny, ice cream parlor feel — warm yellows against cool blue drive appetite and happiness simultaneously"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold, wide display sans-serif, all caps — very large",
+          "headline_size": "Dominates left 55% of frame — extremely large scale",
+          "supporting_text_style": "Clean sans-serif for Zomato brand name",
+          "brand_name_style": "Lowercase Zomato signature font — bottom left",
+          "font_weight_hierarchy": "Main headline largest → secondary line large → Zomato brand name small",
+          "text_case": "All caps for headline, lowercase for brand names"
+        },
+        "text_placement": {
+          "brand_logo_polar_bear": "Top left corner",
+          "primary_headline": "Left half of frame, center-vertically stacked",
+          "brand_name_zomato": "Bottom left, below headline",
+          "discount_badge": "Overlaid on product, right side center",
+          "legal_text": "Right edge, vertical, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Right-center — hand holding branded Polar Bear ice cream cup, slightly angled",
+          "background_pattern": "Repeating 'POLAR BEAR' text watermark in darker blue across entire background",
+          "human_element": "Partial hand visible holding product from below",
+          "image_treatment": "Clean product shot on illustrated/textured background"
+        },
+        "message_delivery": {
+          "primary_message": "Co-branded promotional offer combining restaurant brand with delivery platform",
+          "strategy": "Brand partnership visibility — both logos prominent, playful copy drives emotional engagement before discount",
+          "cta_style": "Badge callout for discount — implicit order CTA through Zomato branding",
+          "urgency_level": "Medium — discount badge present but not the lead element"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_title": "Starbucks Grande Coffee — Zomato Collab Ad",
+        "advertiser": "Starbucks x Zomato",
+        "style": {
+          "overall_style": "Premium dark green brand-consistent ad with magical/festive sparkle overlay",
+          "mood": "Premium, magical, indulgent, aspirational, festive",
+          "tone": "Sophisticated, warm, celebratory",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Full brand-immersive — Starbucks green dominates, product floats center, text above and below",
+          "visual_hierarchy": "Starbucks logo top-left → headline text upper-center → product center → discount banner bottom",
+          "composition": "Centered product with symmetrical text layout above and below, sparkle elements scattered throughout",
+          "depth": "Flat brand-color background with scattered gold sparkle/star particles adding festive depth",
+          "border_element": "Green banner/ribbon with star icons flanking free delivery text at bottom"
+        },
+        "color_logic": {
+          "primary_background": "Deep Starbucks green — rich, consistent with brand identity",
+          "accent_colors": [
+            "Gold/amber sparkle particles scattered across background",
+            "Cream/ivory (headline typography)",
+            "White (discount text and Zomato logo)",
+            "Caramel brown (iced coffee drink)",
+            "White whipped cream (product top)"
+          ],
+          "text_colors": {
+            "headline": "Warm cream/ivory — elegant against deep green",
+            "discount_text": "White — bold",
+            "free_delivery_banner": "White on green ribbon",
+            "zomato_brand": "White lowercase"
+          },
+          "color_emotion": "Deep green with gold sparkles creates a premium festive atmosphere — signals luxury and celebration, aligned with Starbucks brand premium positioning"
+        },
+        "typography": {
+          "headline_font_style": "Elegant serif or semi-serif, mixed case — premium feel",
+          "headline_size": "Large, occupies upper third of frame",
+          "supporting_text_style": "Bold sans-serif for discount percentage",
+          "brand_name_style": "Lowercase Zomato signature, top right corner",
+          "font_weight_hierarchy": "Discount percentage largest → headline text large → free delivery medium → brand names small",
+          "text_case": "Mixed case headline (premium feel), all caps for discount"
+        },
+        "text_placement": {
+          "starbucks_logo": "Top left corner",
+          "zomato_logo": "Top right corner",
+          "primary_headline": "Upper center, below both logos",
+          "discount_text": "Center-lower, above ribbon banner",
+          "free_delivery_banner": "Lower center — green ribbon with stars",
+          "legal_text": "Right edge, vertical, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center frame — tall iced coffee glass, floating on clean background",
+          "sparkle_elements": "Gold star/sparkle particles scattered across entire background — denser near product",
+          "background": "Solid deep Starbucks green",
+          "human_element": "None — pure product focus",
+          "image_treatment": "Clean floating product shot, no surface or table visible — ethereal presentation"
+        },
+        "message_delivery": {
+          "primary_message": "Premium brand + delivery platform partnership with strong discount",
+          "strategy": "Brand prestige first — Starbucks equity borrowed to elevate perceived value of ordering through Zomato",
+          "cta_style": "Discount banner with ribbon is the implicit CTA — both brand logos anchor trust",
+          "urgency_level": "Medium-high — 60% off is prominent but premium aesthetic softens urgency"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_title": "60% Off Burger Combo — Zomato Dark Background Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark dramatic food photography with bold warm-toned typographic discount overlay",
+          "mood": "Rich, indulgent, dramatic, appetizing, bold",
+          "tone": "Direct, value-driven, premium",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark gradient background — text upper zone, full food spread lower zone",
+          "visual_hierarchy": "Discount text dominates upper 35% → food combo anchors center-lower → brand name bottom",
+          "composition": "Two-zone layout — dark upper text block, food photography fills lower 60%",
+          "depth": "Dark vignette background with round wooden serving board creating depth and focus",
+          "border_element": "None — open layout"
+        },
+        "color_logic": {
+          "primary_background": "Deep dark red/maroon with black vignette — moody restaurant atmosphere",
+          "accent_colors": [
+            "Warm cream/yellow (typography — matches food warmth)",
+            "Golden sesame bun (burger)",
+            "Bright yellow (fries)",
+            "Red ketchup (dipping sauce)",
+            "Dark cola brown (drink)",
+            "Fresh green lettuce"
+          ],
+          "text_colors": {
+            "headline": "Warm cream/off-white — large and bold",
+            "supporting_text": "Warm cream/off-white",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Dark maroon/red background creates drama — warm cream typography and golden food tones make the entire composition feel indulgent and appetizing"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif, all caps",
+          "headline_size": "60% OFF is enormous — fills nearly 25% of total frame height",
+          "supporting_text_style": "Bold sans-serif, slightly smaller, all caps",
+          "brand_name_style": "Lowercase Zomato signature font",
+          "font_weight_hierarchy": "Percentage number largest → OFF large → supporting text medium → brand name base",
+          "text_case": "All caps throughout promotional text"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center — stacked (UP TO / 60% OFF)",
+          "supporting_offer_text": "Below main discount, center-aligned",
+          "brand_name": "Bottom center",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center to lower frame — burger, fries, ketchup, and cola on round wooden board on circular black table",
+          "background": "Dark deep red/maroon with black vignette around edges",
+          "human_element": "None — pure styled food spread",
+          "image_treatment": "Eye-level shot, slight downward angle, food styled to look abundant and fresh"
+        },
+        "message_delivery": {
+          "primary_message": "Maximum discount on first order",
+          "strategy": "Dark premium staging elevates fast food to restaurant quality — discount text converts the appetite response into action",
+          "cta_style": "Implicit — brand name at bottom",
+          "urgency_level": "High — first order exclusivity and 60% discount stack creates strong conversion trigger"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_title": "ZPL Hand Cricket — Zomato Gamification Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Sports gamification campaign with 3D illustrated characters and stadium backdrop",
+          "mood": "Exciting, competitive, high-energy, playful, immersive",
+          "tone": "Energetic, fun, action-oriented, culturally resonant (cricket)",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Cinematic sports poster aesthetic — stadium environment, 3D character hands, bold headline",
+          "visual_hierarchy": "Bold headline top → 3D character hands flanking center logo → platform CTA bottom",
+          "composition": "Symmetrical — two oversized 3D hands from left and right bottom, meeting at center with logo, headline above, CTA below",
+          "depth": "Strong cinematic depth — stadium in background with floodlights and sky, grass foreground, hands in mid-ground",
+          "border_element": "Emblem/shield logo badge at center — ZPL branding with cricket ball element"
+        },
+        "color_logic": {
+          "primary_background": "Bright blue sky gradient fading to stadium green — sports arena ambiance",
+          "accent_colors": [
+            "Royal blue (left foam/cartoon hand — team color)",
+            "Bright orange/red (right foam/cartoon hand — opposing team color)",
+            "Bright white (headline typography)",
+            "Green (cricket pitch/grass foreground)",
+            "Yellow/gold (ZPL logo accents)"
+          ],
+          "text_colors": {
+            "headline": "Pure white — bold, large, high contrast against blue sky",
+            "logo_text": "White and gold on emblem",
+            "cta_text": "White on dark lower zone",
+            "brand_name_zomato": "White Zomato lowercase"
+          },
+          "color_emotion": "Blue vs orange creates natural sporting rivalry tension — bright stadium lighting creates excitement and energy, green pitch grounds the scene in cricket authenticity"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide sans-serif, all caps — sports poster style",
+          "headline_size": "Very large — spans full width of upper frame",
+          "supporting_text_style": "Bold sans-serif for CTA text",
+          "brand_name_style": "Lowercase Zomato signature, inline with CTA",
+          "font_weight_hierarchy": "Headline largest → CTA medium → Zomato brand name medium",
+          "text_case": "All caps for headline, mixed case for CTA"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center, top quarter of frame",
+          "logo_badge": "Center frame — between the two hands",
+          "cta_text": "Lower center, below hands",
+          "brand_name_zomato": "Inline with CTA text, bottom center",
+          "legal_text": "None visible"
+        },
+        "graphics_and_image_placement": {
+          "main_visual": "Two oversized 3D cartoon foam hands — blue (left) and orange/red (right) — rising from bottom corners, meeting at center",
+          "logo_badge": "Center mid-frame — circular emblem with ZPL branding and cricket elements",
+          "background": "Photorealistic cricket stadium with blue sky, floodlights, crowd stands, green pitch",
+          "human_element": "3D stylized hands (not realistic human — cartoon/foam fan hands)",
+          "image_treatment": "CGI/3D illustration layered over photorealistic stadium background"
+        },
+        "message_delivery": {
+          "primary_message": "Gamification feature promotion — interactive cricket game within the Zomato app",
+          "strategy": "Emotional sports excitement transferred to app engagement — cricket cultural relevance drives curiosity and participation",
+          "cta_style": "Direct action CTA — play and win messaging",
+          "urgency_level": "Medium — excitement-driven rather than price-driven urgency"
+        }
+      },
+      {
+        "ad_id": 5,
+        "ad_title": "Indian Snacks 60% Off — Zomato Dark Maroon Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark moody Indian food photography with warm retro props and bold discount overlay",
+          "mood": "Authentic, nostalgic, rich, warm, traditional",
+          "tone": "Premium-casual, value-focused, culturally rooted",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Dark textured background, multiple food dishes arranged in scene, text overlaid lower-center",
+          "visual_hierarchy": "Zomato logo top-right → food spread takes 65% of frame → discount text lower-center",
+          "composition": "Food arrangement fills most of frame — multiple dishes at varying heights create depth, text floats in lower open space",
+          "depth": "Rich depth — background wooden shelf with vintage radio prop, mid-ground dark surface with multiple dishes",
+          "border_element": "None — open layout"
+        },
+        "color_logic": {
+          "primary_background": "Deep crimson/maroon with dark brown wooden elements — rich and moody",
+          "accent_colors": [
+            "Golden/amber (samosas — crispy fried texture)",
+            "Green (chutney and garnish)",
+            "White and cream (dahi/yogurt topping on chaat)",
+            "Red and orange (chaat toppings)",
+            "Dark black plates (contrast surface for food)",
+            "Warm brown vintage radio (nostalgic prop)"
+          ],
+          "text_colors": {
+            "discount_text": "Warm cream/off-white — large",
+            "supporting_text": "Warm cream/off-white",
+            "brand_name": "White Zomato lowercase"
+          },
+          "color_emotion": "Deep maroon and dark wood create an old-Delhi, authentic dhaba or Indian kitchen atmosphere — warm food tones against dark background create theatrical appetite appeal"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold condensed sans-serif, all caps",
+          "headline_size": "60% OFF large — but intentionally smaller than other ads, allowing food to be primary hero",
+          "supporting_text_style": "Bold sans-serif, smaller, all caps",
+          "brand_name_style": "Lowercase Zomato signature, top right",
+          "font_weight_hierarchy": "Percentage largest → supporting offer text medium → brand name small",
+          "text_case": "All caps for offer text, lowercase brand"
+        },
+        "text_placement": {
+          "brand_name_zomato": "Top right corner",
+          "discount_text": "Lower center — below food arrangement",
+          "supporting_offer_text": "Below discount percentage, center-aligned",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_images": "Multiple dishes — samosas on dark plate (upper left), fried snacks on dark square plate (lower left), chaat bowl (right center) — arranged in triangular composition",
+          "prop_elements": "Vintage wooden radio in background upper right, wooden paneling background",
+          "background": "Deep crimson/maroon textured surface with wooden elements",
+          "human_element": "None",
+          "image_treatment": "Slightly elevated angle, moody studio lighting, multiple dishes create abundant spread feel"
+        },
+        "message_delivery": {
+          "primary_message": "First order discount on Indian snacks/comfort food",
+          "strategy": "Nostalgia and authenticity of Indian snacks is the emotional hook — vintage props amplify cultural connection before discount converts",
+          "cta_style": "Implicit — brand name top right, discount text is the conversion element",
+          "urgency_level": "High — first order exclusive with 60% stack"
+        }
+      },
+      {
+        "ad_id": 6,
+        "ad_title": "60% Off Pizza Combo — Zomato Black Background Ad",
+        "advertiser": "Zomato",
+        "style": {
+          "overall_style": "Dark premium food photography with bold warm-toned typographic discount overlay",
+          "mood": "Rich, indulgent, premium, appetizing",
+          "tone": "Direct, value-driven, premium",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Black upper zone for branding and text, realistic table-scene food photography lower zone",
+          "visual_hierarchy": "Brand name top → discount text center-upper → full food spread fills lower 55%",
+          "composition": "Two-zone layout — solid black upper block for text hierarchy, warm food photography below",
+          "depth": "Strong depth — dark wooden table recedes into background, food items layered at different distances",
+          "border_element": "None — clean open layout"
+        },
+        "color_logic": {
+          "primary_background": "Pure black upper zone transitioning to deep mahogany wooden table surface",
+          "accent_colors": [
+            "Warm cream/off-white (typography)",
+            "Red and green (pizza toppings)",
+            "Golden brown (garlic bread)",
+            "Dark cola brown (drink)",
+            "Red and white striped straw"
+          ],
+          "text_colors": {
+            "brand_name": "White Zomato lowercase — top center",
+            "headline": "Warm cream/off-white — large and dominant",
+            "supporting_text": "Warm cream/off-white — smaller"
+          },
+          "color_emotion": "Pure black creates maximum contrast for cream typography — warm wooden table and food colors create appetite appeal against the stark upper zone"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold wide condensed sans-serif, all caps",
+          "headline_size": "60% OFF dominates upper center frame",
+          "supporting_text_style": "Bold sans-serif, slightly smaller, all caps",
+          "brand_name_style": "Lowercase Zomato signature — top center",
+          "font_weight_hierarchy": "Percentage number largest → OFF large → supporting text medium → brand name top-small",
+          "text_case": "All caps promotional text, lowercase brand"
+        },
+        "text_placement": {
+          "brand_name": "Top center",
+          "primary_headline": "Upper center — stacked (UP TO / 60% OFF)",
+          "supporting_offer_text": "Below main discount, center-aligned",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Lower 55% — full pizza on wooden board centered, garlic bread upper-left, cola upper-right",
+          "background": "Solid black upper zone, warm mahogany wooden table lower zone",
+          "human_element": "None — pure styled food spread",
+          "image_treatment": "Overhead slightly angled shot — hero pizza centered, supporting items flanking symmetrically"
+        },
+        "message_delivery": {
+          "primary_message": "Maximum discount on first delivery order",
+          "strategy": "Black background elevates food to gallery-quality display — premium staging justifies ordering, discount drives conversion",
+          "cta_style": "Implicit — brand name at top, no explicit order button",
+          "urgency_level": "High — first order exclusive creates acquisition urgency"
+        }
+      },
+      {
+        "ad_id": 7,
+        "ad_title": "Chaayos Tea Break — Zomato Collab Ad",
+        "advertiser": "Chaayos x Zomato",
+        "style": {
+          "overall_style": "Brand-consistent illustrated green background with lifestyle food photography and playful typography",
+          "mood": "Fresh, warm, everyday, accessible, cheerful, Indian",
+          "tone": "Casual, friendly, relatable, inviting",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Co-branded partnership — Chaayos brand green dominates, food products arranged in lower zone, illustrated background adds depth",
+          "visual_hierarchy": "Dual logos top → bold headline upper-left → product spread lower-center → free delivery callout overlaid",
+          "composition": "Illustrated background layer → product photography layer → text overlay layer — three distinct depth planes",
+          "depth": "Illustrated doodle/pattern background gives visual texture, products appear raised above it",
+          "border_element": "Yellow horizontal band/stripe at the very bottom of frame — Chaayos brand accent"
+        },
+        "color_logic": {
+          "primary_background": "Chaayos brand green — medium saturated, energetic",
+          "accent_colors": [
+            "Yellow/mustard (bottom band accent, headline typography highlight)",
+            "White (secondary text and Zomato logo)",
+            "Dark green (Chaayos product packaging)",
+            "Golden/amber (chai cup and food dish)",
+            "Muted illustrated doodle pattern in darker green on background"
+          ],
+          "text_colors": {
+            "main_headline": "White with yellow accent on key word — creates emphasis",
+            "discount_text": "White",
+            "free_delivery": "White with decorative arrow",
+            "brand_names": "Chaayos green logo top-left, Zomato white top-right"
+          },
+          "color_emotion": "Green signals freshness, health, and the Chaayos brand identity — yellow accent adds warmth and energy, creating a cheerful tea-break feeling"
+        },
+        "typography": {
+          "headline_font_style": "Bold display sans-serif, all caps — large and punchy",
+          "headline_size": "Large — takes up upper-left quarter of frame",
+          "supporting_text_style": "Bold sans-serif for discount, decorative script-adjacent for free delivery",
+          "brand_name_style": "Chaayos custom logo top-left, Zomato lowercase top-right",
+          "font_weight_hierarchy": "Headline largest → discount text medium → free delivery medium → brand names small",
+          "text_case": "All caps headline, mixed case for secondary text"
+        },
+        "text_placement": {
+          "chaayos_logo": "Top left corner",
+          "zomato_logo": "Top right corner",
+          "primary_headline": "Upper left, below logos — stacked lines",
+          "discount_text": "Within or below headline block",
+          "free_delivery_text": "Center-left, with decorative arrow, overlaid on product area",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_images": "Lower center — Chaayos tea carton box (upper-right of product zone), chai cup (right), food dish/poha (left) — arranged in overlapping triangular cluster",
+          "background_illustration": "Scattered doodle/icon illustrations (tea leaves, cups, chai-related motifs) in darker green across entire background",
+          "bottom_band": "Solid yellow/mustard horizontal stripe at very bottom",
+          "human_element": "None — pure product focus",
+          "image_treatment": "Product photography floated on illustrated background without shadows or surface — slightly stylized"
+        },
+        "message_delivery": {
+          "primary_message": "Co-branded discount offer — Chaayos products delivered via Zomato",
+          "strategy": "Brand affinity transfer — Chaayos loyal customers are targeted, Zomato delivery convenience is the value-add",
+          "cta_style": "Implicit — discount and free delivery are the conversion elements, logos anchor trust",
+          "urgency_level": "Medium — discount present but warm/casual tone softens urgency"
+        }
+      },
+      {
+        "ad_id": 8,
+        "ad_title": "Biryani By Kilo — Zomato Collab Dark Food Ad",
+        "advertiser": "Biryani By Kilo (BBK) x Zomato",
+        "style": {
+          "overall_style": "Dark rustic food photography with authentic handcrafted product presentation and badge discount overlay",
+          "mood": "Authentic, traditional, rich, premium-casual, warm, artisanal",
+          "tone": "Proud, indulgent, heritage-focused",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Product-hero — large clay pot biryani dominates frame, text minimal and overlaid, discount as physical badge element",
+          "visual_hierarchy": "BBK logo top-left → headline text upper-center → clay pot biryani dominates center → discount badge overlaid on pot → Zomato brand bottom",
+          "composition": "Full-bleed food photography with text overlay top and brand bottom — pot is the undisputed visual hero",
+          "depth": "Very strong depth — dark wooden background, red checkered cloth draped under pot, dark cast iron elements visible at edges",
+          "border_element": "Circular/oval badge with 'UPTO 60% OFF' overlaid directly on the clay pot — feels like a physical price tag"
+        },
+        "color_logic": {
+          "primary_background": "Very dark brown/black — deep rustic kitchen/restaurant environment",
+          "accent_colors": [
+            "Terracotta orange/brown (clay handi pot — dominant warm focal color)",
+            "Saffron yellow/gold (biryani rice topping)",
+            "Red checkered cloth under pot",
+            "White cream (yogurt element)",
+            "Green herb garnish",
+            "Gold/yellow (BBK logo and discount badge accent)",
+            "Warm skin tone or red — badge background"
+          ],
+          "text_colors": {
+            "headline": "White and yellow/gold — dual color headline for hierarchy",
+            "badge_text": "Dark text on warm badge",
+            "brand_name_zomato": "White Zomato lowercase",
+            "bbk_logo": "Gold on dark background top-left"
+          },
+          "color_emotion": "Dark background with warm terracotta and saffron gold creates an intensely authentic, traditional dum biryani atmosphere — the clay pot is immediately culturally recognizable and evokes artisanal craftsmanship"
+        },
+        "typography": {
+          "headline_font_style": "Bold sans-serif, mixed weight — some words in white regular, key word in bold yellow for emphasis",
+          "headline_size": "Medium-large — understated to let the product be the hero",
+          "supporting_text_style": "Badge text — compact bold sans-serif",
+          "brand_name_style": "BBK custom logo top-left, Zomato lowercase bottom-center",
+          "font_weight_hierarchy": "Yellow emphasis word largest visually → white headline text large → badge text medium → brand names small",
+          "text_case": "Mixed case headline, all caps badge"
+        },
+        "text_placement": {
+          "bbk_logo": "Top left corner",
+          "primary_headline": "Upper center — two-line stacked",
+          "discount_badge": "Center-right, overlaid directly on clay pot body",
+          "voucher_element": "Small Biryani By Kilo branded card/voucher overlaid at lower-right of pot",
+          "brand_name_zomato": "Bottom center",
+          "legal_text": "Left vertical edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center-dominant — large clay handi pot filled with biryani, takes up 60% of total frame",
+          "prop_elements": "Red checkered cloth draped under pot, dark cast iron elements at frame edges, dark wooden surface",
+          "discount_badge": "Circular badge overlaid on pot body — feels like physical tag",
+          "voucher_graphic": "Small branded paper card overlaid on pot lower-right — adds authenticity",
+          "background": "Very dark brown/black rustic wooden surface",
+          "human_element": "None — pure product and prop styling",
+          "image_treatment": "Slightly elevated angle, dramatic moody lighting, clay pot styled as artisanal centerpiece"
+        },
+        "message_delivery": {
+          "primary_message": "Co-branded premium biryani delivery with strong discount",
+          "strategy": "Heritage and authenticity of BBK brand (clay pot dum biryani) creates perceived premium value — 60% discount creates powerful contrast between quality perception and price",
+          "cta_style": "Implicit — discount badge on product, Zomato brand at bottom serves as order platform anchor",
+          "urgency_level": "High — 60% off on a premium positioned product creates strong conversion incentive"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "consistent_zomato_elements": [
+        "Lowercase 'zomato' logotype in clean sans-serif — always present, usually bottom-center or top-right corner",
+        "White as universal text color across all ads for maximum contrast",
+        "60% OFF appears in 6 of 8 ads — standardized first-order acquisition offer",
+        "High-quality professionally styled food photography as primary visual anchor in all product ads",
+        "Portrait/vertical format (7 of 8 ads) optimized for mobile Stories and Feed placement",
+        "Warm cream/off-white typography preferred over pure white in dark background food ads — signals premium feel"
+      ],
+      "co_branding_pattern": {
+        "observed_in_ads": [1, 2, 7, 8],
+        "approach": "Partner brand logo placed top-left, Zomato logo top-right or bottom-center — clear visual hierarchy of restaurant brand first, delivery platform second",
+        "color_strategy": "Partner brand's primary color dominates background — Zomato adapts its white logo to fit any environment",
+        "message_strategy": "Partner brand drives food category desire and trust, Zomato delivers the discount and convenience layer"
+      },
+      "design_language_summary": "Across these 8 ads, Zomato uses three distinct visual tracks: (1) Dark moody food photography (black/maroon/dark brown backgrounds) for premium food category ads; (2) Brand-color-dominant co-branded ads where partner restaurant's identity takes visual lead; (3) Gamification/campaign ads with CGI and illustrated environments for interactive features. All tracks are unified by bold white/cream typography, large price/discount numbers, and mobile-first vertical composition.",
+      "color_strategy_summary": "No single Zomato red dominates this set — instead, Zomato adapts its palette to the partner brand or food category: deep blacks and maroons for premium Indian/Western food, partner brand greens for Starbucks and Chaayos, sky blue for Polar Bear, sports arena blues for ZPL. The 60% OFF typography is consistently warm cream/yellow across dark-background ads, signaling value without feeling cheap.",
+      "typography_strategy_summary": "All promotional ads follow the same typographic rule: the discount number or price is always the single largest element. Headline copy is bold, condensed, all-caps sans-serif. Co-branded ads introduce partner brand typography where appropriate. The Zomato brand name remains consistently small and lowercase — always present but never competing with the main message.",
+      "image_strategy_summary": "Food is always styled to maximum appetite appeal: clay pots for biryani (authenticity), floating glasses for Starbucks (premium), multiple dishes spread for Indian snacks (abundance), and hand-held cups for ice cream (intimacy). Backgrounds consistently use dark surfaces (wood, fabric, stone) to make food colors pop. Non-food ads (ZPL cricket) use CGI and cinematic stadium photography for maximum excitement.",
+      "message_delivery_strategy": "Three distinct messaging tracks observed: (1) First-order acquisition ads — 60% OFF prominently drives new user conversion; (2) Co-branded awareness ads — partner brand equity + Zomato discount creates dual-trust purchase motivation; (3) Engagement/gamification ad (ZPL) — non-transactional, drives app interaction and session depth. All formats prioritize thumb-stop visual impact optimized for mobile social scroll behavior.",
+      "layout_archetypes_identified": [
+        "Top-text / bottom-food split (dark background)",
+        "Left-text / right-product split (horizontal banner)",
+        "Center-float product with text above and below (clean/pastel background)",
+        "Full-bleed food with overlaid text and badge (dark moody)",
+        "Dual-logo co-branded header with illustrated background",
+        "Cinematic sports poster with CGI characters"
+      ]
+    }
+  }
+}

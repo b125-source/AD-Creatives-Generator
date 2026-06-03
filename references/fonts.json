@@ -1,0 +1,507 @@
+{
+  "typekit": {
+    "kit_id": "lld6qxp",
+    "stylesheet_url": "https://use.typekit.net/lld6qxp.css",
+    "last_published": "2026-04-22T11:59:01Z",
+    "import_tag": "<link rel=\"stylesheet\" href=\"https://use.typekit.net/lld6qxp.css\">",
+    "css_usage_note": "Always load the stylesheet above in the <head> of every generated HTML file to activate all font families."
+  },
+
+  "fonts": {
+
+    "anton": {
+      "css_family_name": "anton",
+      "fallback_stack": "\"anton\", sans-serif",
+      "typekit_class": ".tk-anton",
+      "eula": ["http://typekit.com/eulas/00000000000000007735a122"],
+      "description": "Ultra-condensed, single-weight display sans-serif. The #1 scroll-stopping font for giant price numbers (₹49, ₹99), percentage callouts (60% OFF), and hero discount text. Replaces Impact in modern web-based ad creatives.",
+      "suggested_roles": ["hero_price_number", "discount_percentage", "hero_callout", "offer_number"],
+      "variants": [
+        {
+          "variant_id": "anton-regular",
+          "font_weight": 400,
+          "font_style": "normal",
+          "fvd_code": "n4",
+          "css_declaration": "font-family: \"anton\", sans-serif; font-weight: 400; font-style: normal;",
+          "note": "Anton is single-weight only. Use font-weight: 400 always.",
+          "sources": {
+            "woff2": "https://use.typekit.net/af/272067/00000000000000007735a122/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "woff":  "https://use.typekit.net/af/272067/00000000000000007735a122/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "opentype": "https://use.typekit.net/af/272067/00000000000000007735a122/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+          }
+        }
+      ]
+    },
+
+    "poppins": {
+      "css_family_name": "poppins",
+      "fallback_stack": "\"poppins\", sans-serif",
+      "typekit_class": ".tk-poppins",
+      "eula": [
+        "http://typekit.com/eulas/00000000000000007735fdb1",
+        "http://typekit.com/eulas/00000000000000007735fdb4",
+        "http://typekit.com/eulas/00000000000000007735fdb8",
+        "http://typekit.com/eulas/00000000000000007735fdbb"
+      ],
+      "description": "Geometric rounded sans-serif. Primary headline and CTA font for CLG Canteen ads. Bold/700 for offer headlines; Regular/400 for sub-copy and descriptions. Matches the modern, student-friendly personality of the brand.",
+      "suggested_roles": ["primary_headline", "cta_button", "offer_subheadline", "badge_text", "tagline"],
+      "variants": [
+        {
+          "variant_id": "poppins-regular",
+          "font_weight": 400,
+          "font_style": "normal",
+          "fvd_code": "n4",
+          "css_declaration": "font-family: \"poppins\", sans-serif; font-weight: 400; font-style: normal;",
+          "sources": {
+            "woff2": "https://use.typekit.net/af/397962/00000000000000007735fdb4/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "woff":  "https://use.typekit.net/af/397962/00000000000000007735fdb4/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+            "opentype": "https://use.typekit.net/af/397962/00000000000000007735fdb4/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3"
+          }
+        },
+        {
+          "variant_id": "poppins-bold",
+          "font_weight": 700,
+          "font_style": "normal",
+          "fvd_code": "n7",
+          "css_declaration": "font-family: \"poppins\", sans-serif; font-weight: 700; font-style: normal;",
+          "sources": {
+            "woff2": "https://use.typekit.net/af/e7fede/00000000000000007735fdbb/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "woff":  "https://use.typekit.net/af/e7fede/00000000000000007735fdbb/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+            "opentype": "https://use.typekit.net/af/e7fede/00000000000000007735fdbb/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3"
+          }
+        },
+        {
+          "variant_id": "poppins-italic",
+          "font_weight": 400,
+          "font_style": "italic",
+          "fvd_code": "i4",
+          "css_declaration": "font-family: \"poppins\", sans-serif; font-weight: 400; font-style: italic;",
+          "sources": {
+            "woff2": "https://use.typekit.net/af/b75f6a/00000000000000007735fdb1/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+            "woff":  "https://use.typekit.net/af/b75f6a/00000000000000007735fdb1/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+            "opentype": "https://use.typekit.net/af/b75f6a/00000000000000007735fdb1/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3"
+          }
+        },
+        {
+          "variant_id": "poppins-bold-italic",
+          "font_weight": 700,
+          "font_style": "italic",
+          "fvd_code": "i7",
+          "css_declaration": "font-family: \"poppins\", sans-serif; font-weight: 700; font-style: italic;",
+          "sources": {
+            "woff2": "https://use.typekit.net/af/ee2867/00000000000000007735fdb8/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+            "woff":  "https://use.typekit.net/af/ee2867/00000000000000007735fdb8/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+            "opentype": "https://use.typekit.net/af/ee2867/00000000000000007735fdb8/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3"
+          }
+        }
+      ]
+    },
+
+    "nunito": {
+      "css_family_name": "nunito",
+      "fallback_stack": "\"nunito\", sans-serif",
+      "typekit_class": ".tk-nunito",
+      "eula": [
+        "http://typekit.com/eulas/00000000000000007753c3bf",
+        "http://typekit.com/eulas/00000000000000007753c3ae",
+        "http://typekit.com/eulas/00000000000000007753c3b1",
+        "http://typekit.com/eulas/00000000000000007753c3b2"
+      ],
+      "description": "Rounded, warm geometric sans-serif. Friendly and approachable. Excellent for student-facing offer headlines, value proposition copy, and sticker-style callout text aligned with CLG Canteen's local, accessible personality.",
+      "suggested_roles": ["friendly_headline", "offer_subheading", "sticker_callout", "badge_label"],
+      "variants": [
+        { "variant_id": "nunito-regular",     "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"nunito\", sans-serif; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/a24fc8/00000000000000007753c3ae/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/a24fc8/00000000000000007753c3ae/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/a24fc8/00000000000000007753c3ae/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "nunito-bold",        "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"nunito\", sans-serif; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/9f5daf/00000000000000007753c3bf/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/9f5daf/00000000000000007753c3bf/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/9f5daf/00000000000000007753c3bf/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "nunito-italic",      "font_weight": 400, "font_style": "italic", "fvd_code": "i4",
+          "css_declaration": "font-family: \"nunito\", sans-serif; font-weight: 400; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/987527/00000000000000007753c3b1/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/987527/00000000000000007753c3b1/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/987527/00000000000000007753c3b1/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "nunito-bold-italic", "font_weight": 700, "font_style": "italic", "fvd_code": "i7",
+          "css_declaration": "font-family: \"nunito\", sans-serif; font-weight: 700; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/a7ae71/00000000000000007753c3b2/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/a7ae71/00000000000000007753c3b2/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/a7ae71/00000000000000007753c3b2/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "nunito-sans": {
+      "css_family_name": "nunito-sans",
+      "fallback_stack": "\"nunito-sans\", sans-serif",
+      "typekit_class": ".tk-nunito-sans",
+      "eula": [
+        "http://typekit.com/eulas/00000000000000007735b8f6",
+        "http://typekit.com/eulas/00000000000000007735b8f8",
+        "http://typekit.com/eulas/00000000000000007735b8ff",
+        "http://typekit.com/eulas/00000000000000007735b901"
+      ],
+      "description": "Slightly more neutral version of Nunito. Excellent for UI text, app-style labels, price breakdowns, and table comparisons (e.g., Toing-style side-by-side fee comparison ads).",
+      "suggested_roles": ["ui_text", "price_breakdown", "comparison_label", "feature_list"],
+      "variants": [
+        { "variant_id": "nunito-sans-regular",     "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"nunito-sans\", sans-serif; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/fdfc76/00000000000000007735b8f6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/fdfc76/00000000000000007735b8f6/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/fdfc76/00000000000000007735b8f6/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "nunito-sans-bold",        "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"nunito-sans\", sans-serif; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/507990/00000000000000007735b8ff/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/507990/00000000000000007735b8ff/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/507990/00000000000000007735b8ff/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "nunito-sans-italic",      "font_weight": 400, "font_style": "italic", "fvd_code": "i4",
+          "css_declaration": "font-family: \"nunito-sans\", sans-serif; font-weight: 400; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/fd6e19/00000000000000007735b8f8/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/fd6e19/00000000000000007735b8f8/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/fd6e19/00000000000000007735b8f8/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "nunito-sans-bold-italic", "font_weight": 700, "font_style": "italic", "fvd_code": "i7",
+          "css_declaration": "font-family: \"nunito-sans\", sans-serif; font-weight: 700; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/947e89/00000000000000007735b901/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/947e89/00000000000000007735b901/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/947e89/00000000000000007735b901/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "pacifico": {
+      "css_family_name": "pacifico",
+      "fallback_stack": "\"pacifico\", cursive",
+      "typekit_class": ".tk-pacifico",
+      "eula": [
+        "http://typekit.com/eulas/00000000000000007735d58d",
+        "http://typekit.com/eulas/00000000000000007735d599"
+      ],
+      "description": "Casual, flowing script font. Ideal for sticker-style taglines, handwritten callouts, 'Free Delivery' curl tags, and any copy that needs a warm, local, hand-crafted feel. Matches the Toing and Chaayos reference ads.",
+      "suggested_roles": ["sticker_tagline", "handwritten_callout", "free_delivery_label", "informal_accent"],
+      "variants": [
+        { "variant_id": "pacifico-regular", "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"pacifico\", cursive; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/835499/00000000000000007735d58d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/835499/00000000000000007735d58d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/835499/00000000000000007735d58d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "pacifico-bold",    "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"pacifico\", cursive; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/a02d0e/00000000000000007735d599/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/a02d0e/00000000000000007735d599/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/a02d0e/00000000000000007735d599/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } }
+      ]
+    },
+
+    "caveat-brush": {
+      "css_family_name": "caveat-brush",
+      "fallback_stack": "\"caveat-brush\", cursive",
+      "typekit_class": ".tk-caveat-brush",
+      "eula": ["http://typekit.com/eulas/0000000000000000773a45f6"],
+      "description": "Rough, brush-stroke handwritten font. More authentic and raw than Pacifico. Perfect for 'TODAY ONLY', 'GRAB IT NOW', urgency stickers, and food menu blackboard-style annotations.",
+      "suggested_roles": ["urgency_sticker", "menu_annotation", "handwritten_badge", "blackboard_style"],
+      "variants": [
+        { "variant_id": "caveat-brush-regular", "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"caveat-brush\", cursive; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/125d4e/0000000000000000773a45f6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/125d4e/0000000000000000773a45f6/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/125d4e/0000000000000000773a45f6/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } }
+      ]
+    },
+
+    "grandstander-variable": {
+      "css_family_name": "grandstander-variable",
+      "fallback_stack": "\"grandstander-variable\", sans-serif",
+      "typekit_class": ".tk-grandstander-variable",
+      "eula": [
+        "http://typekit.com/eulas/0000000000000000774d684d",
+        "http://typekit.com/eulas/0000000000000000774d64af"
+      ],
+      "description": "Variable font with rounded, playful geometry. Weight range 100–900. Use at weight 800–900 for fun energetic display headlines (event-based, seasonal ads). Excellent for CHOOSE TOING-style CTAs and bold banner headers.",
+      "suggested_roles": ["fun_display_headline", "seasonal_ad_header", "event_cta", "bold_banner"],
+      "note": "This is a variable font. Use font-weight: 100–900 as needed. No separate bold variant required.",
+      "variants": [
+        { "variant_id": "grandstander-variable-normal", "font_weight": "100 900", "font_style": "normal", "fvd_code": "n1",
+          "css_declaration": "font-family: \"grandstander-variable\", sans-serif; font-weight: 800; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/c7f2ca/0000000000000000774d684d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3", "woff": "https://use.typekit.net/af/c7f2ca/0000000000000000774d684d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3", "opentype": "https://use.typekit.net/af/c7f2ca/0000000000000000774d684d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3" } },
+        { "variant_id": "grandstander-variable-italic", "font_weight": "100 900", "font_style": "italic", "fvd_code": "i1",
+          "css_declaration": "font-family: \"grandstander-variable\", sans-serif; font-weight: 800; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/f8f72d/0000000000000000774d64af/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3", "woff": "https://use.typekit.net/af/f8f72d/0000000000000000774d64af/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3", "opentype": "https://use.typekit.net/af/f8f72d/0000000000000000774d64af/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i1&v=3" } }
+      ]
+    },
+
+    "liberation-sans": {
+      "css_family_name": "liberation-sans",
+      "fallback_stack": "\"liberation-sans\", sans-serif",
+      "typekit_class": ".tk-liberation-sans",
+      "eula": [
+        "http://typekit.com/eulas/000000000000000077359514",
+        "http://typekit.com/eulas/000000000000000077359515",
+        "http://typekit.com/eulas/000000000000000077359518",
+        "http://typekit.com/eulas/00000000000000007735951d"
+      ],
+      "description": "Metrically compatible Arial/Helvetica replacement. Clean, legible neutral sans-serif for body copy, T&C fine print, offer conditions, and UI labels.",
+      "suggested_roles": ["body_text", "terms_conditions", "fine_print", "offer_conditions"],
+      "variants": [
+        { "variant_id": "liberation-sans-regular",    "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"liberation-sans\", sans-serif; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/15a564/00000000000000007735951d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/15a564/00000000000000007735951d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/15a564/00000000000000007735951d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "liberation-sans-bold",       "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"liberation-sans\", sans-serif; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/ec5365/000000000000000077359514/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/ec5365/000000000000000077359514/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/ec5365/000000000000000077359514/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "liberation-sans-italic",     "font_weight": 400, "font_style": "italic", "fvd_code": "i4",
+          "css_declaration": "font-family: \"liberation-sans\", sans-serif; font-weight: 400; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/9eaab1/000000000000000077359518/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/9eaab1/000000000000000077359518/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/9eaab1/000000000000000077359518/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "liberation-sans-bold-italic","font_weight": 700, "font_style": "italic", "fvd_code": "i7",
+          "css_declaration": "font-family: \"liberation-sans\", sans-serif; font-weight: 700; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/9bfcb5/000000000000000077359515/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/9bfcb5/000000000000000077359515/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/9bfcb5/000000000000000077359515/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "roboto": {
+      "css_family_name": "roboto",
+      "fallback_stack": "\"roboto\", sans-serif",
+      "typekit_class": ".tk-roboto",
+      "eula": [
+        "http://typekit.com/eulas/000000000000000077607904",
+        "http://typekit.com/eulas/000000000000000077607900",
+        "http://typekit.com/eulas/000000000000000077607902",
+        "http://typekit.com/eulas/0000000000000000776078fd"
+      ],
+      "description": "Google's neutral humanist sans-serif. Extremely legible at any size. Used for utility text, T&C footnotes, and CTA button labels where clean readability is paramount.",
+      "suggested_roles": ["body_text", "cta_button", "captions", "legal_text"],
+      "variants": [
+        { "variant_id": "roboto-regular",    "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"roboto\", sans-serif; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/480ace/0000000000000000776078fd/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/480ace/0000000000000000776078fd/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/480ace/0000000000000000776078fd/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "roboto-bold",       "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"roboto\", sans-serif; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/d971b3/000000000000000077607904/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/d971b3/000000000000000077607904/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/d971b3/000000000000000077607904/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "roboto-italic",     "font_weight": 400, "font_style": "italic", "fvd_code": "i4",
+          "css_declaration": "font-family: \"roboto\", sans-serif; font-weight: 400; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/96ee1e/000000000000000077607902/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/96ee1e/000000000000000077607902/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/96ee1e/000000000000000077607902/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "roboto-bold-italic","font_weight": 700, "font_style": "italic", "fvd_code": "i7",
+          "css_declaration": "font-family: \"roboto\", sans-serif; font-weight: 700; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/6b31ba/000000000000000077607900/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/6b31ba/000000000000000077607900/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/6b31ba/000000000000000077607900/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "roboto-extralight": {
+      "css_family_name": "roboto-extralight",
+      "fallback_stack": "\"roboto-extralight\", sans-serif",
+      "typekit_class": ".tk-roboto-extralight",
+      "eula": [
+        "http://typekit.com/eulas/000000000000000077604165",
+        "http://typekit.com/eulas/000000000000000077604166"
+      ],
+      "description": "Weight 200 variant of Roboto. Ultra-light for luxury/editorial contrast against bold headline weights.",
+      "suggested_roles": ["luxury_contrast_tagline", "eyebrow_light"],
+      "variants": [
+        { "variant_id": "roboto-extralight-regular", "font_weight": 200, "font_style": "normal", "fvd_code": "n2",
+          "css_declaration": "font-family: \"roboto-extralight\", sans-serif; font-weight: 200; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/ed1284/000000000000000077604166/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3", "woff": "https://use.typekit.net/af/ed1284/000000000000000077604166/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3", "opentype": "https://use.typekit.net/af/ed1284/000000000000000077604166/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3" } },
+        { "variant_id": "roboto-extralight-italic", "font_weight": 200, "font_style": "italic", "fvd_code": "i2",
+          "css_declaration": "font-family: \"roboto-extralight\", sans-serif; font-weight: 200; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/e4bd06/000000000000000077604165/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3", "woff": "https://use.typekit.net/af/e4bd06/000000000000000077604165/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3", "opentype": "https://use.typekit.net/af/e4bd06/000000000000000077604165/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i2&v=3" } }
+      ]
+    },
+
+    "eskorte-latin": {
+      "css_family_name": "eskorte-latin",
+      "fallback_stack": "\"eskorte-latin\", serif",
+      "typekit_class": ".tk-eskorte-latin",
+      "eula": [
+        "http://typekit.com/eulas/00000000000000007735d3e9",
+        "http://typekit.com/eulas/00000000000000007735d3eb",
+        "http://typekit.com/eulas/00000000000000007735d3f3",
+        "http://typekit.com/eulas/00000000000000007735d3f9"
+      ],
+      "description": "Contemporary serif with elegant Latin refinements. Used for editorial headlines and brand name treatments in premium ad layouts.",
+      "suggested_roles": ["editorial_headline", "luxury_brand_display"],
+      "variants": [
+        { "variant_id": "eskorte-latin-regular",    "font_weight": 400, "font_style": "normal", "fvd_code": "n4",
+          "css_declaration": "font-family: \"eskorte-latin\", serif; font-weight: 400; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/796969/00000000000000007735d3f3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/796969/00000000000000007735d3f3/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/796969/00000000000000007735d3f3/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "eskorte-latin-bold",       "font_weight": 700, "font_style": "normal", "fvd_code": "n7",
+          "css_declaration": "font-family: \"eskorte-latin\", serif; font-weight: 700; font-style: normal;",
+          "sources": { "woff2": "https://use.typekit.net/af/ceb80e/00000000000000007735d3eb/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/ceb80e/00000000000000007735d3eb/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/ceb80e/00000000000000007735d3eb/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "eskorte-latin-italic",     "font_weight": 400, "font_style": "italic", "fvd_code": "i4",
+          "css_declaration": "font-family: \"eskorte-latin\", serif; font-weight: 400; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/8b2350/00000000000000007735d3e9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/8b2350/00000000000000007735d3e9/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/8b2350/00000000000000007735d3e9/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "eskorte-latin-bold-italic","font_weight": 700, "font_style": "italic", "fvd_code": "i7",
+          "css_declaration": "font-family: \"eskorte-latin\", serif; font-weight: 700; font-style: italic;",
+          "sources": { "woff2": "https://use.typekit.net/af/9778c9/00000000000000007735d3f9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/9778c9/00000000000000007735d3f9/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/9778c9/00000000000000007735d3f9/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "cambria": {
+      "css_family_name": "cambria",
+      "fallback_stack": "\"cambria\", serif",
+      "typekit_class": ".tk-cambria",
+      "eula": [
+        "http://typekit.com/eulas/0000000000000000775aaea0",
+        "http://typekit.com/eulas/0000000000000000775aaead",
+        "http://typekit.com/eulas/0000000000000000775aaea3",
+        "http://typekit.com/eulas/0000000000000000775aaea9"
+      ],
+      "description": "Transitional serif. For pricing footnotes, testimonial quotes, and elegant body copy.",
+      "suggested_roles": ["testimonials", "pricing_footnotes", "editorial_body"],
+      "variants": [
+        { "variant_id": "cambria-regular",    "font_weight": 400, "font_style": "normal", "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/49b28a/0000000000000000775aaea9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/49b28a/0000000000000000775aaea9/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/49b28a/0000000000000000775aaea9/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "cambria-bold",       "font_weight": 700, "font_style": "normal", "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/ab4458/0000000000000000775aaea0/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/ab4458/0000000000000000775aaea0/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/ab4458/0000000000000000775aaea0/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "cambria-italic",     "font_weight": 400, "font_style": "italic", "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/bdd436/0000000000000000775aaead/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/bdd436/0000000000000000775aaead/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/bdd436/0000000000000000775aaead/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "cambria-bold-italic","font_weight": 700, "font_style": "italic", "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/71534a/0000000000000000775aaea3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/71534a/0000000000000000775aaea3/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/71534a/0000000000000000775aaea3/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "georgia": {
+      "css_family_name": "georgia",
+      "fallback_stack": "\"georgia\", serif",
+      "typekit_class": ".tk-georgia",
+      "eula": [
+        "http://typekit.com/eulas/0000000000000000775aaeed",
+        "http://typekit.com/eulas/0000000000000000775aaeee",
+        "http://typekit.com/eulas/0000000000000000775aaef6",
+        "http://typekit.com/eulas/0000000000000000775aaef8"
+      ],
+      "description": "Classic humanist serif. For testimonials, social proof copy, and warm body text blocks.",
+      "suggested_roles": ["testimonials", "social_proof", "body_serif"],
+      "variants": [
+        { "variant_id": "georgia-regular",    "font_weight": 400, "font_style": "normal", "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/f5af69/0000000000000000775aaeee/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "woff": "https://use.typekit.net/af/f5af69/0000000000000000775aaeee/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3", "opentype": "https://use.typekit.net/af/f5af69/0000000000000000775aaeee/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "georgia-bold",       "font_weight": 700, "font_style": "normal", "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/f8b68b/0000000000000000775aaef6/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "woff": "https://use.typekit.net/af/f8b68b/0000000000000000775aaef6/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3", "opentype": "https://use.typekit.net/af/f8b68b/0000000000000000775aaef6/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "georgia-italic",     "font_weight": 400, "font_style": "italic", "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/381cfb/0000000000000000775aaef8/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "woff": "https://use.typekit.net/af/381cfb/0000000000000000775aaef8/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3", "opentype": "https://use.typekit.net/af/381cfb/0000000000000000775aaef8/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "georgia-bold-italic","font_weight": 700, "font_style": "italic", "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/a39dbe/0000000000000000775aaeed/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "woff": "https://use.typekit.net/af/a39dbe/0000000000000000775aaeed/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3", "opentype": "https://use.typekit.net/af/a39dbe/0000000000000000775aaeed/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "oso-sans": {
+      "css_family_name": "oso-sans",
+      "fallback_stack": "\"oso-sans\", sans-serif",
+      "typekit_class": ".tk-oso-sans",
+      "description": "Modern geometric sans-serif. Clean and versatile. Available in regular and bold with italic variants.",
+      "suggested_roles": ["secondary_headline", "body_text", "ui_label"],
+      "variants": [
+        { "variant_id": "oso-sans-regular",    "font_weight": 400, "font_style": "normal",  "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/e01ce3/00000000000000007759fe68/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "oso-sans-bold",       "font_weight": 700, "font_style": "normal",  "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/f0da17/00000000000000007759fe67/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "oso-sans-italic",     "font_weight": 400, "font_style": "italic",  "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/fa5018/00000000000000007759fe6d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "oso-sans-bold-italic","font_weight": 700, "font_style": "italic",  "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/b04b42/00000000000000007759fe73/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "oso-sans-condensed": {
+      "css_family_name": "oso-sans-condensed",
+      "fallback_stack": "\"oso-sans-condensed\", sans-serif",
+      "typekit_class": ".tk-oso-sans-condensed",
+      "description": "Condensed variant of Oso Sans. Excellent for offer banners, price callouts in tight spaces, and condensed headline text. A modern alternative to Barlow Condensed.",
+      "suggested_roles": ["condensed_headline", "offer_banner", "price_callout_secondary"],
+      "variants": [
+        { "variant_id": "oso-sans-condensed-regular",    "font_weight": 400, "font_style": "normal",  "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/0fc5cd/00000000000000007759fe78/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "oso-sans-condensed-bold",       "font_weight": 700, "font_style": "normal",  "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/ee053b/00000000000000007759fe69/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "oso-sans-condensed-italic",     "font_weight": 400, "font_style": "italic",  "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/27377f/00000000000000007759fe81/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "oso-sans-condensed-bold-italic","font_weight": 700, "font_style": "italic",  "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/2b4f27/00000000000000007759fe77/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "oso-sans-semicondensed": {
+      "css_family_name": "oso-sans-semicondensed",
+      "fallback_stack": "\"oso-sans-semicondensed\", sans-serif",
+      "typekit_class": ".tk-oso-sans-semicondensed",
+      "description": "Semi-condensed variant of Oso Sans. Ideal for subheadlines and offer copy where you need more width than condensed but less than full-width.",
+      "suggested_roles": ["sub_headline", "mid_size_offer_text"],
+      "variants": [
+        { "variant_id": "oso-sans-semicondensed-regular",    "font_weight": 400, "font_style": "normal",  "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/17faff/00000000000000007759fe7c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "oso-sans-semicondensed-bold",       "font_weight": 700, "font_style": "normal",  "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/17b98c/00000000000000007759fe72/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "oso-sans-semicondensed-italic",     "font_weight": 400, "font_style": "italic",  "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/183c03/00000000000000007759fe6a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "oso-sans-semicondensed-bold-italic","font_weight": 700, "font_style": "italic",  "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/48f7d6/00000000000000007759fe70/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "oso-serif": {
+      "css_family_name": "oso-serif",
+      "fallback_stack": "\"oso-serif\", serif",
+      "typekit_class": ".tk-oso-serif",
+      "description": "Modern serif. For editorial and premium layout elements.",
+      "suggested_roles": ["editorial", "premium_display"],
+      "variants": [
+        { "variant_id": "oso-serif-regular",    "font_weight": 400, "font_style": "normal",  "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/c17c50/00000000000000007759fe8a/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "oso-serif-bold",       "font_weight": 700, "font_style": "normal",  "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/7a1c85/00000000000000007759fe87/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "oso-serif-italic",     "font_weight": 400, "font_style": "italic",  "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/8202eb/00000000000000007759fe94/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "oso-serif-bold-italic","font_weight": 700, "font_style": "italic",  "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/36d122/00000000000000007759fe8b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "oso-serif-condensed": {
+      "css_family_name": "oso-serif-condensed",
+      "fallback_stack": "\"oso-serif-condensed\", serif",
+      "typekit_class": ".tk-oso-serif-condensed",
+      "description": "Condensed serif. For tight editorial headlines and narrow price-display layouts.",
+      "suggested_roles": ["condensed_editorial", "narrow_price_display"],
+      "variants": [
+        { "variant_id": "oso-serif-condensed-regular",    "font_weight": 400, "font_style": "normal",  "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/b4e3ad/00000000000000007759fe91/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } },
+        { "variant_id": "oso-serif-condensed-bold",       "font_weight": 700, "font_style": "normal",  "fvd_code": "n7", "sources": { "woff2": "https://use.typekit.net/af/02470b/00000000000000007759fe9b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" } },
+        { "variant_id": "oso-serif-condensed-italic",     "font_weight": 400, "font_style": "italic",  "fvd_code": "i4", "sources": { "woff2": "https://use.typekit.net/af/77eee4/00000000000000007759fe8f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3" } },
+        { "variant_id": "oso-serif-condensed-bold-italic","font_weight": 700, "font_style": "italic",  "fvd_code": "i7", "sources": { "woff2": "https://use.typekit.net/af/a2181c/00000000000000007759fe9c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3" } }
+      ]
+    },
+
+    "newsserif-huge-variable": {
+      "css_family_name": "newsserif-huge-variable",
+      "fallback_stack": "\"newsserif-huge-variable\", serif",
+      "typekit_class": ".tk-newsserif-huge-variable",
+      "description": "Variable serif optimized for very large display sizes. Weight range 100–900. For big editorial banner headlines.",
+      "suggested_roles": ["giant_editorial_display"],
+      "note": "Variable font. Use font-weight: 700–900 for maximum impact at large display sizes.",
+      "variants": [
+        { "variant_id": "newsserif-huge-variable-normal", "font_weight": "100 900", "font_style": "normal", "fvd_code": "n1", "sources": { "woff2": "https://use.typekit.net/af/e2bc33/000000000000000077543edd/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3" } }
+      ]
+    },
+
+    "newsserif-large-variable": {
+      "css_family_name": "newsserif-large-variable",
+      "fallback_stack": "\"newsserif-large-variable\", serif",
+      "typekit_class": ".tk-newsserif-large-variable",
+      "description": "Variable serif for large display sizes. Weight range 100–900.",
+      "suggested_roles": ["large_editorial_display"],
+      "variants": [
+        { "variant_id": "newsserif-large-variable-normal", "font_weight": "100 900", "font_style": "normal", "fvd_code": "n1", "sources": { "woff2": "https://use.typekit.net/af/1183fe/000000000000000077543edf/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3" } }
+      ]
+    },
+
+    "newsserif-text-variable": {
+      "css_family_name": "newsserif-text-variable",
+      "fallback_stack": "\"newsserif-text-variable\", serif",
+      "typekit_class": ".tk-newsserif-text-variable",
+      "description": "Variable serif optimized for text/body sizes. Weight range 400–900.",
+      "suggested_roles": ["editorial_body_text", "variable_body_copy"],
+      "variants": [
+        { "variant_id": "newsserif-text-variable-normal", "font_weight": "400 900", "font_style": "normal", "fvd_code": "n4", "sources": { "woff2": "https://use.typekit.net/af/02cc13/000000000000000077543ede/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" } }
+      ]
+    }
+  },
+
+  "css_token_mapping": {
+    "note": "Use these mappings in the :root {} block of every generated ad_creatives.html file. Brand: CLG Canteen — Dark Brown #5c4129, Yellow Ochre #bf935b, Off White #fff3e5.",
+    "recommended_defaults": {
+      "--font-hero":      "\"anton\", sans-serif",
+      "--font-display":   "\"poppins\", sans-serif",
+      "--font-round":     "\"nunito\", sans-serif",
+      "--font-script":    "\"pacifico\", cursive",
+      "--font-brush":     "\"caveat-brush\", cursive",
+      "--font-fun":       "\"grandstander-variable\", sans-serif",
+      "--font-body":      "\"liberation-sans\", sans-serif",
+      "--font-condensed": "\"oso-sans-condensed\", sans-serif",
+      "--font-serif":     "\"eskorte-latin\", serif",
+      "--font-editorial": "\"cambria\", serif"
+    },
+    "role_assignments": {
+      "hero_price_number":    "anton, font-weight: 400 (Anton is single-weight — always 400)",
+      "discount_percentage":  "anton, font-weight: 400",
+      "primary_headline":     "poppins, font-weight: 700",
+      "offer_subheadline":    "poppins, font-weight: 700, text-transform: uppercase",
+      "friendly_headline":    "nunito, font-weight: 700",
+      "cta_button":           "poppins, font-weight: 700",
+      "sticker_tagline":      "pacifico, font-weight: 400",
+      "handwritten_callout":  "caveat-brush, font-weight: 400",
+      "fun_display_headline": "grandstander-variable, font-weight: 800",
+      "condensed_callout":    "oso-sans-condensed, font-weight: 700",
+      "offer_badge":          "nunito-sans, font-weight: 700, text-transform: uppercase",
+      "ui_label":             "nunito-sans, font-weight: 400",
+      "eyebrow_label":        "liberation-sans, font-weight: 700, text-transform: uppercase, letter-spacing: 0.15em",
+      "body_copy":            "liberation-sans, font-weight: 400",
+      "legal_text":           "roboto, font-weight: 400, font-size: 10px",
+      "testimonial":          "georgia, font-weight: 400, font-style: italic",
+      "editorial_headline":   "eskorte-latin, font-weight: 700"
+    }
+  },
+
+  "html_integration": {
+    "head_tag": "<link rel=\"stylesheet\" href=\"https://use.typekit.net/lld6qxp.css\">",
+    "note": "This single Typekit stylesheet loads ALL font families listed in this file. Do NOT load any Google Fonts links alongside it. Do NOT duplicate fonts."
+  },
+
+  "font_inventory_summary": {
+    "total_families": 20,
+    "ad_critical": ["anton", "poppins", "pacifico", "nunito", "caveat-brush", "grandstander-variable", "oso-sans-condensed"],
+    "supporting": ["nunito-sans", "liberation-sans", "roboto", "oso-sans", "oso-sans-semicondensed"],
+    "editorial_serif": ["eskorte-latin", "cambria", "georgia", "oso-serif", "oso-serif-condensed", "newsserif-huge-variable", "newsserif-large-variable", "newsserif-text-variable"],
+    "utility": ["roboto-extralight"]
+  }
+}

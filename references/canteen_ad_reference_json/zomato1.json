@@ -1,0 +1,230 @@
+{
+  "ad_creatives_analysis": {
+    "brand": "Zomato",
+    "total_ads_analyzed": 4,
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_title": "30% Off Wrap Ad",
+        "style": {
+          "overall_style": "Dark, moody food photography with bold promotional overlay",
+          "mood": "Dramatic, appetizing, urgent",
+          "tone": "Direct and promotional",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Product-hero with text overlay",
+          "visual_hierarchy": "Discount text dominates upper half, food product dominates center-lower",
+          "composition": "Layered — background bokeh, foreground hand-held food, text floating above",
+          "depth": "Strong foreground-background separation using bokeh/blur",
+          "border_element": "White rectangular border/frame around discount text to create emphasis box"
+        },
+        "color_logic": {
+          "primary_background": "Deep dark brown/black (moody, restaurant-like ambiance)",
+          "accent_colors": ["Magenta/Pink (wrap outer layer)", "Bright greens and oranges (food ingredients)", "Warm pink/magenta bokeh lights in background"],
+          "text_colors": {
+            "headline": "Pure white",
+            "supporting_text": "Pure white"
+          },
+          "color_emotion": "Warm, appetizing, energetic — dark background makes food colors pop vividly"
+        },
+        "typography": {
+          "headline_font_style": "Bold, condensed sans-serif, all caps",
+          "headline_size": "Very large (discount percentage dominates)",
+          "supporting_text_style": "Medium weight sans-serif, all caps",
+          "brand_name_style": "Lowercase, clean sans-serif (Zomato signature font)",
+          "font_weight_hierarchy": "Percentage number largest → supporting offer text medium → brand name smallest",
+          "text_case": "All caps for promotional text"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center of the frame",
+          "discount_callout": "Center-upper inside a white bordered box",
+          "brand_name": "Lower center",
+          "legal_text": "Vertical, right edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center to lower-center of frame, held by human hand (partial hand visible)",
+          "background": "Blurred dark bokeh background with warm light spots",
+          "human_element": "Partial hand holding food — creates intimacy and appetite appeal"
+        },
+        "message_delivery": {
+          "primary_message": "Discount offer",
+          "strategy": "Appetite-first — visually stunning food image grabs attention, discount text converts",
+          "cta_style": "Implicit — brand logo at bottom acts as CTA anchor",
+          "urgency_level": "Medium — conditional offer (orders above ₹99)"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_title": "60% Off Blueberry Smoothie Ad",
+        "style": {
+          "overall_style": "Premium lifestyle food photography, natural and warm aesthetic",
+          "mood": "Warm, premium, healthy, aspirational",
+          "tone": "Confident and generous",
+          "format": "Square or near-square format (1:1 ratio)"
+        },
+        "design_language": {
+          "approach": "Editorial food photography with large typographic overlay",
+          "visual_hierarchy": "Giant discount percentage on left, premium product on right",
+          "composition": "Split visual — text occupies left column, food occupies right column",
+          "depth": "Warm blurred background with wooden textures giving a cafe/kitchen feel",
+          "border_element": "None — open, airy layout"
+        },
+        "color_logic": {
+          "primary_background": "Warm dark brown (wooden table, moody cafe ambiance)",
+          "accent_colors": ["Purple/lavender (smoothie)", "Deep blue/purple (blueberries)", "Golden/amber (wooden bowl and tray)", "Light cream/beige (text color)"],
+          "text_colors": {
+            "headline": "Warm cream/off-white (not pure white — feels premium and soft)",
+            "supporting_text": "Warm cream/off-white"
+          },
+          "color_emotion": "Rich, premium, indulgent yet healthy — purple tones evoke freshness and luxury"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold, wide serif-influenced sans-serif, all caps",
+          "headline_size": "Extremely large — percentage number nearly fills left half of frame",
+          "supporting_text_style": "Medium weight sans-serif, smaller size",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature font)",
+          "font_weight_hierarchy": "Percentage largest → OFF text large → supporting offer small → brand name base",
+          "text_case": "All caps for promotional and supporting text"
+        },
+        "text_placement": {
+          "primary_headline": "Left side, upper to mid-frame",
+          "discount_callout": "Left column, stacked vertically (UP TO / 60% / OFF)",
+          "supporting_offer_text": "Below main discount, left column",
+          "brand_name": "Bottom left corner"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Right-center to right-lower, tall glass jar smoothie",
+          "secondary_product": "Wooden bowl with blueberries, lower-left foreground",
+          "background": "Warm blurred dark brown surface",
+          "human_element": "None — pure product focus"
+        },
+        "message_delivery": {
+          "primary_message": "Maximum discount plus free delivery — new user acquisition",
+          "strategy": "Value-stacking — two offers presented together (60% off + free delivery)",
+          "cta_style": "Implicit — brand name at bottom",
+          "urgency_level": "High — first order exclusive offer creates FOMO"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_title": "Celebrity Sandwich Ad (Shah Rukh Khan)",
+        "style": {
+          "overall_style": "Celebrity-driven brand campaign, cinematic portrait photography",
+          "mood": "Playful, aspirational, high-energy, confident",
+          "tone": "Witty, conversational, culturally resonant",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Celebrity face-led, product as secondary hero",
+          "visual_hierarchy": "Celebrity face dominates frame, product (sandwich) held at lower-center, text overlaid on left mid",
+          "composition": "Full-bleed portrait photography — celebrity fills entire frame",
+          "depth": "Flat monochrome red background — no depth, pure focus on person",
+          "border_element": "Red branded pill/ribbon behind brand name text"
+        },
+        "color_logic": {
+          "primary_background": "Zomato brand red (bold, solid, unmistakable)",
+          "accent_colors": ["Red jacket (matches background — creates seamless immersion)", "Green, yellow, red food colors in sandwich (contrast anchor)"],
+          "text_colors": {
+            "headline": "White",
+            "brand_name": "White on red pill badge"
+          },
+          "color_emotion": "Passionate, energetic, brand-consistent — red monochrome creates maximum brand recall"
+        },
+        "typography": {
+          "headline_font_style": "Medium weight sans-serif, mixed case, conversational",
+          "headline_size": "Medium — intentionally understated to let celebrity do the heavy lifting",
+          "supporting_text_style": "N/A",
+          "brand_name_style": "Lowercase clean sans-serif inside red badge",
+          "font_weight_hierarchy": "Headline text moderate → brand name small but badge-highlighted",
+          "text_case": "Mixed case (sentence case) — feels like natural speech"
+        },
+        "text_placement": {
+          "primary_headline": "Left-center of frame, mid-height",
+          "brand_name": "Below headline, left-center, inside a red rounded pill badge",
+          "legal_text": "None visible"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Lower-center, held by celebrity's both hands, positioned near chin/face",
+          "celebrity_image": "Full bleed, face takes up upper 60% of frame, looking directly at viewer",
+          "background": "Solid Zomato red — no texture or gradient",
+          "human_element": "Dominant — celebrity is the primary visual element"
+        },
+        "message_delivery": {
+          "primary_message": "Brand affinity and lifestyle association through celebrity",
+          "strategy": "Humor + aspiration — witty copy paired with recognizable face drives shareability",
+          "cta_style": "Brand awareness driven — no direct discount CTA",
+          "urgency_level": "Low — awareness/engagement focused rather than conversion"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_title": "Chaat at ₹59 Ad",
+        "style": {
+          "overall_style": "Bold price-point promotion with macro food photography",
+          "mood": "Vibrant, street-food energy, urgent, accessible",
+          "tone": "Direct, value-focused, celebratory",
+          "format": "Portrait/Story format (9:16 ratio)"
+        },
+        "design_language": {
+          "approach": "Price hero + extreme close-up food photography",
+          "visual_hierarchy": "Price dominates upper portion, food fills lower two-thirds, CTA strip at bottom",
+          "composition": "Top text block → extreme food macro → bottom CTA bar — clear three-zone layout",
+          "depth": "Shallow depth of field on food — subject is ultra-sharp against soft background",
+          "border_element": "None — clean open layout on solid color background"
+        },
+        "color_logic": {
+          "primary_background": "Zomato brand red (top portion and bottom CTA zone)",
+          "accent_colors": ["Golden/amber (fried puri)", "White (yogurt/cream topping)", "Yellow (sev topping)", "Green (coriander)", "Orange (carrot/topping)"],
+          "text_colors": {
+            "headline": "White",
+            "price": "White — large and unmissable",
+            "cta_text": "White"
+          },
+          "color_emotion": "High energy, festive, street-food vibrancy — warm food tones against red create instant appetite appeal"
+        },
+        "typography": {
+          "headline_font_style": "Bold condensed sans-serif, all caps",
+          "headline_size": "Price (₹59) is the largest text element — takes up nearly 1/4 of frame height",
+          "supporting_text_style": "Medium sans-serif for CTA",
+          "brand_name_style": "Lowercase clean sans-serif (Zomato signature)",
+          "font_weight_hierarchy": "Price number largest → headline text medium → CTA text medium → brand name medium",
+          "text_case": "All caps throughout"
+        },
+        "text_placement": {
+          "primary_headline": "Upper center, above the price",
+          "price_callout": "Upper center, immediately below headline — dominant element",
+          "cta_text": "Bottom strip, center-aligned",
+          "brand_name": "Bottom strip, inline with CTA text",
+          "legal_text": "Vertical right edge, very small"
+        },
+        "graphics_and_image_placement": {
+          "main_product_image": "Center to lower frame — extreme macro close-up of chaat/puri",
+          "background": "Solid Zomato red above and below food image",
+          "human_element": "None — pure product focus",
+          "image_treatment": "Ultra close-up macro, slight upward angle, food styled to look abundant and textured"
+        },
+        "message_delivery": {
+          "primary_message": "Unbeatable low price point for a popular food item",
+          "strategy": "Price shock + appetite appeal — huge price number stops the scroll, food visual converts",
+          "cta_style": "Explicit — 'Order Now on Zomato' written directly",
+          "urgency_level": "Very High — specific low price with asterisk creates immediate action trigger"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "consistent_brand_elements": [
+        "Zomato red (#E23744 brand red) used across all ads",
+        "Lowercase 'zomato' logotype in clean sans-serif consistently placed at bottom",
+        "White as universal text color across all ads",
+        "High-quality food photography as primary visual anchor",
+        "Portrait/vertical format optimized for mobile and Stories placement"
+      ],
+      "design_language_summary": "Zomato ads follow a bold, food-first visual strategy. The brand alternates between two modes: (1) Dark moody premium photography for lifestyle/discount ads and (2) Bright saturated red-dominant layouts for price-point and brand ads. Typography is always large, bold, and immediate — designed for scroll-stopping impact on mobile feeds.",
+      "color_strategy_summary": "Red is the brand anchor. When not used as a background, it appears as an accent or badge. Food photography always features warm, vibrant, appetite-stimulating tones. Text is universally white for maximum contrast.",
+      "typography_strategy_summary": "All promotional text is oversized, bold, and condensed. The discount or price number is always the largest typographic element. Brand name is consistently understated — small but always present. Hierarchy is: Number > Supporting text > Brand.",
+      "image_strategy_summary": "Food is always the hero — either extreme macro close-ups or held-in-hand shots. Human hands or celebrity faces are used for relatability and scale. Backgrounds are either dark bokeh (premium) or solid brand red (bold/direct).",
+      "message_delivery_strategy": "Two clear messaging tracks: (1) Discount/value ads — appetite visual first, discount second, brand last. (2) Brand/celebrity ads — emotion/humor first, product second, brand integrated. Both tracks optimize for mobile thumb-stop behavior."
+    }
+  }
+}

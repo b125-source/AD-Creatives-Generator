@@ -1,0 +1,554 @@
+{
+  "ad_creatives_analysis": {
+    "metadata": {
+      "total_ads": 8,
+      "brand": "Zomato",
+      "platform": "Facebook",
+      "analysis_focus": [
+        "style",
+        "design_language",
+        "color_logic",
+        "color_usage",
+        "typography",
+        "text_placement",
+        "graphics_and_image_placement",
+        "overall_design_language",
+        "message_delivery"
+      ]
+    },
+    "ads": [
+      {
+        "ad_id": 1,
+        "ad_format": "Story / Vertical",
+        "aspect_ratio": "9:16",
+        "style": {
+          "overall_style": "Bold, energetic, food-first storytelling",
+          "mood": "Warm, appetizing, casual",
+          "aesthetic": "Flat graphic with photographic food element"
+        },
+        "design_language": {
+          "layout_type": "Split horizontal layout — upper graphic zone, lower CTA band",
+          "visual_hierarchy": "Food image dominates upper left; headline text anchors upper right; brand CTA in bottom strip",
+          "design_motif": "Radial burst / sunray lines emanating from center-left behind food bowl — creates energy and draw",
+          "use_of_negative_space": "Minimal — background fully saturated"
+        },
+        "color_logic": {
+          "primary_color": "#E8192C (Zomato Red)",
+          "secondary_color": "#9B0000 (Deep Crimson — bottom CTA band)",
+          "accent_color": "None",
+          "background_color": "Bright red with radial burst pattern in slightly varied red tones",
+          "color_temperature": "Warm — appetite-stimulating red palette",
+          "contrast_strategy": "White text on red for headline; white text on dark red for CTA strip — both high contrast"
+        },
+        "color_usage": {
+          "background": "Full red with sunray burst pattern",
+          "headline_text_color": "White",
+          "cta_band_color": "Deep dark red",
+          "cta_text_color": "White with brand name in bold white",
+          "food_image": "Natural warm browns and oranges (gulab jamun) — complementary to red background"
+        },
+        "typography": {
+          "headline_font_style": "Rounded, bold sans-serif — casual and friendly",
+          "headline_weight": "Bold",
+          "headline_size": "Large — dominates upper right quadrant",
+          "cta_font_style": "Mixed weight — lighter for descriptor, bold for brand name",
+          "font_personality": "Playful, approachable, conversational",
+          "text_case": "Lowercase headline — conversational tone"
+        },
+        "text_placement": {
+          "headline_position": "Upper right quadrant — vertically stacked, right-aligned feel",
+          "cta_position": "Bottom horizontal band spanning full width",
+          "brand_name_position": "Bottom band, right-aligned within CTA strip",
+          "text_layering": "Text sits on flat color zones — no text overlaid on food image"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Upper left — large circular bowl partially cropped at left and bottom edges",
+          "food_image_style": "Top-down overhead shot of gulab jamun in black bowl — clean product photography",
+          "image_cropping": "Partial crop creates dynamic tension — bowl bleeds off left and bottom",
+          "background_graphic": "Radial burst lines in slightly darker red tone behind food",
+          "brand_logo_placement": "Text-based logo in CTA band bottom right"
+        },
+        "overall_design_language": "High-energy monochromatic red world. The design uses a single dominant hue family to create brand consistency while the food image provides textural relief. The split-band layout creates clear zones of communication.",
+        "message_delivery": {
+          "primary_message_type": "Question-based engagement hook",
+          "message_flow": "Craving question (headline) → Offer answer (CTA band) → Brand attribution",
+          "emotional_trigger": "Craving activation through food visual + question format",
+          "offer_visibility": "High — clearly placed in dedicated bottom strip"
+        }
+      },
+      {
+        "ad_id": 2,
+        "ad_format": "Story / Vertical",
+        "aspect_ratio": "9:16",
+        "style": {
+          "overall_style": "Dynamic, bold, promotional — food-forward with graphic callout",
+          "mood": "Exciting, urgent, appetite-driven",
+          "aesthetic": "Layered graphic design with photographic food hero"
+        },
+        "design_language": {
+          "layout_type": "Full bleed background with floating food image and overlaid graphic badge",
+          "visual_hierarchy": "Headline top-center → Pizza hero center → Starburst offer badge bottom-left → Brand name bottom-right",
+          "design_motif": "Jagged starburst / speech bubble shape for offer callout — creates urgency and visual pop",
+          "use_of_negative_space": "Minimal — richly layered composition"
+        },
+        "color_logic": {
+          "primary_color": "#CC1A1A (Deep Red background)",
+          "secondary_color": "#F5E642 / Cream Yellow (starburst badge)",
+          "accent_color": "White (text)",
+          "background_color": "Rich deep red — full bleed",
+          "color_temperature": "Warm — red and yellow are both appetite colors",
+          "contrast_strategy": "White text on red (headline); dark red/brown text on yellow badge (offer) — dual contrast zones"
+        },
+        "color_usage": {
+          "background": "Solid deep red full-bleed",
+          "headline_text_color": "White with yellow underline accent on key word",
+          "offer_badge_color": "Warm cream/yellow starburst",
+          "offer_badge_text_color": "Dark maroon/brown",
+          "brand_name_color": "White",
+          "food_image": "Natural warm pizza tones — reds, greens, browns — pops against red bg"
+        },
+        "typography": {
+          "headline_font_style": "Bold rounded sans-serif — friendly but assertive",
+          "headline_weight": "Bold",
+          "headline_size": "Large — top positioned",
+          "offer_badge_font_style": "Extra bold, compressed sans-serif — maximum impact in small space",
+          "offer_badge_font_weight": "Ultra bold / Black",
+          "brand_name_font": "Standard Zomato wordmark — clean",
+          "text_case": "Lowercase headline; uppercase offer badge — creates two tone registers",
+          "underline_accent": "Yellow underline beneath key word in headline — draws emphasis"
+        },
+        "text_placement": {
+          "headline_position": "Top center — above food image",
+          "offer_badge_position": "Bottom left — overlapping food image base",
+          "brand_name_position": "Bottom right — balanced counterpart to badge",
+          "text_layering": "Headline floats on red background; badge overlaps food image for depth"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Center-right — large pizza slightly off-center, angled for dynamism",
+          "food_image_style": "Eye-level hero shot — whole pizza with steam implied",
+          "image_cropping": "Pizza slightly cropped at right edge — creates movement",
+          "offer_graphic": "Jagged starburst badge bottom-left — contrasting yellow against red",
+          "image_layering": "Pizza floats above background; badge overlaps pizza base — creates 3D layer effect"
+        },
+        "overall_design_language": "More layered and complex than Ad 1. Uses a three-layer composition (background → food → badge) to create visual depth. The starburst badge is a classic FMCG promotional graphic device. Yellow-on-red color pairing maximizes appetite appeal.",
+        "message_delivery": {
+          "primary_message_type": "Craving question + strong offer reveal",
+          "message_flow": "Engagement question (top) → Desire object — pizza (center) → Offer hook (badge) → Brand close (bottom right)",
+          "emotional_trigger": "Craving + deal excitement",
+          "offer_visibility": "Very high — yellow badge stands out strongly on red"
+        }
+      },
+      {
+        "ad_id": 3,
+        "ad_format": "Banner / Horizontal",
+        "aspect_ratio": "16:9 or similar wide",
+        "style": {
+          "overall_style": "Vibrant, punchy, horizontal sweep — craving-first",
+          "mood": "Energetic, hot, urgent",
+          "aesthetic": "Clean flat background with large food hero and offer badge"
+        },
+        "design_language": {
+          "layout_type": "Left-text / Right-food horizontal split",
+          "visual_hierarchy": "Large headline left → Food image dominates right → Offer badge overlaid on food → Brand bottom-left",
+          "design_motif": "Circular offer badge overlapping food image — classic promotional device",
+          "use_of_negative_space": "Low — red fills all non-food areas"
+        },
+        "color_logic": {
+          "primary_color": "#E8192C (Zomato Red)",
+          "secondary_color": "#FFD700 / Golden Yellow (headline word accent and badge)",
+          "accent_color": "White",
+          "background_color": "Solid bright red full-bleed",
+          "color_temperature": "Extremely warm — red + yellow = maximum appetite stimulation",
+          "contrast_strategy": "Yellow text on red (primary headline word); white text on red (secondary headline + brand); red/dark text on yellow badge"
+        },
+        "color_usage": {
+          "background": "Solid bright Zomato red",
+          "primary_headline_word_color": "Bright yellow — makes key word pop",
+          "secondary_headline_color": "White",
+          "brand_name_color": "White",
+          "offer_badge_color": "Red circle with white text",
+          "food_image": "Warm golden-orange biryani — harmonizes with yellow text"
+        },
+        "typography": {
+          "headline_font_style": "Extra bold, large rounded sans-serif — massive type scale",
+          "headline_weight": "Black/Extra Bold",
+          "headline_size": "Very large — occupies approximately 40% of left panel height",
+          "brand_name_font": "Standard Zomato wordmark — clean white",
+          "font_personality": "Loud, confident, hunger-inducing",
+          "text_case": "Lowercase — approachable tone despite large size",
+          "color_split_in_headline": "First two words in yellow, last word in white — creates rhythm and emphasis"
+        },
+        "text_placement": {
+          "headline_position": "Left side — vertically centered, horizontally left-aligned",
+          "brand_name_position": "Bottom left — below headline",
+          "offer_badge_position": "Center-right — overlaid on food bowl rim area",
+          "text_layering": "Text entirely in left zone; food entirely in right zone — clean split"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Right half — large biryani bowl in copper pot, slightly center-biased",
+          "food_image_style": "Close-up hero shot with steam rising — emphasizes freshness and heat",
+          "image_cropping": "Bowl bleeds off right and bottom edges — fills right panel",
+          "offer_badge": "Circular red badge overlapping food at center-right junction",
+          "steam_effect": "Visible steam rising from biryani — adds movement and warmth"
+        },
+        "overall_design_language": "Classic left-text / right-food horizontal ad format. Maximum visual energy through yellow-on-red type. Steam from food adds sensory dynamism. Clean and readable at banner scale — works well as a display/feed ad.",
+        "message_delivery": {
+          "primary_message_type": "Craving question with implicit offer",
+          "message_flow": "Craving trigger word headline (left) → Desire object — biryani (right) → Offer confirmation (badge) → Brand anchor (bottom left)",
+          "emotional_trigger": "Heat, freshness, craving — 'hot hot' word repetition amplifies urgency",
+          "offer_visibility": "High — badge is clear though secondary to headline"
+        }
+      },
+      {
+        "ad_id": 4,
+        "ad_format": "Banner / Horizontal",
+        "aspect_ratio": "16:9 or similar wide",
+        "style": {
+          "overall_style": "Bold, direct, value-proposition forward",
+          "mood": "Confident, clean, straightforward",
+          "aesthetic": "Minimal graphic elements — typography and food only"
+        },
+        "design_language": {
+          "layout_type": "Left-dominant text / Right food image — horizontal split",
+          "visual_hierarchy": "Massive headline dominates left two-thirds → Food image right → Brand name bottom-left",
+          "design_motif": "No decorative motifs — pure typographic + food photography power",
+          "use_of_negative_space": "Very low — red background fills everything; type is extremely large"
+        },
+        "color_logic": {
+          "primary_color": "#E8192C (Zomato Red)",
+          "secondary_color": "White",
+          "accent_color": "None",
+          "background_color": "Solid bright Zomato red — full bleed",
+          "color_temperature": "Warm red dominant — no yellow accent here",
+          "contrast_strategy": "Pure white text on red — maximum simplicity and legibility"
+        },
+        "color_usage": {
+          "background": "Solid Zomato red",
+          "headline_text_color": "White — all headline",
+          "sub_text_color": "White — smaller size",
+          "brand_name_color": "White",
+          "food_image": "Natural burger and fries tones — warm browns, yellows, greens — contrast against red"
+        },
+        "typography": {
+          "headline_font_style": "Ultra bold condensed sans-serif — maximum typographic weight",
+          "headline_weight": "Black / Ultra Bold",
+          "headline_size": "Extremely large — fills majority of left panel, multi-line stacked",
+          "sub_text_font_style": "Regular weight, smaller — clear hierarchy below main headline",
+          "brand_name_font": "Standard Zomato wordmark",
+          "font_personality": "Authoritative, direct, no-nonsense value delivery",
+          "text_case": "Uppercase or title case implied by weight — bold assertion"
+        },
+        "text_placement": {
+          "headline_position": "Left side — large stacked text, vertically centered",
+          "sub_text_position": "Below headline, left-aligned — smaller scale",
+          "brand_name_position": "Bottom left — anchors the ad",
+          "text_layering": "All text strictly in left zone — food image has no text overlay"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Right side — burger and fries combo, large scale, slightly overlapping center",
+          "food_image_style": "Eye-level hero shot — classic burger composition with fries",
+          "image_cropping": "Food item bleeds off right and bottom — feels abundant",
+          "image_layering": "Food image appears to float slightly — shadow/depth implied",
+          "brand_logo_placement": "Bottom left text-based wordmark"
+        },
+        "overall_design_language": "The most typographically dominant ad in the set. The massive headline IS the design. Minimalist approach — no badges, no bursts, no extra graphic elements. Confidence through simplicity. The scale of the type communicates the scale of the offer.",
+        "message_delivery": {
+          "primary_message_type": "Direct value proposition — benefit statement",
+          "message_flow": "Offer statement (huge headline) → Qualifier (small sub-text) → Brand attribution (bottom left) → Desire object (right)",
+          "emotional_trigger": "Value and savings — 'free' is the hero word",
+          "offer_visibility": "Maximum — the entire ad IS the offer announcement"
+        }
+      },
+      {
+        "ad_id": 5,
+        "ad_format": "Story / Vertical",
+        "aspect_ratio": "9:16",
+        "style": {
+          "overall_style": "Premium, moody, editorial — luxury food photography aesthetic",
+          "mood": "Warm, intimate, aspirational, festive",
+          "aesthetic": "Dark lifestyle photography — premium/fine dining feel"
+        },
+        "design_language": {
+          "layout_type": "Full-bleed dark lifestyle photo with elegant text overlay",
+          "visual_hierarchy": "Elegant serif headline top-center → Food hero center → Price badge left-center → Brand attribution bottom-center",
+          "design_motif": "No graphic bursts or badges — uses stamp/seal style badge for pricing — more refined",
+          "use_of_negative_space": "Strategic — dark areas frame food naturally; atmospheric bokeh background"
+        },
+        "color_logic": {
+          "primary_color": "#1A1008 (Very dark warm brown/black — background)",
+          "secondary_color": "#D4A017 / Warm Gold (implied in props and food)",
+          "accent_color": "Off-white / cream (text and badge)",
+          "background_color": "Dark moody brown-black — candle-lit aesthetic",
+          "color_temperature": "Warm — candlelit golden tones",
+          "contrast_strategy": "Off-white / cream text on dark background — elegant contrast; price badge uses stamp seal style"
+        },
+        "color_usage": {
+          "background": "Dark brown-black lifestyle photography",
+          "headline_text_color": "Warm white / cream",
+          "price_badge_color": "Cream/off-white with brown border — stamp aesthetic",
+          "brand_name_color": "White — standard Zomato wordmark",
+          "food_image": "Golden-brown gulab jamun on white plate — warm tones glow against dark background",
+          "props": "Brass/copper vessels add richness and cultural authenticity"
+        },
+        "typography": {
+          "headline_font_style": "Elegant serif — editorial/magazine style — dramatic contrast from other ads",
+          "headline_weight": "Light to Regular — refined and understated",
+          "headline_size": "Large but elegant — not aggressive",
+          "price_badge_font": "Serif — consistent with premium feel",
+          "brand_name_font": "Standard Zomato wordmark in clean sans-serif",
+          "font_personality": "Sophisticated, festive, premium — targets aspirational food lovers",
+          "text_case": "Title case serif headline — formal and premium"
+        },
+        "text_placement": {
+          "headline_position": "Upper portion — vertically high, centered",
+          "price_badge_position": "Left-center — overlapping food area slightly",
+          "brand_attribution_position": "Bottom center — 'order online on zomato'",
+          "text_layering": "Text overlaid directly on dark photograph — works because of tonal contrast"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Center — gulab jamun on white plate dominates mid-section",
+          "food_image_style": "Close-up, slightly elevated angle — beautifully lit with warm golden light",
+          "background_style": "Bokeh lifestyle setting — atmospheric candles, brass vessels, dark fabric",
+          "image_mood": "Festive/celebratory — Diwali or Indian occasion implied",
+          "price_badge_graphic": "Circular stamp/seal badge — refined alternative to starburst"
+        },
+        "overall_design_language": "Completely different design register from Ads 1-4. This is a premium, editorial, dark-mode aesthetic — closer to food magazine photography. Uses darkness and warmth to create desire and occasion-based relevance. Targets premium-conscious or occasion-driven consumers.",
+        "message_delivery": {
+          "primary_message_type": "Product spotlight with price anchor",
+          "message_flow": "Product name (elegant headline) → Visual desire (food image) → Price accessibility hook (badge) → Brand platform (bottom)",
+          "emotional_trigger": "Aspiration + occasion + affordability surprise — premium look with accessible price",
+          "offer_visibility": "Medium — badge is elegant and subtle rather than aggressive"
+        }
+      },
+      {
+        "ad_id": 6,
+        "ad_format": "Banner / Horizontal",
+        "aspect_ratio": "16:9 or similar wide",
+        "style": {
+          "overall_style": "Premium dark — subscription/loyalty product promotion",
+          "mood": "Exclusive, premium, value-rich",
+          "aesthetic": "Dark luxury gradient with bold typographic offer"
+        },
+        "design_language": {
+          "layout_type": "Left-dominant text / Right food image — horizontal with dark gradient",
+          "visual_hierarchy": "Brand subscription label (top-left) → Massive price offer (center-left) → Duration qualifier (below) → Stripe CTA (bottom) → Food (right)",
+          "design_motif": "Gold/amber gradient bottom stripe for secondary CTA — creates tiered message zones",
+          "use_of_negative_space": "Low — dark background fills space; text is dense"
+        },
+        "color_logic": {
+          "primary_color": "#2B1010 / Very dark maroon-brown (background)",
+          "secondary_color": "#FFD700 / Gold (brand name accent and stripe)",
+          "accent_color": "White (headline text)",
+          "background_color": "Dark maroon-to-black gradient",
+          "color_temperature": "Dark warm — premium gold against deep maroon",
+          "contrast_strategy": "White on dark (headline), gold on dark (brand name), dark text on gold stripe (CTA)"
+        },
+        "color_usage": {
+          "background": "Deep dark maroon gradient",
+          "headline_text_color": "White — large bold offer",
+          "brand_product_name_color": "Gold/amber — 'GOLD' in brand name highlighted",
+          "price_text_color": "White — massive scale",
+          "bottom_stripe_color": "Gold/amber gradient strip",
+          "bottom_stripe_text_color": "Dark maroon — reversed for readability",
+          "food_image": "Warm pizza tones — reds and greens pop against dark background"
+        },
+        "typography": {
+          "headline_font_style": "Bold sans-serif — mix of regular and ultra-bold weights",
+          "primary_offer_weight": "Ultra bold — price is the hero",
+          "brand_name_treatment": "Mixed — 'zomato' in white, 'GOLD' in gold uppercase — product differentiation",
+          "bottom_stripe_font": "Smaller, regular weight — secondary info",
+          "font_personality": "Premium yet accessible — luxury feel with value messaging",
+          "text_hierarchy_layers": "3 layers — brand label > main offer > fine print stripe"
+        },
+        "text_placement": {
+          "top_label_position": "Top left — small brand + product identifier",
+          "main_offer_position": "Left-center — largest typography zone",
+          "duration_qualifier_position": "Below main offer — smaller, left-aligned",
+          "bottom_stripe_position": "Full-width bottom band — secondary offer info",
+          "text_layering": "Text on dark background left zone — clean separation from food"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Right side — pizza hero, large scale",
+          "food_image_style": "Eye-level beauty shot — Margherita-style pizza with fresh toppings",
+          "image_lighting": "Studio lit — glowing warm tones against dark background",
+          "image_cropping": "Pizza slightly cropped at right — feels generous",
+          "bottom_stripe_graphic": "Full-width gold gradient bar spanning entire bottom"
+        },
+        "overall_design_language": "Deliberately premium and dark — aligns with a subscription/loyalty product (Gold membership). Gold color signals exclusivity. Dark background elevates the food photography. The three-tier text structure (label > offer > qualifier) is more complex than standard ads — suits a considered-purchase message.",
+        "message_delivery": {
+          "primary_message_type": "Subscription offer — aggressive price anchor",
+          "message_flow": "Product identification (top) → Price shock/value hook (center large) → Duration context (below) → Additional benefit (bottom stripe) → Desire object (right)",
+          "emotional_trigger": "Extreme value perception — '₹1' creates disbelief and urgency",
+          "offer_visibility": "Maximum — price is the visual hero"
+        }
+      },
+      {
+        "ad_id": 7,
+        "ad_format": "Story / Vertical",
+        "aspect_ratio": "9:16",
+        "style": {
+          "overall_style": "Clean, minimal, lifestyle — high-end food photography on neutral",
+          "mood": "Fresh, calm, natural, premium casual",
+          "aesthetic": "Light/neutral minimalist — editorial food photography"
+        },
+        "design_language": {
+          "layout_type": "Full-bleed light background with food image left-center, offer text right-center",
+          "visual_hierarchy": "Food image (left) → Large discount text (right) → Brand name (bottom-center)",
+          "design_motif": "No graphic badges or bursts — clean typographic offer on neutral field",
+          "use_of_negative_space": "High — cream/off-white background creates breathing room; most spacious design in set"
+        },
+        "color_logic": {
+          "primary_color": "#F5F0E8 / Warm cream-white (background)",
+          "secondary_color": "#3D2B1F / Dark warm brown (typography)",
+          "accent_color": "None — monochromatic neutral palette",
+          "background_color": "Warm cream / off-white — almost beige",
+          "color_temperature": "Neutral warm — very different from red-dominant other ads",
+          "contrast_strategy": "Dark brown text on light cream — elegant and readable without aggressive contrast"
+        },
+        "color_usage": {
+          "background": "Soft cream/off-white with subtle linen texture",
+          "headline_text_color": "Dark warm brown",
+          "brand_name_color": "Dark brown — standard Zomato wordmark in dark",
+          "food_image": "Warm earthy tones — chole bhature with wooden board, natural food colors",
+          "secondary_text_color": "Same dark brown, smaller scale"
+        },
+        "typography": {
+          "headline_font_style": "Bold serif-influenced or thick sans-serif — substantial but elegant",
+          "headline_weight": "Ultra bold for percentage, regular for supporting text",
+          "percentage_size": "Extremely large — dominates right panel",
+          "supporting_text_style": "Small caps or regular — understated",
+          "brand_name_font": "Standard Zomato wordmark in dark",
+          "font_personality": "Premium, calm, confident — lets the offer speak without shouting",
+          "text_case": "Mixed — percentage large, supporting text small — creates clear hierarchy"
+        },
+        "text_placement": {
+          "offer_text_position": "Right-center — vertically centered, right of food image",
+          "brand_name_position": "Bottom center — anchors ad",
+          "text_layering": "Text on clean background — no overlap with food image",
+          "text_alignment": "Center-right aligned offer text"
+        },
+        "graphics_and_image_placement": {
+          "food_image_position": "Left-center — chole bhature on wooden platter, occupies left panel",
+          "food_image_style": "Top-angle lifestyle shot — natural lighting, wooden board, garnishes",
+          "image_cropping": "Food bleeds slightly off left edge",
+          "background_texture": "Subtle linen/fabric texture visible in upper portion — adds warmth",
+          "image_mood": "Artisan, homemade, authentic Indian food feel"
+        },
+        "overall_design_language": "The only truly minimal, light-background ad in the set. Targets a different consumer mindset — those who respond to quality and elegance over urgency. The cream palette and brown typography signal authenticity and premium quality. Bold discount number still delivers value message without aggressive design language.",
+        "message_delivery": {
+          "primary_message_type": "Discount offer — calm and confident delivery",
+          "message_flow": "Food desire (image left) → Value hook (large percentage right) → Offer completeness (+ free delivery text) → Brand (bottom)",
+          "emotional_trigger": "Value + quality — dual appeal to deal-seekers and quality-conscious",
+          "offer_visibility": "High — large percentage number despite minimal design"
+        }
+      },
+      {
+        "ad_id": 8,
+        "ad_format": "Banner / Horizontal",
+        "aspect_ratio": "16:9 or similar wide",
+        "style": {
+          "overall_style": "Bold lifestyle — human-centric, playful, punchy",
+          "mood": "Fun, relatable, youthful, energetic",
+          "aesthetic": "Person-forward lifestyle photography with graphic type overlay"
+        },
+        "design_language": {
+          "layout_type": "Left text / Right lifestyle photo — horizontal with scrolling ticker strip",
+          "visual_hierarchy": "Large headline left → Person eating pizza right → Offer badge top-right → Ticker strip bottom",
+          "design_motif": "Scrolling repeating text ticker strip at bottom — motion and urgency implied; starburst offer badge top-right",
+          "use_of_negative_space": "Low — rich and layered; dark film/vignette on left photo blends into type area"
+        },
+        "color_logic": {
+          "primary_color": "#1A0A0A / Very dark brown-black (photo background left)",
+          "secondary_color": "#E8192C (Zomato Red — ticker strip)",
+          "accent_color": "White (headline text and badge border)",
+          "background_color": "Dark lifestyle photo bleeds into left text zone",
+          "color_temperature": "Dark warm — cozy indoor lifestyle setting",
+          "contrast_strategy": "White ultra-bold text on dark background (headline); red ticker strip with white text (bottom)"
+        },
+        "color_usage": {
+          "background": "Dark lifestyle photo — warm indoor scene",
+          "headline_text_color": "White — extremely bold and large",
+          "offer_badge_color": "White starburst with red text",
+          "ticker_strip_color": "Zomato red",
+          "ticker_text_color": "White — repeating message",
+          "person_image": "Young woman in colorful sweater eating pizza — warm, relatable, joyful"
+        },
+        "typography": {
+          "headline_font_style": "Ultra bold, extra-wide sans-serif — maximum visual impact",
+          "headline_weight": "Black / Ultra Bold",
+          "headline_size": "Extremely large — fills most of left panel",
+          "offer_badge_font": "Bold compact — fits circular badge",
+          "ticker_font_style": "Medium bold sans-serif — readable at speed",
+          "font_personality": "Loud, fun, youthful — most playful typography in set",
+          "text_case": "Uppercase headline — shouts with energy"
+        },
+        "text_placement": {
+          "headline_position": "Left half — vertically centered, dominant",
+          "offer_badge_position": "Top right — above person's head",
+          "ticker_strip_position": "Full-width bottom — anchors entire ad width",
+          "text_layering": "Headline overlaid on dark left zone of photo — dark photo serves as background for text"
+        },
+        "graphics_and_image_placement": {
+          "food_and_person_image_position": "Right half — person eating pizza slice close-up, center-right",
+          "image_style": "Candid lifestyle close-up — emotionally relatable, UGC-feel but polished",
+          "image_mood": "Joy, indulgence, fun — person mid-bite with eyes closed in pleasure",
+          "ticker_graphic": "Red horizontal scrolling strip with repeated offer message + star separators",
+          "offer_badge_graphic": "White jagged starburst badge — consistent with Ad 2 device",
+          "dark_gradient": "Left side of photo has dark gradient/vignette — blends photo into text zone seamlessly"
+        },
+        "overall_design_language": "Most human and lifestyle-centric ad in the set. Uses a real person to create emotional identification and relatability — the joy of eating is demonstrated, not just implied by food. The scrolling ticker strip creates a sense of urgency and broadcast energy. Dark-to-light composition flows from text to person naturally.",
+        "message_delivery": {
+          "primary_message_type": "Lifestyle/emotional hook with embedded offer",
+          "message_flow": "Playful hook headline (left) → Human desire demonstration (person eating, right) → Offer badge (top right) → Repeated offer reinforcement (ticker bottom)",
+          "emotional_trigger": "Joy, relatability, FOMO — seeing someone enjoying food activates craving",
+          "offer_visibility": "High — badge and ticker create dual offer touchpoints"
+        }
+      }
+    ],
+    "cross_ad_patterns": {
+      "dominant_brand_color": "Zomato Red (#E8192C) — appears in 7 of 8 ads as primary or accent",
+      "exception_ad": "Ad 7 — uses neutral cream/white palette as primary — deliberate premium contrast",
+      "food_image_placement_patterns": [
+        "Right-side placement in horizontal/banner ads (Ads 3, 4, 6, 8)",
+        "Left or center placement in vertical/story ads (Ads 1, 2, 5, 7)"
+      ],
+      "text_placement_patterns": [
+        "Horizontal ads: Text left, food right — consistent split",
+        "Vertical ads: Text upper zone, food mid zone — vertical stack"
+      ],
+      "offer_badge_styles_used": [
+        "Starburst/jagged badge (Ads 2, 8)",
+        "Circular badge (Ad 3)",
+        "Stamp/seal badge (Ad 5)",
+        "No badge — typographic only (Ads 1, 4, 7)"
+      ],
+      "typography_tones": [
+        "Playful rounded bold (Ads 1, 2)",
+        "Ultra bold condensed (Ads 3, 4, 8)",
+        "Elegant serif (Ad 5)",
+        "Premium bold mixed (Ad 6)",
+        "Minimal confident (Ad 7)"
+      ],
+      "background_approaches": [
+        "Solid Zomato Red (Ads 1, 2, 3, 4)",
+        "Dark moody lifestyle photo (Ads 5, 8)",
+        "Dark premium gradient (Ad 6)",
+        "Light cream minimal (Ad 7)"
+      ],
+      "message_delivery_strategies": [
+        "Question-based craving hook (Ads 1, 2, 3)",
+        "Direct value proposition (Ads 4, 6)",
+        "Product spotlight with price (Ad 5)",
+        "Discount offer — calm (Ad 7)",
+        "Lifestyle/emotional + offer (Ad 8)"
+      ],
+      "recurring_design_principles": [
+        "Food photography always hero — never just illustrative",
+        "Single dominant offer per ad — no message clutter",
+        "Brand name always present but secondary to offer and food",
+        "High contrast text placement — text never fights with image",
+        "Appetite-stimulating warm color palettes across all ads"
+      ]
+    }
+  }
+}
